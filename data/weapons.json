@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Club",
+    "cost": 0.1,
+    "damage": "1d4",
+    "damage_type": "bludgeoning",
+    "weight": 2,
+    "type": "simple melee",
+    "properties": [
+      "light"
+    ]
+  },
+  {
+    "name": "Dagger",
+    "cost": 2,
+    "damage": "1d4",
+    "damage_type": "piercing",
+    "weight": 1,
+    "type": "simple melee",
+    "properties": [
+      "light",
+      "finesse",
+      "thrown"
+    ],
+    "range": "20/60"
+  },
+  {
+    "name": "Greatclub",
+    "cost": 2,
+    "damage": "1d8",
+    "damage_type": "bludgeoning",
+    "weight": 10,
+    "type": "simple melee",
+    "properties": [
+      "two-handed"
+    ]
+  },
+  {
+    "name": "Handaxe",
+    "cost": 0.5,
+    "damage": "1d6",
+    "damage_type": "slashing",
+    "weight": 2,
+    "type": "simple melee",
+    "properties": [
+      "light",
+      "thrown"
+    ],
+    "range": "20/60"
+  },
+  {
+    "name": "Javelin",
+    "cost": 0.5,
+    "damage": "1d6",
+    "damage_type": "piercing",
+    "weight": 2,
+    "type": "simple melee",
+    "properties": [
+      "thrown"
+    ],
+    "range": "30/120"
+  },
+  {
+    "name": "Light Hammer",
+    "cost": 2,
+    "damage": "1d4",
+    "damage_type": "bludgeoning",
+    "weight": 2,
+    "type": "simple melee",
+    "properties": [
+      "light",
+      "thrown"
+    ],
+    "range": "20/60"
+  },
+  {
+    "name": "Mace",
+    "cost": 5,
+    "damage": "1d6",
+    "damage_type": "bludgeoning",
+    "weight": 4,
+    "type": "simple melee",
+    "properties": []
+  },
+  {
+    "name": "Quarterstaff",
+    "cost": 0.2,
+    "damage": "1d6",
+    "damage_type": "bludgeoning",
+    "weight": 4,
+    "type": "simple melee",
+    "properties": [
+      "versatile"
+    ],
+    "versatile_damage": "1d8"
+  },
+  {
+    "name": "Sickle",
+    "cost": 1,
+    "damage": "1d4",
+    "damage_type": "slashing",
+    "weight": 2,
+    "type": "simple melee",
+    "properties": [
+      "light"
+    ]
+  },
+  {
+    "name": "Spear",
+    "cost": 1,
+    "damage": "1d6",
+    "damage_type": "piercing",
+    "weight": 3,
+    "type": "simple melee",
+    "properties": [
+      "thrown",
+      "versatile"
+    ],
+    "range": "20/60",
+    "versatile_damage": "1d8"
+  }
+]

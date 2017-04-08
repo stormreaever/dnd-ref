@@ -118,5 +118,267 @@
     ],
     "range": "20/60",
     "versatile_damage": "1d8"
-  }
+  },
+  {
+    "name": "Crossbow",
+    "cost": 25,
+    "damage": "1d8",
+    "damage_type": "piercing",
+    "weight": 5,
+    "type": "simple ranged",
+    "properties": [
+      "loading",
+      "ammunition",
+      "two-handed"
+    ],
+    "range": "80/320"
+  },
+  {
+    "name": "Dart",
+    "cost": 0.05,
+    "damage": "1d4",
+    "damage_type": "piercing",
+    "weight": 0.25,
+    "type": "simple ranged",
+    "properties": [
+      "finesse",
+      "thrown"
+    ],
+    "range": "20/60"
+  },
+  {
+    "name": "Shortbow",
+    "cost": 25,
+    "damage": "1d6",
+    "damage_type": "piercing",
+    "weight": 2,
+    "type": "simple ranged",
+    "properties": [
+      "ammunition",
+      "two-handed"
+    ],
+    "range": "80/320"
+  },
+  {
+    "name": "Sling",
+    "cost": 0.1,
+    "damage": "1d4",
+    "damage_type": "bludgeoning",
+    "weight": 0,
+    "type": "simple ranged",
+    "properties": [
+      "ammunition"
+    ],
+    "range": "30/120"
+  },
+  {
+    "name": "Battleaxe",
+    "cost": 10,
+    "damage": "1d8",
+    "damage_type": "slashing",
+    "weight": 4,
+    "type": "martial melee",
+    "properties": [
+      "versatile"
+    ],
+    "versatile_damage": "1d10"
+  },
+  {
+    "name": "Flail",
+    "cost": 10,
+    "damage": "1d8",
+    "damage_type": "bludgeoning",
+    "weight": 2,
+    "type": "martial melee"
+  },
+  {
+    "name": "Glaive",
+    "cost": 20,
+    "damage": "1d10",
+    "damage_type": "slashing",
+    "weight": 6,
+    "type": "martial melee",
+    "properties": [
+      "heavy",
+      "reach",
+      "two-handed"
+    ],
+  },
+  {
+    "name": "Greataxe",
+    "cost": 30,
+    "damage": "1d12",
+    "damage_type": "slashing",
+    "weight": 7,
+    "type": "martial melee",
+    "properties": [
+      "heavy",
+      "two-handed"
+    ],
+  },
+  {
+    "name": "Greatsword",
+    "cost": 50,
+    "damage": "2d6",
+    "damage_type": "slashing",
+    "weight": 6,
+    "type": "martial melee",
+    "properties": [
+      "heavy",
+      "two-handed"
+    ],
+  },
+  {
+    "name": "Halberd",
+    "cost": 20,
+    "damage": "1d10",
+    "damage_type": "slashing",
+    "weight": 6,
+    "type": "martial melee",
+    "properties": [
+      "heavy",
+      "reach",
+      "two-handed"
+    ],
+  },
+  {
+    "name": "Lance",
+    "cost": 10,
+    "damage": "1d12",
+    "damage_type": "piercing",
+    "weight": 6,
+    "type": "martial melee",
+    "properties": [
+      "reach",
+      "special"
+    ],
+    "special": "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted."
+  },
+  {
+    "name": "Longsword",
+    "cost": 15,
+    "damage": "1d8",
+    "damage_type": "slashing",
+    "weight": 3,
+    "type": "martial melee",
+    "properties": [
+      "versatile"
+    ],
+    "versatile_damage": "1d10"
+  },
+  {
+    "name": "Maul",
+    "cost": 10,
+    "damage": "2d6",
+    "damage_type": "bludgeoning",
+    "weight": 10,
+    "type": "martial melee",
+    "properties": [
+      "heavy",
+      "two-handed"
+    ]
+  },
+  {
+    "name": "Morningstar",
+    "cost": 15,
+    "damage": "1d8",
+    "damage_type": "piercing",
+    "weight": 4,
+    "type": "martial melee"
+  },
+  {
+    "name": "Pike",
+    "cost": 5,
+    "damage": "1d10",
+    "damage_type": "piercing",
+    "weight": 10,
+    "type": "martial melee",
+    "properties": [
+      "heavy",
+      "reach",
+      "two-handed"
+    ]
+  },
+  {
+    "name": "Rapier",
+    "cost": 25,
+    "damage": "1d8",
+    "damage_type": "piercing",
+    "weight": 2,
+    "type": "martial melee",
+    "properties": [
+      "finesse"
+    ]
+  },
+  {
+    "name": "Scimitar",
+    "cost": 25,
+    "damage": "1d6",
+    "damage_type": "slashing",
+    "weight": 3,
+    "type": "martial melee",
+    "properties": [
+      "finesse",
+      "light"
+    ]
+  },
+  {
+    "name": "Shortsword",
+    "cost": 10,
+    "damage": "1d6",
+    "damage_type": "piercing",
+    "weight": 2,
+    "type": "martial melee",
+    "properties": [
+      "finesse",
+      "light"
+    ]
+  },
+  {
+    "name": "Trident",
+    "cost": 5,
+    "damage": "1d6",
+    "damage_type": "piercing",
+    "weight": 4,
+    "type": "martial melee",
+    "properties": [
+      "thrown",
+      "versatile"
+    ],
+    "range": "20/60",
+    "versatile_damage": "1d8"
+  },
+  {
+    "name": "War Pick",
+    "cost": 5,
+    "damage": "1d8",
+    "damage_type": "piercing",
+    "weight": 2,
+    "type": "martial melee"
+  },
+  {
+    "name": "Warhammer",
+    "cost": 15,
+    "damage": "1d8",
+    "damage_type": "bludgeoning",
+    "weight": 2,
+    "type": "martial melee",
+    "properties": [
+      "versatile"
+    ],
+    "versatile_damage": "1d10"
+  },
+  {
+    "name": "Whip",
+    "cost": 2,
+    "damage": "1d4",
+    "damage_type": "slashing",
+    "weight": 3,
+    "type": "martial melee",
+    "properties": [
+      "finesse",
+      "reach"
+    ]
+  },
 ]
+

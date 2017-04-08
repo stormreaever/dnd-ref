@@ -202,7 +202,7 @@
       "heavy",
       "reach",
       "two-handed"
-    ],
+    ]
   },
   {
     "name": "Greataxe",
@@ -214,7 +214,7 @@
     "properties": [
       "heavy",
       "two-handed"
-    ],
+    ]
   },
   {
     "name": "Greatsword",
@@ -226,7 +226,7 @@
     "properties": [
       "heavy",
       "two-handed"
-    ],
+    ]
   },
   {
     "name": "Halberd",
@@ -239,7 +239,7 @@
       "heavy",
       "reach",
       "two-handed"
-    ],
+    ]
   },
   {
     "name": "Lance",
@@ -380,5 +380,72 @@
       "reach"
     ]
   },
+  {
+    "name": "Blowgun",
+    "cost": 10,
+    "damage": "1",
+    "damage_type": "piercing",
+    "weight": 1,
+    "type": "martial ranged",
+    "properties": [
+      "ammunition",
+      "loading"
+    ],
+    "range": "25/100"
+  },
+  {
+    "name": "Crossbow, Hand",
+    "cost": 75,
+    "damage": "1d6",
+    "damage_type": "piercing",
+    "weight": 3,
+    "type": "martial ranged",
+    "properties": [
+      "ammunition",
+      "light",
+      "loading"
+    ],
+    "range": "30/120"
+  },
+  {
+    "name": "Crossbow, Heavy",
+    "cost": 50,
+    "damage": "1d10",
+    "damage_type": "piercing",
+    "weight": 18,
+    "type": "martial ranged",
+    "properties": [
+      "ammunition",
+      "heavy",
+      "loading",
+      "two-handed"
+    ],
+    "range": "100/400"
+  },
+  {
+    "name": "Longbow",
+    "cost": 50,
+    "damage": "1d8",
+    "damage_type": "piercing",
+    "weight": 2,
+    "type": "martial ranged",
+    "properties": [
+      "ammunition",
+      "heavy",
+      "two-handed"
+    ],
+    "range": "150/600"
+  },
+  {
+    "name": "Net",
+    "cost": 1,
+    "damage": "0",
+    "damage_type": "",
+    "weight": 3,
+    "type": "martial ranged",
+    "properties": [
+      "thrown"
+    ],
+    "range": "5/15"
+  }
 ]
-

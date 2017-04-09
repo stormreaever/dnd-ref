@@ -1,4 +1,27 @@
-angular.module('dndRef', []).controller('weaponsCtrl', function($scope, $http) {
+var app = angular.module('dndRef', ["ngRoute"]);
+
+app.config(function($routeProvider) {
+  $routeProvider
+  .when("/", {
+    templateUrl : "views/main.html",
+    controller : "mainCtrl"
+  })
+  .when("/weapons", {
+    templateUrl : "views/weapons.html",
+    controller : "weaponsCtrl"
+  })
+  .when("/armour", {
+    templateUrl : "views/armour.html",
+    controller : "armourCtrl"
+  })
+  .otherwise( {
+    templateUrl : "views/main.html",
+    controller : "mainCtrl"
+  });
+});
+
+
+app.controller('weaponsCtrl', function($scope, $http) {
   
   $scope.weapons = [];
   
@@ -26,4 +49,11 @@ angular.module('dndRef', []).controller('weaponsCtrl', function($scope, $http) {
     $scope.sortProperty = propertyName;
   };
     
+});
+
+app.controller('mainCtrl', function($scope, $http) {
+  
+});
+app.controller('armourCtrl', function($scope, $http) {
+  
 });

@@ -1,34 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 <body>
+  
+<header>
+  <ul>
+    <li><a href="/">Main</a></li>
+    <li><a href="/#/armour">Armour</a></li>
+    <li><a href="/#/weapons">Weapons</a></li>
+  </ul>
+</header>
 
 <div ng-app="dndRef" ng-controller="weaponsCtrl">
   
   <input ng-model="searchText" />
   
-  <table>
-    <tr>
-      <th ng-click="sortBy('name')">Name</th>
-      <th ng-click="sortBy('type')">Type</th>
-      <th ng-click="sortBy('cost')">Cost (gp)</th>
-      <th ng-click="sortBy('damage')">Damage</th>
-      <th ng-click="sortBy('damage_type')">Damage Type</th>
-      <th ng-click="sortBy('weight')">Weight (lbs)</th>
-      <th ng-click="sortBy('range_short')">Range</th>
-      <th ng-click="sortBy('properties_str')">Properties</th>
-    </tr>
-    <tr ng-repeat="x in weapons | orderBy:sortProperty:reverse | filter:searchText">
-      <td>{{ x.name }}</td>
-      <td>{{ x.type }}</td>
-      <td>{{ x.cost }}</td>
-      <td>{{ x.damage }}</td>
-      <td>{{ x.damage_type }}</td>
-      <td>{{ x.weight }}</td>
-      <td>{{ x.range }}</td>
-      <td>{{ x.properties_str }}</td>
-    </tr>
-  </table>
+  <div ng-view></div>
   
 </div>
 

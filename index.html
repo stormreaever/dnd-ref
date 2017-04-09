@@ -5,6 +5,31 @@
 
 <div ng-app="dndRef" ng-controller="weaponsCtrl">
   
+  <input ng-model="searchText" />
+  
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')">Name</th>
+      <th ng-click="sortBy('type')">Type</th>
+      <th ng-click="sortBy('cost')">Cost (gp)</th>
+      <th ng-click="sortBy('damage')">Damage</th>
+      <th ng-click="sortBy('damage_type')">Damage Type</th>
+      <th ng-click="sortBy('weight')">Weight (lbs)</th>
+      <th ng-click="sortBy('range_short')">Range</th>
+      <th ng-click="sortBy('properties_str')">Properties</th>
+    </tr>
+    <tr ng-repeat="x in weapons | orderBy:sortProperty:reverse | filter:searchText">
+      <td>{{ x.name }}</td>
+      <td>{{ x.type }}</td>
+      <td>{{ x.cost }}</td>
+      <td>{{ x.damage }}</td>
+      <td>{{ x.damage_type }}</td>
+      <td>{{ x.weight }}</td>
+      <td>{{ x.range }}</td>
+      <td>{{ x.properties_str }}</td>
+    </tr>
+  </table>
+  
 </div>
 
 <script src="js/dndRef.js"></script>

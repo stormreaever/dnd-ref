@@ -22,7 +22,9 @@
       "finesse",
       "thrown"
     ],
-    "range": "20/60"
+    "range": "20/60",
+    "range_short": 20,
+    "range_long": 60
   },
   {
     "name": "Greatclub",
@@ -46,7 +48,9 @@
       "light",
       "thrown"
     ],
-    "range": "20/60"
+    "range": "20/60",
+    "range_short": 20,
+    "range_long": 60
   },
   {
     "name": "Javelin",
@@ -58,7 +62,9 @@
     "properties": [
       "thrown"
     ],
-    "range": "30/120"
+    "range": "30/120",
+    "range_short": 30,
+    "range_long": 120
   },
   {
     "name": "Light Hammer",
@@ -71,7 +77,9 @@
       "light",
       "thrown"
     ],
-    "range": "20/60"
+    "range": "20/60",
+    "range_short": 20,
+    "range_long": 60
   },
   {
     "name": "Mace",
@@ -117,6 +125,8 @@
       "versatile"
     ],
     "range": "20/60",
+    "range_short": 20,
+    "range_long": 60,
     "versatile_damage": "1d8"
   },
   {
@@ -131,7 +141,9 @@
       "ammunition",
       "two-handed"
     ],
-    "range": "80/320"
+    "range": "80/320",
+    "range_short": 80,
+    "range_long": 320
   },
   {
     "name": "Dart",
@@ -144,7 +156,9 @@
       "finesse",
       "thrown"
     ],
-    "range": "20/60"
+    "range": "20/60",
+    "range_short": 20,
+    "range_long": 60
   },
   {
     "name": "Shortbow",
@@ -157,7 +171,9 @@
       "ammunition",
       "two-handed"
     ],
-    "range": "80/320"
+    "range": "80/320",
+    "range_short": 80,
+    "range_long": 320
   },
   {
     "name": "Sling",
@@ -169,7 +185,9 @@
     "properties": [
       "ammunition"
     ],
-    "range": "30/120"
+    "range": "30/120",
+    "range_short": 30,
+    "range_long": 120
   },
   {
     "name": "Battleaxe",
@@ -346,6 +364,8 @@
       "versatile"
     ],
     "range": "20/60",
+    "range_short": 20,
+    "range_long": 60,
     "versatile_damage": "1d8"
   },
   {
@@ -391,7 +411,9 @@
       "ammunition",
       "loading"
     ],
-    "range": "25/100"
+    "range": "25/100",
+    "range_short": 25,
+    "range_long": 100
   },
   {
     "name": "Crossbow, Hand",
@@ -405,7 +427,9 @@
       "light",
       "loading"
     ],
-    "range": "30/120"
+    "range": "30/120",
+    "range_short": 30,
+    "range_long": 120
   },
   {
     "name": "Crossbow, Heavy",
@@ -420,7 +444,9 @@
       "loading",
       "two-handed"
     ],
-    "range": "100/400"
+    "range": "100/400",
+    "range_short": 100,
+    "range_long": 400
   },
   {
     "name": "Longbow",
@@ -434,7 +460,9 @@
       "heavy",
       "two-handed"
     ],
-    "range": "150/600"
+    "range": "150/600",
+    "range_short": 150,
+    "range_long": 600
   },
   {
     "name": "Net",
@@ -446,6 +474,8 @@
     "properties": [
       "thrown"
     ],
-    "range": "5/15"
+    "range": "5/15",
+    "range_short": 5,
+    "range_long": 15
   }
 ]

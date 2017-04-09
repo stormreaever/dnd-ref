@@ -1,6 +1,11 @@
 
 
-<input ng-model="searchText" placeholder="Filter" />
+<input ng-model="searchText" placeholder="Filter" list="armour" ng-change="searchChange()" />
+
+<datalist id="armour">
+  <option ng-repeat="x in armour | orderBy:name | filter:searchText | limitTo:10">{{ x.name }}</option>
+</datalist>
+
 <p ng-bind="searchText"></p>
 
 <table>

@@ -17,11 +17,11 @@ app.config(function($routeProvider) {
   .otherwise("/");
 });
 
-app.controller('mainCtrl', function($scope, $http) {
+app.controller('mainCtrl', function($scope, $http, $filter) {
   
 });
 
-app.controller('weaponsCtrl', function($scope, $http) {
+app.controller('weaponsCtrl', function($scope, $http, $filter) {
   
   $scope.weapons = [];
   $scope.searchText = '';
@@ -59,9 +59,15 @@ app.controller('weaponsCtrl', function($scope, $http) {
     
 });
 
-app.controller('armourCtrl', function($scope, $http) {
+app.controller('armourCtrl', function($scope, $http, $filter) {
   
   $scope.armour = [];
+  
+  $scope.sortProperty = 'name';
+  $scope.reverse = true;
+  
+  $scope.selectedItem = {};
+  $scope.detailTemplate = "";
   
   $http.get("data/armour.json")
     .then(function (response) {
@@ -70,8 +76,6 @@ app.controller('armourCtrl', function($scope, $http) {
       $scope.armour = armour;
     });
   
-  $scope.sortProperty = 'name';
-  $scope.reverse = true;
 
   $scope.sortBy = function(propertyName) {
     $scope.reverse = ($scope.sortProperty === propertyName) ? !$scope.reverse : false;
@@ -79,9 +83,22 @@ app.controller('armourCtrl', function($scope, $http) {
   };
   
   $scope.selectItem = function(selectedItem) {
-    $scope.selectedItem = selectedItem;
-    $scope.detailTemplate = "views/details/armour-detail.html";
+    //$scope.selectedItem = selectedItem;
+    $scope.searchText = selectedItem.name;
+    $scope.searchChange();
   };
-  $scope.selectedItem = {};
-  $scope.detailTemplate = "";
+  
+  $scope.searchChange = function() {
+    let searchList = $filter('filter')($scope.armour, $scope.searchText, true);
+    
+    console.log(searchList);
+    
+    if (searchList.length == 1) {
+      $scope.detailTemplate = "views/details/armour-detail.html";
+      $scope.selectedItem = searchList[0];
+      //console.log($scope.searchText);
+    } else {
+      $scope.detailTemplate = "";
+    }
+  };
 });

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Padded",
+    "cost": 5,
+    "ac": "11 + Dex mod",
+    "str": 0,
+    "stealth": "Disadvantage",
+    "weight": 8,
+    "type": "Light Armour"
+  },
+  {
+    "name": "Leather",
+    "cost": 10,
+    "ac": "11 + Dex mod",
+    "str": 0,
+    "stealth": "",
+    "weight": 10,
+    "type": "Light Armour"
+  },
+  {
+    "name": "Studded Leather",
+    "cost": 10,
+    "ac": "11 + Dex mod",
+    "str": 0,
+    "stealth": "",
+    "weight": 10,
+    "type": "Light Armour"
+  },
+  {
+    "name": "Hide",
+    "cost": 10,
+    "ac": "12 + Dex mod (max 2)",
+    "str": 0,
+    "stealth": "",
+    "weight": 12,
+    "type": "Medium Armour"
+  },
+  {
+    "name": "Chain Shirt",
+    "cost": 50,
+    "ac": "13 + Dex mod (max 2)",
+    "str": 0,
+    "stealth": "",
+    "weight": 20,
+    "type": "Medium Armour"
+  },
+  {
+    "name": "Scale Mail",
+    "cost": 50,
+    "ac": "14 + Dex mod (max 2)",
+    "str": 0,
+    "stealth": "Disadvantage",
+    "weight": 45,
+    "type": "Medium Armour"
+  },
+  {
+    "name": "Breastplate",
+    "cost": 400,
+    "ac": "14 + Dex mod (max 2)",
+    "str": 0,
+    "stealth": "",
+    "weight": 20,
+    "type": "Medium Armour"
+  },
+  {
+    "name": "Half Plate",
+    "cost": 750,
+    "ac": "15 + Dex mod (max 2)",
+    "str": 0,
+    "stealth": "Disadvantage",
+    "weight": 40,
+    "type": "Medium Armour"
+  },
+  {
+    "name": "Ring Mail",
+    "cost": 30,
+    "ac": "14",
+    "str": 0,
+    "stealth": "Disadvantage",
+    "weight": 40,
+    "type": "Heavy Armour"
+  },
+  {
+    "name": "Chain Mail",
+    "cost": 75,
+    "ac": "16",
+    "str": 13,
+    "stealth": "Disadvantage",
+    "weight": 55,
+    "type": "Heavy Armour"
+  },
+  {
+    "name": "Splint",
+    "cost": 200,
+    "ac": "17",
+    "str": 15,
+    "stealth": "Disadvantage",
+    "weight": 60,
+    "type": "Heavy Armour"
+  },
+  {
+    "name": "Plate",
+    "cost": 1500,
+    "ac": "18",
+    "str": 15,
+    "stealth": "Disadvantage",
+    "weight": 65,
+    "type": "Heavy Armour"
+  },
+  {
+    "name": "Shield",
+    "cost": 10,
+    "ac": "+2",
+    "str": 0,
+    "stealth": "",
+    "weight": 6,
+    "type": "Shield"
+  }
+]

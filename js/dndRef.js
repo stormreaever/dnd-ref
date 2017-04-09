@@ -21,6 +21,11 @@ app.config(function($routeProvider) {
 });
 
 
+
+app.controller('mainCtrl', function($scope, $http) {
+  
+});
+
 app.controller('weaponsCtrl', function($scope, $http) {
   
   $scope.weapons = [];
@@ -36,8 +41,6 @@ app.controller('weaponsCtrl', function($scope, $http) {
         }
       });
       
-      console.log(weapons);
-      
       $scope.weapons = weapons;
     });
   
@@ -51,9 +54,22 @@ app.controller('weaponsCtrl', function($scope, $http) {
     
 });
 
-app.controller('mainCtrl', function($scope, $http) {
-  
-});
 app.controller('armourCtrl', function($scope, $http) {
   
+  $scope.armour = [];
+  
+  $http.get("data/armour.json")
+    .then(function (response) {
+      let armour = response.data;
+      
+      $scope.armour = armour;
+    });
+  
+  $scope.sortProperty = 'name';
+  $scope.reverse = true;
+
+  $scope.sortBy = function(propertyName) {
+    $scope.reverse = ($scope.sortProperty === propertyName) ? !$scope.reverse : false;
+    $scope.sortProperty = propertyName;
+  };
 });

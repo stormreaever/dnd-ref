@@ -24,6 +24,7 @@ app.controller('mainCtrl', function($scope, $http) {
 app.controller('weaponsCtrl', function($scope, $http) {
   
   $scope.weapons = [];
+  $scope.searchText = '';
   
   $http.get("data/weapons.json")
     .then(function (response) {
@@ -46,6 +47,15 @@ app.controller('weaponsCtrl', function($scope, $http) {
     $scope.reverse = ($scope.sortProperty === propertyName) ? !$scope.reverse : false;
     $scope.sortProperty = propertyName;
   };
+  
+  $scope.selectItem = function(selectedItem) {
+    $scope.selectedItem = selectedItem;
+    $scope.searchText = selectedItem.name;
+    console.log($scope.searchText);
+    $scope.detailTemplate = "views/details/weapons-detail.html";
+  };
+  $scope.selectedItem = {};
+  $scope.detailTemplate = "";
     
 });
 
@@ -67,4 +77,11 @@ app.controller('armourCtrl', function($scope, $http) {
     $scope.reverse = ($scope.sortProperty === propertyName) ? !$scope.reverse : false;
     $scope.sortProperty = propertyName;
   };
+  
+  $scope.selectItem = function(selectedItem) {
+    $scope.selectedItem = selectedItem;
+    $scope.detailTemplate = "views/details/armour-detail.html";
+  };
+  $scope.selectedItem = {};
+  $scope.detailTemplate = "";
 });

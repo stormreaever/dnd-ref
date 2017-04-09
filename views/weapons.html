@@ -1,3 +1,9 @@
+
+
+<input ng-model="searchText" placeholder="Filter" />
+<p ng-bind="searchText"></p>
+
+
 <table>
   <tr>
     <th ng-click="sortBy('name')">Name</th>
@@ -10,7 +16,7 @@
     <th ng-click="sortBy('properties_str')">Properties</th>
   </tr>
   <tr ng-repeat="x in weapons | orderBy:sortProperty:reverse | filter:searchText">
-    <td>{{ x.name }}</td>
+    <td ng-click="selectItem(x)">{{ x.name }}</td>
     <td>{{ x.type }}</td>
     <td>{{ x.cost }}</td>
     <td>{{ x.damage }}</td>
@@ -20,3 +26,5 @@
     <td>{{ x.properties_str }}</td>
   </tr>
 </table>
+
+<div ng-include="detailTemplate"></div>

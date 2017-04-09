@@ -1,0 +1,25 @@
+{
+  "name": "dnd-ref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.6.4",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormreaever/dnd-ref.git"
+  },
+  "author": "Kathryn Hartog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stormreaever/dnd-ref/issues"
+  },
+  "homepage": "https://github.com/stormreaever/dnd-ref#readme"
+}

@@ -4,16 +4,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 <body>
   
-<header>
-  <ul>
-    <li><a href="/">Main</a></li>
-    <li><a href="/#/armour">Armour</a></li>
-    <li><a href="/#/weapons">Weapons</a></li>
-  </ul>
-</header>
 
 <div ng-app="dndRef" ng-controller="weaponsCtrl">
   
+  <header>
+    <ul>
+      <li><a href="/">Main</a></li>
+      <li><a href="/#/armour">Armour</a></li>
+      <li><a href="/#/weapons">Weapons</a></li>
+    </ul>
+  </header>
+
   <input ng-model="searchText" />
   
   <div ng-view></div>

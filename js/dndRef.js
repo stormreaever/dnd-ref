@@ -14,13 +14,8 @@ app.config(function($routeProvider) {
     templateUrl : "views/armour.html",
     controller : "armourCtrl"
   })
-  .otherwise( {
-    templateUrl : "views/main.html",
-    controller : "mainCtrl"
-  });
+  .otherwise("/");
 });
-
-
 
 app.controller('mainCtrl', function($scope, $http) {
   

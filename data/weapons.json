@@ -1,5 +1,6 @@
 [
   {
+    "data_type": "weapons",
     "name": "Club",
     "cost": 0.1,
     "damage": "1d4",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Dagger",
     "cost": 2,
     "damage": "1d4",
@@ -27,6 +29,7 @@
     "range_long": 60
   },
   {
+    "data_type": "weapons",
     "name": "Greatclub",
     "cost": 2,
     "damage": "1d8",
@@ -38,6 +41,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Handaxe",
     "cost": 0.5,
     "damage": "1d6",
@@ -53,6 +57,7 @@
     "range_long": 60
   },
   {
+    "data_type": "weapons",
     "name": "Javelin",
     "cost": 0.5,
     "damage": "1d6",
@@ -67,6 +72,7 @@
     "range_long": 120
   },
   {
+    "data_type": "weapons",
     "name": "Light Hammer",
     "cost": 2,
     "damage": "1d4",
@@ -82,6 +88,7 @@
     "range_long": 60
   },
   {
+    "data_type": "weapons",
     "name": "Mace",
     "cost": 5,
     "damage": "1d6",
@@ -91,6 +98,7 @@
     "properties": []
   },
   {
+    "data_type": "weapons",
     "name": "Quarterstaff",
     "cost": 0.2,
     "damage": "1d6",
@@ -103,6 +111,7 @@
     "versatile_damage": "1d8"
   },
   {
+    "data_type": "weapons",
     "name": "Sickle",
     "cost": 1,
     "damage": "1d4",
@@ -114,6 +123,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Spear",
     "cost": 1,
     "damage": "1d6",
@@ -130,6 +140,7 @@
     "versatile_damage": "1d8"
   },
   {
+    "data_type": "weapons",
     "name": "Crossbow",
     "cost": 25,
     "damage": "1d8",
@@ -146,6 +157,7 @@
     "range_long": 320
   },
   {
+    "data_type": "weapons",
     "name": "Dart",
     "cost": 0.05,
     "damage": "1d4",
@@ -161,6 +173,7 @@
     "range_long": 60
   },
   {
+    "data_type": "weapons",
     "name": "Shortbow",
     "cost": 25,
     "damage": "1d6",
@@ -176,6 +189,7 @@
     "range_long": 320
   },
   {
+    "data_type": "weapons",
     "name": "Sling",
     "cost": 0.1,
     "damage": "1d4",
@@ -190,6 +204,7 @@
     "range_long": 120
   },
   {
+    "data_type": "weapons",
     "name": "Battleaxe",
     "cost": 10,
     "damage": "1d8",
@@ -202,6 +217,7 @@
     "versatile_damage": "1d10"
   },
   {
+    "data_type": "weapons",
     "name": "Flail",
     "cost": 10,
     "damage": "1d8",
@@ -210,6 +226,7 @@
     "type": "martial melee"
   },
   {
+    "data_type": "weapons",
     "name": "Glaive",
     "cost": 20,
     "damage": "1d10",
@@ -223,6 +240,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Greataxe",
     "cost": 30,
     "damage": "1d12",
@@ -235,6 +253,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Greatsword",
     "cost": 50,
     "damage": "2d6",
@@ -247,6 +266,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Halberd",
     "cost": 20,
     "damage": "1d10",
@@ -260,6 +280,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Lance",
     "cost": 10,
     "damage": "1d12",
@@ -273,6 +294,7 @@
     "special": "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted."
   },
   {
+    "data_type": "weapons",
     "name": "Longsword",
     "cost": 15,
     "damage": "1d8",
@@ -285,6 +307,7 @@
     "versatile_damage": "1d10"
   },
   {
+    "data_type": "weapons",
     "name": "Maul",
     "cost": 10,
     "damage": "2d6",
@@ -297,6 +320,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Morningstar",
     "cost": 15,
     "damage": "1d8",
@@ -305,6 +329,7 @@
     "type": "martial melee"
   },
   {
+    "data_type": "weapons",
     "name": "Pike",
     "cost": 5,
     "damage": "1d10",
@@ -318,6 +343,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Rapier",
     "cost": 25,
     "damage": "1d8",
@@ -329,6 +355,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Scimitar",
     "cost": 25,
     "damage": "1d6",
@@ -341,6 +368,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Shortsword",
     "cost": 10,
     "damage": "1d6",
@@ -353,6 +381,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Trident",
     "cost": 5,
     "damage": "1d6",
@@ -369,6 +398,7 @@
     "versatile_damage": "1d8"
   },
   {
+    "data_type": "weapons",
     "name": "War Pick",
     "cost": 5,
     "damage": "1d8",
@@ -377,6 +407,7 @@
     "type": "martial melee"
   },
   {
+    "data_type": "weapons",
     "name": "Warhammer",
     "cost": 15,
     "damage": "1d8",
@@ -389,6 +420,7 @@
     "versatile_damage": "1d10"
   },
   {
+    "data_type": "weapons",
     "name": "Whip",
     "cost": 2,
     "damage": "1d4",
@@ -401,6 +433,7 @@
     ]
   },
   {
+    "data_type": "weapons",
     "name": "Blowgun",
     "cost": 10,
     "damage": "1",
@@ -416,6 +449,7 @@
     "range_long": 100
   },
   {
+    "data_type": "weapons",
     "name": "Crossbow, Hand",
     "cost": 75,
     "damage": "1d6",
@@ -432,6 +466,7 @@
     "range_long": 120
   },
   {
+    "data_type": "weapons",
     "name": "Crossbow, Heavy",
     "cost": 50,
     "damage": "1d10",
@@ -449,6 +484,7 @@
     "range_long": 400
   },
   {
+    "data_type": "weapons",
     "name": "Longbow",
     "cost": 50,
     "damage": "1d8",
@@ -465,6 +501,7 @@
     "range_long": 600
   },
   {
+    "data_type": "weapons",
     "name": "Net",
     "cost": 1,
     "damage": "0",

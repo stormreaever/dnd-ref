@@ -1,22 +1,5 @@
 <nav></nav>
 
-<p>main</p>
-
-
 <input ng-model="searchText" placeholder="Search" />
 
-<label>Choose a browser from this list:
-<input list="browsers" name="myBrowser" /></label>
-<datalist id="browsers">
-  <option value="Chrome">
-  <option value="Firefox">
-  <option value="Internet Explorer">
-  <option value="Opera">
-  <option value="Safari">
-  <option value="Microsoft Edge">
-</datalist>
-
-<p ng-bind="searchText"></p>
-
-
-<div ng-include="detailTemplate"></div>
+<div ng-include="template.detailsUrl"></div>

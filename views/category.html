@@ -1,14 +1,12 @@
 <nav></nav>
 
-<input ng-model="searchText" placeholder="Filter" list="weapons" ng-change="searchChange()" />
+<input ng-model="searchText" placeholder="Filter" list="items" ng-change="searchChange()" />
 
-<datalist id="weapons">
+<datalist id="items">
   <option ng-repeat="x in items | orderBy:name | filter:searchText | limitTo:10" ng-keypress="myFunct($event, 'list')">{{ x.name }}</option>
 </datalist>
 
-<p ng-bind="searchText"></p>
-
-{{ category }}
+<p>{{ category }}</p>
 
 <div ng-include="template.categoryUrl"></div>
 

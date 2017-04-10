@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
 <body>
   
 
-<div ng-app="dndRef">
-  
-  <header>
-    <ul>
-      <li><a href="/#/">Main</a></li>
-      <li><a href="/#/armour">Armour</a></li>
-      <li><a href="/#/weapons">Weapons</a></li>
-    </ul>
-  </header>
+<div ng-app="app">
   
   <div ng-view></div>
   
 </div>
 
-<script src="js/dndRef.js"></script>
+<script src="js/app.js"></script>
+<script src="js/components/nav.component.js"></script>
+<script src="js/controllers/category.controller.js"></script>
+<script src="js/controllers/main.controller.js"></script>
 
 </body>
 </html>

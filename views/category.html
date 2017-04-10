@@ -1,0 +1,15 @@
+<nav></nav>
+
+<input ng-model="searchText" placeholder="Filter" list="weapons" ng-change="searchChange()" />
+
+<datalist id="weapons">
+  <option ng-repeat="x in items | orderBy:name | filter:searchText | limitTo:10" ng-keypress="myFunct($event, 'list')">{{ x.name }}</option>
+</datalist>
+
+<p ng-bind="searchText"></p>
+
+{{ category }}
+
+<div ng-include="template.categoryUrl"></div>
+
+<div ng-include="template.detailsUrl"></div>

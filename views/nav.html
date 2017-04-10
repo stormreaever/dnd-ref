@@ -1,0 +1,5 @@
+<header class="{{ $ctrl.url }}">
+  <ul>
+    <li ng-repeat="x in $ctrl.nav" class="{{ $ctrl.getSelected(x) }}"><a href="/#!{{ x.url }}">{{ x.title }}</a></li>
+  </ul>
+</header>

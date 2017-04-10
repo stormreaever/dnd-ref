@@ -1,14 +1,3 @@
-
-
-<input ng-model="searchText" placeholder="Filter" list="weapons" />
-
-<datalist id="weapons">
-  <option ng-repeat="x in weapons | orderBy:name | filter:searchText | limitTo:10" ng-keypress="myFunct($event, 'list')">{{ x.name }}</option>
-</datalist>
-
-<p ng-bind="searchText"></p>
-
-
 <table>
   <tr>
     <th ng-click="sortBy('name')">Name</th>
@@ -20,7 +9,7 @@
     <th ng-click="sortBy('range_short')">Range</th>
     <th ng-click="sortBy('properties_str')">Properties</th>
   </tr>
-  <tr ng-repeat="x in weapons | orderBy:sortProperty:reverse | filter:searchText">
+  <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
     <td ng-click="selectItem(x)">{{ x.name }}</td>
     <td>{{ x.type }}</td>
     <td>{{ x.cost }}</td>
@@ -31,5 +20,3 @@
     <td>{{ x.properties_str }}</td>
   </tr>
 </table>
-
-<div ng-include="detailTemplate"></div>

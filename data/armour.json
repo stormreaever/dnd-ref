@@ -22,11 +22,11 @@
   {
     "data_type": "armour",
     "name": "Studded Leather",
-    "cost": 10,
-    "ac": "11 + Dex mod",
+    "cost": 45,
+    "ac": "12 + Dex mod",
     "str": 0,
     "stealth": "",
-    "weight": 10,
+    "weight": 13,
     "type": "Light Armour"
   },
   {

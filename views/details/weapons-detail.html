@@ -7,4 +7,4 @@
 <p>Damage: {{ selectedItem.damage }} {{ selectedItem.damage_type }}</p>
 <p>Weight: {{ selectedItem.weight }} lbs.</p>
 <p>Range: {{ selectedItem.range }}</p>
-<p>Properties: {{ selectedItem.properties_str }}</p>
+<p>Properties: {{ selectedItem.properties | concatenate }}</p>

@@ -1,5 +1,9 @@
 <nav></nav>
 
-<input ng-model="searchText" placeholder="Search" />
+<input ng-model="searchText" placeholder="Search" list="items" ng-change="searchChange()" />
+
+<datalist id="items">
+  <option ng-repeat="x in items | orderBy:name | filter:searchText | limitTo:10">{{ x.name }}</option>
+</datalist>
 
 <div ng-include="template.detailsUrl"></div>

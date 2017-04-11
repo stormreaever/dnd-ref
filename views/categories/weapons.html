@@ -17,6 +17,6 @@
     <td>{{ x.damage_type }}</td>
     <td>{{ x.weight }}</td>
     <td>{{ x.range }}</td>
-    <td>{{ x.properties_str }}</td>
+    <td>{{ x.properties | concatenate }}</td>
   </tr>
 </table>

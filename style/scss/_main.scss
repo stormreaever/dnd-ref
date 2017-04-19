@@ -1,9 +1,11 @@
-// page
+// global
 
 * {
   transition: all 0.5s ease;
+  box-sizing: border-box;
 }
 
+// page
 html, body {
   margin: 0;
   padding: 0;
@@ -32,7 +34,7 @@ $nav-height: 48px;
 
 header {
   height: $nav-height;
-  border-bottom: 1px solid $grey2;
+  border-bottom: 1px solid $bordergrey;
   padding: 0 16px;
   
   h1 {
@@ -73,6 +75,40 @@ header {
         font-size: 12px;
         letter-spacing: 1px;
       }
+    }
+  }
+}
+
+// search box
+
+.search-box {
+  padding: 25vh 0;
+  background: $bggrey;
+  
+  input {
+    display: block;
+    margin: 0 auto;
+    width: 480px;
+    max-width: 90%;
+    
+    padding: 8px 16px;
+    
+    font-size: 24px;
+    
+    background: transparent;
+    color: $black;
+    
+    font-family: "DIN", "DIN Alternate";
+    
+    text-align: center;
+    
+    -webkit-appearance: none;
+    border: 1px solid $bordergrey;
+    border-width: 0 0 1px 0;
+    
+    &:focus {
+      border-color: $black;
+      outline: none;
     }
   }
 }

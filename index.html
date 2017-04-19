@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
-<link rel="stylesheet" href="style/css/style.css">
-<body>
+<head>
+  <base href="/">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+  <link rel="stylesheet" href="style/css/style.css">
   
+  <title>Opus Draconis - Searchable D&amp;D Reference Book</title>
+</head>
+  <body>
+    
+    <div ng-app="app">
+      
+      <div ng-view></div>
+      
+    </div>
 
-<div ng-app="app">
-  
-  <div ng-view></div>
-  
-</div>
+    <script src="js/app.js"></script>
+    <script src="js/components/nav.component.js"></script>
+    <script src="js/controllers/category.controller.js"></script>
+    <script src="js/controllers/main.controller.js"></script>
+    <script src="js/core/core.module.js"></script>
 
-<script src="js/app.js"></script>
-<script src="js/components/nav.component.js"></script>
-<script src="js/controllers/category.controller.js"></script>
-<script src="js/controllers/main.controller.js"></script>
-<script src="js/core/core.module.js"></script>
-
-</body>
+  </body>
 </html>

@@ -1,0 +1,78 @@
+// page
+
+* {
+  transition: all 0.5s ease;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", Futura, sans-serif;
+  color: $black;
+}
+a {
+  color: $linkgrey;
+  text-decoration: none;
+  
+  &:hover {
+    color: $linkhover;
+  }
+}
+.selected a, a.selected {
+  color: $linkhover;
+}
+
+
+
+// header
+$nav-height: 48px;
+
+header {
+  height: $nav-height;
+  border-bottom: 1px solid $grey2;
+  padding: 0 16px;
+  
+  h1 {
+    float: left;
+    margin: 0;
+    
+    a {
+      display: block;
+      height: $nav-height;
+      line-height: $nav-height;
+      padding: 0 16px;
+      
+      letter-spacing: 1px;
+      font-size: 20px;
+      text-transform: uppercase; 
+      font-weight: normal;
+      
+      color: $linkhover;
+    }
+  }
+  
+  ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    
+    li {
+      float: left;
+      list-style: none;
+      
+      a {
+        display: block;
+        height: $nav-height;
+        line-height: $nav-height;
+        padding: 0 16px;
+        
+        text-transform: uppercase; 
+        font-size: 12px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

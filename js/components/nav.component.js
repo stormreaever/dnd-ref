@@ -3,7 +3,7 @@ app.component('nav', {
   controller: ['$routeParams', function GreetUserController($routeParams) {
     this.nav = [
       {
-        "title": "Main", 
+        "title": "All", 
         "url": "/", 
         "pageId": "main"
       },

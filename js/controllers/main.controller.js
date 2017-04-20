@@ -7,6 +7,8 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
   $scope.selectedItem = {};
   $scope.detailTemplate = "";
   
+  $scope.typing = false;
+  
   
   $scope.template = {
     "detailsUrl": ""
@@ -33,6 +35,11 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
   $scope.searchChange = function() {
     let searchList = $filter('filter')($scope.items, $scope.searchText, true);
     
+    if ($scope.searchText.length > 0) {
+      $scope.typing = true;
+    } else {
+      $scope.typing = false;
+    }
     if (searchList.length == 1) {
       itemCategory = searchList[0].data_type;
       $scope.template.detailsUrl = "views/details/" + itemCategory + "-detail.html";

@@ -1,11 +1,7 @@
 <nav></nav>
 
-<div class="search-box">
-  <input ng-model="searchText" placeholder="Search" list="items" ng-change="searchChange()" />
+<div class="search-box" ng-class="{typing: typing}">
+  <input ng-model="searchText" placeholder="Search" list="items" ng-change="searchChange()" uib-typeahead="x.name for x in items | filter:searchText | limitTo:5" typeahead-show-hint="true" typeahead-on-select="searchChange()" />
 </div>
-
-<datalist id="items">
-  <option ng-repeat="x in items | orderBy:name | filter:searchText | limitTo:10">{{ x.name }}</option>
-</datalist>
 
 <div ng-include="template.detailsUrl"></div>

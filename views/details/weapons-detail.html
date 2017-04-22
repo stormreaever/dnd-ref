@@ -1,10 +1,25 @@
-<p>weapon detail</p>
+<div class="details">
+  
+  <p class="category">weapon</p>
 
-<h1>{{ selectedItem.name }}</h1>
+  <div class="body">
+    <h1>{{ selectedItem.name }}</h1>
 
-<p>Type: {{ selectedItem.type }}</p>
-<p>Cost: {{ selectedItem.cost }} gp</p>
-<p>Damage: {{ selectedItem.damage }} {{ selectedItem.damage_type }}</p>
-<p>Weight: {{ selectedItem.weight }} lbs.</p>
-<p>Range: {{ selectedItem.range }}</p>
-<p>Properties: {{ selectedItem.properties | concatenate }}</p>
+    <p class="item-type">{{ selectedItem.type }}</p>
+    <p class="key-value"><span class="key">{{ selectedItem.damage }} {{ selectedItem.damage_type }}</span> damage</p>
+
+    <div class="tag-group">
+      <div class="tag" ng-repeat="prop in selectedItem.properties" ng-switch on="prop">
+        {{ prop }}
+        <span ng-switch-when="ammunition">(range {{ selectedItem.range }})</span>
+        <span ng-switch-when="thrown">(range {{ selectedItem.range }})</span>
+        <span ng-switch-when="versatile">({{ selectedItem.versatile_damage }})</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="section">
+    <p class="weight">{{ selectedItem.weight }} lbs</p>
+    <p class="cost">{{ selectedItem.cost }} gp</p>
+  </div>
+</div>

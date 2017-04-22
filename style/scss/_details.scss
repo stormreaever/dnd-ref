@@ -1,0 +1,80 @@
+// general
+
+.details {
+  max-width: 90%;
+  width: 720px;
+  margin: 48px auto;
+  
+  background: $white;
+  
+  .category {
+    padding: 8px 16px;
+    text-align: right;
+    background: #333339;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .body {
+    padding: 32px 32px;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    .item-type {
+      margin-top: 8px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      font-family: palatino, serif;
+      font-style: italic;
+      color: $textgrey;
+    }
+    .key-value {
+      margin-top: 12px;
+      .key {
+        font-weight: bold;
+      }
+    }
+  }
+  .section {
+    border-top: 1px solid $bordergrey;
+    padding: 8px 16px;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+  .cost, .weight {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .cost {
+    float: right;
+  }
+  .weight {
+    float: left;
+  }
+  .tag-group {
+    margin-top: 24px;
+    
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .tag {
+      float: left;
+      padding: 4px 8px;
+      background: #fff;
+      color: $black;
+      box-shadow: 0 0 12px rgba(0, 0, 0, .175);
+      font-size: 14px;
+      margin-right: 8px;
+      border-radius: 4px;
+      letter-spacing: 1px;
+    }
+  }
+}

@@ -1,9 +1,16 @@
-<p>armour detail</p>
+<div class="details">
+  
+  <p class="category">armour</p>
 
-<h1>{{ selectedItem.name }}</h1>
+  <div class="body">
+    <h1>{{ selectedItem.name }}</h1>
 
-<p>Type: {{ selectedItem.type }}</p>
-<p>Cost: {{ selectedItem.cost }} gp</p>
-<p>AC: {{ selectedItem.ac }}</p>
-<p>Stealth: {{ selectedItem.stealth }}</p>
-<p>Weight: {{ selectedItem.weight }} lbs.</p>
+    <p class="item-type">{{ selectedItem.type }}</p>
+    <p class="key-value"><span class="key">Armor Class:</span> {{ selectedItem.ac }}</p>
+    <p class="key-value"><span class="key">Stealth:</span> {{ selectedItem.stealth }}</p>
+  </div>
+  <div class="section">
+    <p class="weight">{{ selectedItem.weight }} lbs</p>
+    <p class="cost">{{ selectedItem.cost }} gp</p>
+  </div>
+</div>

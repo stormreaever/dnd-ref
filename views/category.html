@@ -1,8 +1,8 @@
 <nav></nav>
 
-<div class="search-box typing">
-  <input ng-model="searchText" placeholder="Filter" list="items" ng-change="searchChange()" uib-typeahead="x.name for x in items | filter:searchText | limitTo:5" typeahead-show-hint="true" typeahead-on-select="searchChange()" />
-</div>
+<label for="search-box" class="search-box typing">
+  <input id="search-box" ng-model="searchText" placeholder="Filter" list="items" ng-change="searchChange()" uib-typeahead="x.name for x in items | filter:searchText | limitTo:5" typeahead-show-hint="true" typeahead-on-select="searchChange()" />
+</label>
 
 <p>{{ category }}</p>
 

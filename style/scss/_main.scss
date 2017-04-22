@@ -82,6 +82,7 @@ header {
 // search box
 
 .search-box {
+  display: block;
   padding: calc((100vh - 49px - 51px) / 2) 0;
   background: $bggrey;
   
@@ -118,6 +119,10 @@ header {
     max-width: 90%;
     position: relative;
     input:first-child {
+      position: relative !important;
+      top: 50px !important;
+      margin-top: -50px !important;
+      left: auto !important;
       background: none !important;
       color: $linkgrey !important;
     }

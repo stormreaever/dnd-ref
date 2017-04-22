@@ -35,11 +35,12 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
   $scope.searchChange = function() {
     let searchList = $filter('filter')($scope.items, $scope.searchText, true);
     
-    if ($scope.searchText.length > 0) {
+    if ($scope.searchText.length > 0 || $scope.searchText.length == undefined ) {
       $scope.typing = true;
     } else {
       $scope.typing = false;
     }
+    
     if (searchList.length == 1) {
       itemCategory = searchList[0].data_type;
       $scope.template.detailsUrl = "views/details/" + itemCategory + "-detail.html";

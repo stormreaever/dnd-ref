@@ -45,14 +45,17 @@ header {
       display: block;
       height: $nav-height;
       line-height: $nav-height;
-      padding: 0 16px;
+      padding: 0 16px 0 72px;
       
       letter-spacing: 1px;
       font-size: 20px;
       text-transform: uppercase; 
       font-weight: normal;
       
-      color: $linkhover;
+      color: $linkgrey;
+      
+      background: url('../../assets/img/dragon.svg') no-repeat 16px center;
+      background-size: 48px;
     }
   }
   
@@ -150,22 +153,12 @@ header {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
             box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   }
-  .dropdown-menu.pull-right {
-    right: 0;
-    left: auto;
-  }
-  .dropdown-menu .divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5;
-  }
   .dropdown-menu > li > a {
     display: block;
     padding: 3px 20px;
     clear: both;
     font-weight: normal;
-    line-height: 1.42857143;
+    line-height: 1.5;
     color: #333;
     white-space: nowrap;
   }

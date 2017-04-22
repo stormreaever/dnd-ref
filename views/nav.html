@@ -1,6 +1,10 @@
 <header class="{{ $ctrl.url }}">
-  <h1><a href="/">Opus Draconis</a></h1>
+  <h1>
+    <a href="/">Opus Draconis</a>
+  </h1>
   <ul>
-    <li ng-repeat="x in $ctrl.nav" class="{{ $ctrl.getSelected(x) }}"><a href="{{ x.url }}">{{ x.title }}</a></li>
+    <li ng-repeat="x in $ctrl.nav" class="{{ $ctrl.getSelected(x) }}">
+      <a href="{{ x.url }}">{{ x.title }}</a>
+    </li>
   </ul>
 </header>

@@ -8,9 +8,9 @@ app.component('nav', {
         "pageId": "main"
       },
       {
-        "title": "Armour", 
-        "url": "/category/armour", 
-        "pageId": "armour"
+        "title": "Armor", 
+        "url": "/category/armor", 
+        "pageId": "armor"
       },
       {
         "title": "Weapons", 

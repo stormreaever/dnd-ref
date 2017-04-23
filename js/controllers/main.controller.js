@@ -14,7 +14,7 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
     "detailsUrl": ""
   }
   
-  var itemCategories = ['armour', 'weapons'];
+  var itemCategories = ['armor', 'weapons'];
   
   getData(itemCategories);
   

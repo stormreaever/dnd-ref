@@ -2,7 +2,7 @@
   <tr>
     <th ng-click="sortBy('name')">Name</th>
     <th ng-click="sortBy('type')">Type</th>
-    <th ng-click="sortBy('cost')">Cost (gp)</th>
+    <th ng-click="sortBy('cost')">Cost</th>
     <th ng-click="sortBy('damage')">Damage</th>
     <th ng-click="sortBy('damage_type')">Damage Type</th>
     <th ng-click="sortBy('weight')">Weight (lbs)</th>
@@ -12,7 +12,7 @@
   <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
     <td ng-click="selectItem(x)">{{ x.name }}</td>
     <td>{{ x.type }}</td>
-    <td>{{ x.cost }}</td>
+    <td>{{ x.cost | money }}</td>
     <td>{{ x.damage }}</td>
     <td>{{ x.damage_type }}</td>
     <td>{{ x.weight }}</td>

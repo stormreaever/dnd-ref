@@ -1,7 +1,7 @@
 [
   {
     "data_type": "armor",
-    "name": "Padded",
+    "name": "Padded Armor",
     "cost": 5,
     "ac": "11 + Dex mod",
     "str": 0,
@@ -11,7 +11,7 @@
   },
   {
     "data_type": "armor",
-    "name": "Leather",
+    "name": "Leather Armor",
     "cost": 10,
     "ac": "11 + Dex mod",
     "str": 0,
@@ -21,7 +21,7 @@
   },
   {
     "data_type": "armor",
-    "name": "Studded Leather",
+    "name": "Studded Leather Armor",
     "cost": 45,
     "ac": "12 + Dex mod",
     "str": 0,
@@ -31,7 +31,7 @@
   },
   {
     "data_type": "armor",
-    "name": "Hide",
+    "name": "Hide Armor",
     "cost": 10,
     "ac": "12 + Dex mod (max 2)",
     "str": 0,

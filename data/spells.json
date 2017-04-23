@@ -1,7 +1,8 @@
 [{
   "name": "Breath of Winter (17th level required)",
+  "data_type": "spells",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60-foot cone)",
   "components": "6 Ki Points - Cast Cone of Cold",
@@ -16,8 +17,9 @@
   ]
 }, {
   "name": "Clench of the North Wind (6th level required)",
+  "data_type": "spells",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "3 Ki Points - Cast Hold Person",
@@ -30,15 +32,17 @@
   ]
 }, {
   "name": "Commander's Strike",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll."
 }, {
   "name": "Darkness (Monk)",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "2 Ki Points",
@@ -53,6 +57,7 @@
   ]
 }, {
   "name": "Darkvision (Monk)",
+  "data_type": "spells",
   "level": "1",
   "school": "T",
   "time": "1 action",
@@ -63,22 +68,25 @@
   "text": "You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet."
 }, {
   "name": "Disarming Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
 }, {
   "name": "Distracting Strike",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
 }, {
   "name": "Elemental Attunement",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60-foot cone)",
   "components": "1 Action",
@@ -97,6 +105,7 @@
   ]
 }, {
   "name": "Eternal Mountain Defense (17th level required)",
+  "data_type": "spells",
   "level": "3",
   "school": "A",
   "time": "1 action",
@@ -107,15 +116,17 @@
   "text": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
 }, {
   "name": "Evasive Footwork",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."
 }, {
   "name": "Fangs of the Fire Snake",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 Attack Action",
   "range": "Only on Self",
   "components": "1 Ki Point + 1 ki on hit (optional)",
@@ -124,15 +135,17 @@
   "text": "When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d1O fire damage."
 }, {
   "name": "Feinting Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll."
 }, {
   "name": "Fist of Four Thunders",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (15-foot cube)",
   "components": "2 Ki Points",
@@ -141,8 +154,9 @@
   "text": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed."
 }, {
   "name": "Fist of Unbroken Air",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "30-feet",
   "components": "2 Ki Points + 1 ki per boost",
@@ -151,8 +165,9 @@
   "text": "You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone."
 }, {
   "name": "Flames of the Phoenix (11th level required)",
+  "data_type": "spells",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "4 Ki Points - cast fireball",
@@ -161,15 +176,17 @@
   "text": "A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one."
 }, {
   "name": "Goading Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
 }, {
   "name": "Gong of the Summit (6th level required)",
+  "data_type": "spells",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "3 Ki Points - cast shatter",
@@ -182,27 +199,31 @@
   ]
 }, {
   "name": "Lunging Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll."
 }, {
   "name": "Maneuvering Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
 }, {
   "name": "Menacing Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn."
 }, {
   "name": "Minor Illusion (Monk)",
+  "data_type": "spells",
   "level": "0",
   "school": "I",
   "time": "1 action",
@@ -221,6 +242,7 @@
   ]
 }, {
   "name": "Mist Stance (11th level required)",
+  "data_type": "spells",
   "level": "3",
   "school": "T",
   "time": "1 action",
@@ -237,13 +259,15 @@
   ]
 }, {
   "name": "Parry",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier"
 }, {
   "name": "Pass without Trace (Monk)",
+  "data_type": "spells",
   "level": "1",
   "school": "A",
   "time": "1 action",
@@ -254,27 +278,31 @@
   "text": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
 }, {
   "name": "Precision Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
 }, {
   "name": "Pushing Attack",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
 }, {
   "name": "Rally",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
 }, {
   "name": "Ride the Wind (11th level required)",
+  "data_type": "spells",
   "level": "3",
   "school": "T",
   "time": "1 action",
@@ -285,15 +313,17 @@
   "text": "You gain a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall."
 }, {
   "name": "Riposte",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
 }, {
   "name": "River of Hungry Flame (17th level required)",
+  "data_type": "spells",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "5 Ki Points - cast wall of fire",
@@ -310,8 +340,9 @@
   ]
 }, {
   "name": "Rush of the Gale Spirits",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60-foot line)",
   "components": "2 Ki Points - cast gust of wind",
@@ -328,8 +359,9 @@
   ]
 }, {
   "name": "Shape the Flowing River",
+  "data_type": "spells",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "30 foot side within 120 feet of you",
   "components": "1 Ki Point",
@@ -349,14 +381,14 @@
 }, {
   "name": "Sweeping Attack",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
 }, {
   "name": "Sweeping Cinder Strike",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (15-foot cone)",
   "components": "2 Ki Points - cast burning hands",
@@ -372,14 +404,14 @@
 }, {
   "name": "Trip Attack",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "components": "",
   "classes": "Fighter (Battle Master)",
   "text": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone."
 }, {
   "name": "Water Whip",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "30 feet",
   "components": "2 Ki Points + 1 per extra damage (optional)",
@@ -389,7 +421,7 @@
 }, {
   "name": "Wave of Rolling Earth (17th level required)",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "6 Ki Points - cast wall of stone",
@@ -463,7 +495,7 @@
 }, {
   "name": "Aganazzar's Scorcher (EE)",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "30 feet",
   "components": "V, S, M (a red dragon's scale)",
@@ -833,7 +865,7 @@
 }, {
   "name": "Aura of Vitality",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (30-foot radius)",
   "components": "V",
@@ -970,7 +1002,7 @@
 }, {
   "name": "Bigby's Hand",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (an eggshell and a snakeskin glove)",
@@ -1002,7 +1034,7 @@
 }, {
   "name": "Blade Barrier",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "90 feet",
   "components": "V, S",
@@ -1060,7 +1092,7 @@
 }, {
   "name": "Blinding Smite",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V",
@@ -1132,7 +1164,7 @@
 }, {
   "name": "Booming Blade (SCAG)",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "5 feet",
   "components": "V, M (a weapon)",
@@ -1151,7 +1183,7 @@
 }, {
   "name": "Branding Smite",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V",
@@ -1166,7 +1198,7 @@
 }, {
   "name": "Burning Hands",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (15-foot cone)",
   "components": "V, S",
@@ -1235,7 +1267,7 @@
 }, {
   "name": "Chain Lightning",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S, M (a bit of fur, a piece of amber, glass, or crystal rod, and three silver pins)",
@@ -1289,7 +1321,7 @@
 }, {
   "name": "Chromatic Orb",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "90 feet",
   "components": "V, S, M (a diamond worth at least 50 gp)",
@@ -1516,7 +1548,7 @@
 }, {
   "name": "Cone of Cold",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60-foot cone)",
   "components": "V, S, M (a small crystal or glass cone)",
@@ -1755,7 +1787,7 @@
 }, {
   "name": "Contingency",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "10 minutes",
   "range": "Self",
   "components": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)",
@@ -1771,7 +1803,7 @@
 }, {
   "name": "Continual Flame",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Touch",
   "components": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
@@ -2025,7 +2057,7 @@
 }, {
   "name": "Crusader's Mantle",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self",
   "components": "V",
@@ -2036,7 +2068,7 @@
 }, {
   "name": "Cure Wounds",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Touch",
   "components": "V, S",
@@ -2051,7 +2083,7 @@
 }, {
   "name": "Dancing Lights",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M",
@@ -2065,7 +2097,7 @@
 }, {
   "name": "Darkness",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, M (bat fur and a drop of pitch or piece of coal)",
@@ -2091,7 +2123,7 @@
 }, {
   "name": "Daylight",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -2117,7 +2149,7 @@
 }, {
   "name": "Delayed Blast Fireball",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S, M (a tine ball of bat guano and sulfur)",
@@ -2152,7 +2184,7 @@
 }, {
   "name": "Destructive Wave",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (30-foot radius)",
   "components": "V",
@@ -2339,7 +2371,7 @@
 }, {
   "name": "Divine Favor",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V, S",
@@ -2349,7 +2381,7 @@
 }, {
   "name": "Divine Word",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "30 feet",
   "components": "V",
@@ -2510,7 +2542,7 @@
 }, {
   "name": "Earth Tremor (EE)",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (10-foot radius)",
   "components": "V, S",
@@ -2541,7 +2573,7 @@
 }, {
   "name": "Earthquake",
   "level": "8",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "500 feet",
   "components": "V, S, M (a pinch of dirt, a piece of rock, and a lump of clay)",
@@ -2568,7 +2600,7 @@
 }, {
   "name": "Eldritch Blast",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S",
@@ -2806,7 +2838,7 @@
 }, {
   "name": "Faerie Fire",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V",
@@ -2979,7 +3011,7 @@
 }, {
   "name": "Fire Bolt",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S",
@@ -3000,7 +3032,7 @@
 }, {
   "name": "Fire Shield",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self",
   "components": "V, S, M (a bit of phosphorous or a firefly)",
@@ -3017,7 +3049,7 @@
 }, {
   "name": "Fire Storm",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S",
@@ -3032,7 +3064,7 @@
 }, {
   "name": "Fireball",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S, M (a tiny ball of bat guano and sulfur)",
@@ -3066,7 +3098,7 @@
 }, {
   "name": "Flame Blade",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V, S, M (leaf of sumac)",
@@ -3088,7 +3120,7 @@
 }, {
   "name": "Flame Strike",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S, M (pinch of sulfur)",
@@ -3188,7 +3220,7 @@
 }, {
   "name": "Forcecage",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "100 feet",
   "components": "V, S, M (ruby dust worth 1,500 gp)",
@@ -3248,7 +3280,7 @@
 }, {
   "name": "Frostbite (EE)",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -3481,7 +3513,7 @@
 }, {
   "name": "Green-Flame Blade (SCAG)",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "5 feet",
   "components": "V, M (a weapon)",
@@ -3560,7 +3592,7 @@
 }, {
   "name": "Guiding Bolt",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S",
@@ -3598,7 +3630,7 @@
 }, {
   "name": "Gust of Wind",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60-foot line)",
   "components": "V, S, M (a legume seed)",
@@ -3631,7 +3663,7 @@
 }, {
   "name": "Hallow",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "24 hours",
   "range": "Touch",
   "components": "V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)",
@@ -3706,7 +3738,7 @@
 }, {
   "name": "Heal",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -3720,7 +3752,7 @@
 }, {
   "name": "Healing Word",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "60 feet",
   "components": "V",
@@ -3752,7 +3784,7 @@
 }, {
   "name": "Hellish Rebuke",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 reaction",
   "range": "60 feet",
   "components": "V, S",
@@ -3918,7 +3950,7 @@
 }, {
   "name": "Ice Storm",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "300 feet",
   "components": "V, S, M (a pinch of dust and a few drops of water)",
@@ -3969,7 +4001,7 @@
 }, {
   "name": "Immolation (EE)",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "90 feet",
   "components": "V",
@@ -4238,7 +4270,7 @@
 }, {
   "name": "Leomund's Tiny Hut",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "ritual": "YES",
   "time": "1 minute",
   "range": "Self (10-foot-radius hemisphere)",
@@ -4281,7 +4313,7 @@
 }, {
   "name": "Light",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Touch",
   "components": "V, M (a firefly or phosphorescent moss)",
@@ -4314,7 +4346,7 @@
 }, {
   "name": "Lightning Bolt",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (100-foot line)",
   "components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
@@ -4331,7 +4363,7 @@
 }, {
   "name": "Lightning Lure (SCAG)",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "15 feet",
   "components": "V",
@@ -4407,7 +4439,7 @@
 }, {
   "name": "Maelstrom (EE)",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (paper or leaf in the shape of a funnel)",
@@ -4497,7 +4529,7 @@
 }, {
   "name": "Magic Missile",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S",
@@ -4581,7 +4613,7 @@
 }, {
   "name": "Mass Cure Wounds",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -4596,7 +4628,7 @@
 }, {
   "name": "Mass Heal",
   "level": "9",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -4606,7 +4638,7 @@
 }, {
   "name": "Mass Healing Word",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "60 feet",
   "components": "V",
@@ -4696,7 +4728,7 @@
 }, {
   "name": "Melf's Acid Arrow",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "90 feet",
   "components": "V, S, M (powdered rhubarb leaf and an adder's stomach)",
@@ -4715,7 +4747,7 @@
 }, {
   "name": "Melf's Minute Meteors (EE)",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self",
   "components": "V, S, M (niter, sulfur, and pine tar formed into a bead)",
@@ -4760,7 +4792,7 @@
 }, {
   "name": "Meteor Swarm",
   "level": "9",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "1 mile",
   "components": "V, S",
@@ -4913,7 +4945,7 @@
 }, {
   "name": "Moonbeam",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
@@ -5000,7 +5032,7 @@
 }, {
   "name": "Mordenkainen's Sword",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)",
@@ -5066,7 +5098,7 @@
 }, {
   "name": "Otiluke's Freezing Sphere",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "300 feet",
   "components": "V, S, M (a small crystal sphere)",
@@ -5085,7 +5117,7 @@
 }, {
   "name": "Otiluke's Resilient Sphere",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "30 feet",
   "components": "V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)",
@@ -5305,7 +5337,7 @@
 }, {
   "name": "Power Word Heal",
   "level": "9",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Touch",
   "components": "V, S",
@@ -5339,7 +5371,7 @@
 }, {
   "name": "Prayer of Healing",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "10 minutes",
   "range": "30 feet",
   "components": "V",
@@ -5396,7 +5428,7 @@
 }, {
   "name": "Prismatic Spray",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60 foot cone)",
   "components": "V, S",
@@ -5635,7 +5667,7 @@
 }, {
   "name": "Ray of Frost",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -5806,7 +5838,7 @@
 }, {
   "name": "Sacred Flame",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S",
@@ -5840,7 +5872,7 @@
 }, {
   "name": "Scorching Ray",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S",
@@ -5893,7 +5925,7 @@
 }, {
   "name": "Searing Smite",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V",
@@ -5936,7 +5968,7 @@
 }, {
   "name": "Sending",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Unlimited",
   "components": "V, S, M (A short piece of fine copper wire)",
@@ -6013,7 +6045,7 @@
 }, {
   "name": "Shatter",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S, M (a chip of mica)",
@@ -6059,7 +6091,7 @@
 }, {
   "name": "Shocking Grasp",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Touch",
   "components": "V, S",
@@ -6193,7 +6225,7 @@
 }, {
   "name": "Snilloc's Snowball Swarm (EE)",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "90 feet",
   "components": "V, S, M (a piece of ice or a small white rock chip)",
@@ -6307,7 +6339,7 @@
 }, {
   "name": "Spiritual Weapon",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "60 feet",
   "components": "V, S",
@@ -6329,7 +6361,7 @@
 }, {
   "name": "Staggering Smite",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V",
@@ -6376,7 +6408,7 @@
 }, {
   "name": "Storm Sphere (EE)",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S",
@@ -6446,7 +6478,7 @@
 }, {
   "name": "Sunbeam",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (60-foot line)",
   "components": "V, S, M (a magnifying glass)",
@@ -6463,7 +6495,7 @@
 }, {
   "name": "Sunburst",
   "level": "8",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S, M (fire and a piece of sunstone)",
@@ -6587,7 +6619,7 @@
 }, {
   "name": "Telepathy",
   "level": "8",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Unlimited",
   "components": "V, S, M (a pair of linked silver rings)",
@@ -6716,7 +6748,7 @@
 }, {
   "name": "Thunderclap (EE)",
   "level": "0",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (5-foot radius)",
   "components": "S",
@@ -6738,7 +6770,7 @@
 }, {
   "name": "Thunderous Smite",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V",
@@ -6749,7 +6781,7 @@
 }, {
   "name": "Thunderwave",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self (15-foot cube)",
   "components": "V, S",
@@ -6998,7 +7030,7 @@
 }, {
   "name": "Vitriolic Sphere (EE)",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "150 feet",
   "components": "V, S, M (a drop of giant slug bile)",
@@ -7018,7 +7050,7 @@
 }, {
   "name": "Wall of Fire",
   "level": "4",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (a small piece of phosphorus)",
@@ -7037,7 +7069,7 @@
 }, {
   "name": "Wall of Force",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
@@ -7051,7 +7083,7 @@
 }, {
   "name": "Wall of Ice",
   "level": "6",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (a small piece of quartz)",
@@ -7073,7 +7105,7 @@
 }, {
   "name": "Wall of Sand (EE)",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "90 feet",
   "components": "V, S, M (a handful of sand)",
@@ -7087,7 +7119,7 @@
 }, {
   "name": "Wall of Stone",
   "level": "5",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (a small block of granite)",
@@ -7128,7 +7160,7 @@
 }, {
   "name": "Wall of Water (EE)",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "60 feet",
   "components": "V, S, M (a drop of water)",
@@ -7158,7 +7190,7 @@
 }, {
   "name": "Warding Wind (EE)",
   "level": "2",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "Self",
   "components": "V",
@@ -7264,7 +7296,7 @@
 }, {
   "name": "Whirlwind (EE)",
   "level": "7",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "300 feet",
   "components": "V, M (a piece of straw)",
@@ -7301,7 +7333,7 @@
 }, {
   "name": "Wind Wall",
   "level": "3",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "120 feet",
   "components": "V, S, M (a tiny fan and a feather of exotic origin)",
@@ -7351,7 +7383,7 @@
 }, {
   "name": "Witch Bolt",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 action",
   "range": "30 feet",
   "components": "V, S, M (a twig from a tree that has been struck by lightning)",
@@ -7380,7 +7412,7 @@
 }, {
   "name": "Wrathful Smite",
   "level": "1",
-  "school": "EV",
+  "school": "Evocation",
   "time": "1 bonus action",
   "range": "Self",
   "components": "V, S, M",

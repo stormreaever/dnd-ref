@@ -1,0 +1,35 @@
+.table {
+  margin: 0 32px;
+}
+
+table {
+  font-family: "DIN", "DIN Alternate";
+  font-size: 15px;
+  border-collapse: collapse;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 48px auto;
+  
+  th {
+    border-bottom: 2px solid $black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Gill Sans", Futura, sans-serif;
+    vertical-align: bottom;
+    text-align: left;
+    padding: 2px 16px;
+  }
+  
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 16px;
+  }
+  th, .item-select {
+    cursor: pointer;
+    
+    &:hover {
+      color: $red;
+    }
+  }
+}

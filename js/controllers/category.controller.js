@@ -6,7 +6,7 @@ app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
   $scope.searchText = '';
   
   $scope.sortProperty = 'name';
-  $scope.reverse = true;
+  $scope.reverse = false;
   
   $scope.selectedItem = {};
   

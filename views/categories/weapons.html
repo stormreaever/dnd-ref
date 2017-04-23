@@ -1,22 +1,24 @@
-<table>
-  <tr>
-    <th ng-click="sortBy('name')">Name</th>
-    <th ng-click="sortBy('type')">Type</th>
-    <th ng-click="sortBy('cost')">Cost</th>
-    <th ng-click="sortBy('damage')">Damage</th>
-    <th ng-click="sortBy('damage_type')">Damage Type</th>
-    <th ng-click="sortBy('weight')">Weight (lbs)</th>
-    <th ng-click="sortBy('range_short')">Range</th>
-    <th ng-click="sortBy('properties_str')">Properties</th>
-  </tr>
-  <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-    <td ng-click="selectItem(x)">{{ x.name }}</td>
-    <td>{{ x.type }}</td>
-    <td>{{ x.cost | money }}</td>
-    <td>{{ x.damage }}</td>
-    <td>{{ x.damage_type }}</td>
-    <td>{{ x.weight }}</td>
-    <td>{{ x.range }}</td>
-    <td>{{ x.properties | concatenate }}</td>
-  </tr>
-</table>
+<div class="table">
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')">Name</th>
+      <th ng-click="sortBy('type')">Type</th>
+      <th ng-click="sortBy('cost')">Cost</th>
+      <th ng-click="sortBy('damage')">Damage</th>
+      <th ng-click="sortBy('damage_type')">Damage Type</th>
+      <th ng-click="sortBy('weight')">Weight</th>
+      <th ng-click="sortBy('range_short')">Range</th>
+      <th ng-click="sortBy('properties_str')">Properties</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td><span class="item-select" ng-click="selectItem(x)">{{ x.name }}</span></td>
+      <td>{{ x.type }}</td>
+      <td>{{ x.cost | money }}</td>
+      <td>{{ x.damage }}</td>
+      <td>{{ x.damage_type }}</td>
+      <td>{{ x.weight }} lbs</td>
+      <td>{{ x.range }}</td>
+      <td>{{ x.properties | concatenate }}</td>
+    </tr>
+  </table>
+</div>

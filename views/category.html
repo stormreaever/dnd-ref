@@ -4,8 +4,6 @@
   <input id="search-box" ng-model="searchText" placeholder="Filter" list="items" ng-change="searchChange()" uib-typeahead="x.name for x in items | filter:{name: searchText} | limitTo:5" typeahead-show-hint="true" typeahead-on-select="searchChange()" />
 </label>
 
-<p>{{ category }}</p>
-
 <div ng-include="template.categoryUrl"></div>
 
 <div ng-include="template.detailsUrl"></div>

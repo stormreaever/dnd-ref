@@ -6,8 +6,9 @@
     <h1>{{ selectedItem.name }}</h1>
 
     <p class="item-type">{{ selectedItem.type }}</p>
-    <p class="key-value"><span class="key">Armor Class:</span> {{ selectedItem.ac }}</p>
-    <p class="key-value"><span class="key">Stealth:</span> {{ selectedItem.stealth }}</p>
+    <p class="text"><span class="key">Armor Class:</span> {{ selectedItem.ac }}</p>
+    
+    <p class="text">{{ selectedItem.stealth === "Disadvantage" ? "Disadvantage on stealth checks." : "No disadvantage on stealth." }}</p>
   </div>
   <div class="section">
     <p class="weight">{{ selectedItem.weight }} lbs</p>

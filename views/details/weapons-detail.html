@@ -6,7 +6,7 @@
     <h1>{{ selectedItem.name }}</h1>
 
     <p class="item-type">{{ selectedItem.type }}</p>
-    <p class="key-value"><span class="key">{{ selectedItem.damage }} {{ selectedItem.damage_type }}</span> damage</p>
+    <p class="text"><span class="key">{{ selectedItem.damage }} {{ selectedItem.damage_type }}</span> damage</p>
 
     <div class="tag-group">
       <div class="tag" ng-repeat="prop in selectedItem.properties" ng-switch on="prop">

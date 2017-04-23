@@ -134,6 +134,7 @@ header {
       left: auto !important;
       background: none !important;
       color: $linkgrey !important;
+      user-select: none;
     }
   }
   
@@ -177,6 +178,7 @@ header {
       
       padding: 6px 18px;
       color: $linkgrey;
+      outline: none; 
       strong {
         color: $black;
         font-weight: bold;

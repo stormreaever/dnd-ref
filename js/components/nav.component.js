@@ -16,6 +16,11 @@ app.component('nav', {
         "title": "Weapons", 
         "url": "/category/weapons", 
         "pageId": "weapons"
+      },
+      {
+        "title": "Spells", 
+        "url": "/category/spells", 
+        "pageId": "spells"
       }
     ];
     this.getSelected = function(item) {

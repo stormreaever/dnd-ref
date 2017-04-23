@@ -1,0 +1,24 @@
+<div class="table">
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')">Name</th>
+      <th ng-click="sortBy('level')">Level</th>
+      <th ng-click="sortBy('school')">School</th>
+      <th ng-click="sortBy('time')">Time</th>
+      <th ng-click="sortBy('duration')">Duration</th>
+      <th ng-click="sortBy('range')">Range</th>
+      <th ng-click="sortBy('components')">Components</th>
+      <th ng-click="sortBy('classes')">Classes</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td><span class="item-select" ng-click="selectItem(x)">{{ x.name }}</span></td>
+      <td>{{ x.level }}</td>
+      <td>{{ x.school }}</td>
+      <td>{{ x.time }}</td>
+      <td>{{ x.duration }}</td>
+      <td>{{ x.range }}</td>
+      <td>{{ x.components }}</td>
+      <td>{{ x.classes }}</td>
+    </tr>
+  </table>
+</div>

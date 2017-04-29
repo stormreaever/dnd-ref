@@ -8,7 +8,7 @@
     <p class="item-type">Level {{ selectedItem.level }} {{ selectedItem.school }}</p>
     
     <p class="text"><span class="key">Components: </span> {{ selectedItem.components }}</p>
-    <p class="text">{{ selectedItem.text }}</p>
+    <p class="text" ng-repeat="text in selectedItem.text | make_array">{{ text }}</p>
   </div>
   <div class="section">
     <p class="weight">{{ selectedItem.weight }} lbs</p>

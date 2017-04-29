@@ -8,6 +8,17 @@ angular.module('core').filter('concatenate', function() {
   };
 });
 
+angular.module('core').filter('make_array', function() {
+  return function(text) {
+    if (typeof text === 'string') {
+      var new_array = [string];
+      return new_array;
+    } else {
+      return text;
+    }
+  };
+});
+
 angular.module('core').filter('money', function() {
   return function(money) {
     if (typeof money != 'undefined') {
@@ -21,8 +32,6 @@ angular.module('core').filter('money', function() {
       }
       money = money * 10;
       return money + " cp";
-      
     }
-    
   };
 });

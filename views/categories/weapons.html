@@ -8,7 +8,7 @@
       <th ng-click="sortBy('damage_type')">Damage Type</th>
       <th ng-click="sortBy('weight')">Weight</th>
       <th ng-click="sortBy('range_short')">Range</th>
-      <th ng-click="sortBy('properties_str')">Properties</th>
+      <th>Properties</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
       <td><span class="item-select" ng-click="selectItem(x)">{{ x.name }}</span></td>

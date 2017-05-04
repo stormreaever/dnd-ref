@@ -10,10 +10,11 @@
 
     <div class="tag-group">
       <div class="tag" ng-repeat="prop in selectedItem.properties" ng-switch on="prop">
-        {{ prop }}
-        <span ng-switch-when="ammunition">(range {{ selectedItem.range }})</span>
-        <span ng-switch-when="thrown">(range {{ selectedItem.range }})</span>
-        <span ng-switch-when="versatile">({{ selectedItem.versatile_damage }})</span>
+        <span ng-switch-when="ammunition">{{ prop }} (range {{ selectedItem.range }})</span>
+        <span ng-switch-when="thrown">{{ prop }} (range {{ selectedItem.range }})</span>
+        <span ng-switch-when="versatile">{{ prop }} ({{ selectedItem.versatile_damage }})</span>
+        <span ng-switch-when="special" title="{{ selectedItem.special }}">{{ prop }}</span>
+        <span ng-switch-default="special">{{ prop }}</span>
       </div>
     </div>
     

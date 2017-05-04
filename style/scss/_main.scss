@@ -114,6 +114,8 @@ header {
     top: -40px;
     right: 8px;
     
+    transition: opacity 0.5s ease;
+    
     opacity: 0;
     
     svg {

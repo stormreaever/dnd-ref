@@ -40,6 +40,11 @@ app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
     }
   };
   
+  $scope.clearSearch = function() {
+    $scope.searchText = '';
+    $scope.searchChange();
+  };
+  
   function getData(url) {
     $http.get(url).then(function (response) {
         data = response.data;

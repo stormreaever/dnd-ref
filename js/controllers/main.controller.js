@@ -50,5 +50,10 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
     }
   };
   
+  $scope.clearSearch = function() {
+    $scope.searchText = '';
+    $scope.searchChange();
+  };
+  
   
 });

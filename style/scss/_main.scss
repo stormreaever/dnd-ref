@@ -1,7 +1,6 @@
 // global
 
 * {
-  transition: all 0.5s ease;
   box-sizing: border-box;
 }
 
@@ -24,6 +23,7 @@ body {
 a {
   color: $linkgrey;
   text-decoration: none;
+  transition: color 0.5s ease;
   
   &:hover {
     color: $linkhover;
@@ -40,8 +40,6 @@ $nav-height: 48px;
 
 header {
   height: $nav-height;
-  //border-bottom: 1px solid $bordergrey;
-  //background: $bggrey;
   padding: 0 16px;
   
   h1 {
@@ -92,12 +90,51 @@ header {
 // search box
 
 .search-box {
+  position: relative;
   display: block;
   padding-top: calc(45vh - 50px);
   padding-bottom: calc(55vh - 50px);
+  transition: padding 0.5s ease;
   
   &.typing {
     padding: 10vh 0 15vh 0;
+    
+    .x-icon {      
+      opacity: 1;
+    }
+  }
+  
+  .x-icon {
+    margin: 0 auto;
+    width: 480px;
+    max-width: 90%;
+    
+    display: block;
+    position: relative;
+    top: -40px;
+    right: 8px;
+    
+    opacity: 0;
+    
+    svg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      
+      height: 32px; 
+      width: 32px;
+      padding: 8px;
+      
+      stroke: $linkgrey;
+      
+      cursor: pointer;
+      transition: stroke 0.5s ease;
+      
+      &:hover {
+        stroke: $black;
+      }
+      
+    }
   }
   
   input {
@@ -118,6 +155,9 @@ header {
     border: 1px solid $bordergrey;
     border-width: 0 0 1px 0;
     border-radius: 0;
+    
+    
+    transition: border-color 0.5s ease;
     
     &:focus {
       border-color: $black;
@@ -181,6 +221,8 @@ header {
       padding: 6px 18px;
       color: $linkgrey;
       outline: none; 
+      
+      
       strong {
         color: $black;
         font-weight: bold;

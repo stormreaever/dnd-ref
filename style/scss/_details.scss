@@ -4,8 +4,10 @@
   max-width: 90%;
   width: 720px;
   margin: 48px auto;
+  margin: 0 auto;
   
-  background: $bggrey;
+  background: $white;
+  border-radius: 4px;
   
   .category {
     padding: 8px 16px;
@@ -15,6 +17,7 @@
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
+    border-radius: 4px 4px 0 0;
   }
   .body {
     padding: 32px 32px;

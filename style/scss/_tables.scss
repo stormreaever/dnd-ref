@@ -8,7 +8,9 @@ table {
   border-collapse: collapse;
   max-width: 100%;
   box-sizing: border-box;
-  margin: 48px auto;
+  //margin: 48px auto;
+  margin: 0 auto;
+  margin-bottom: 48px;
   
   th {
     border-bottom: 2px solid $black;

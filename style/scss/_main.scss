@@ -19,6 +19,7 @@ html, body {
 body {
   font-family: "Gill Sans", Futura, sans-serif;
   color: $black;
+  background: $bggrey;
 }
 a {
   color: $linkgrey;
@@ -39,7 +40,8 @@ $nav-height: 48px;
 
 header {
   height: $nav-height;
-  border-bottom: 1px solid $bordergrey;
+  //border-bottom: 1px solid $bordergrey;
+  //background: $bggrey;
   padding: 0 16px;
   
   h1 {
@@ -91,11 +93,11 @@ header {
 
 .search-box {
   display: block;
-  padding: calc((100vh - 49px - 51px) / 2) 0;
-  background: $bggrey;
+  padding-top: calc(45vh - 50px);
+  padding-bottom: calc(55vh - 50px);
   
   &.typing {
-    padding: 12.5vh 0;
+    padding: 10vh 0 15vh 0;
   }
   
   input {

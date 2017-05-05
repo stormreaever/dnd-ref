@@ -5,14 +5,19 @@
       <th ng-click="sortBy('type')">Type</th>
       <th ng-click="sortBy('cost')">Cost</th>
       <th ng-click="sortBy('ac')">AC</th>
+      <th ng-click="sortBy('str')">Str</th>
       <th ng-click="sortBy('stealth')">Stealth</th>
       <th ng-click="sortBy('weight')">Weight</th>
     </tr>
-    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText"  ng-switch on="x.str">
       <td><span class="item-select" ng-click="selectItem(x)">{{ x.name }}</span></td>
       <td>{{ x.type }}</td>
       <td>{{ x.cost | money }}</td>
       <td>{{ x.ac }}</td>
+      <td style="text-align:center">
+        <span ng-switch-when="0">&mdash;</span>
+        <span ng-switch-default="0">{{ x.str }}</span>
+      </td>
       <td>{{ x.stealth }}</td>
       <td>{{ x.weight }} lbs</td>
     </tr>

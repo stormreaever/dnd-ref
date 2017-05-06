@@ -21,6 +21,11 @@ app.component('nav', {
         "title": "Spells", 
         "url": "/category/spells", 
         "pageId": "spells"
+      },
+      {
+        "title": "Feats", 
+        "url": "/category/feats", 
+        "pageId": "feats"
       }
     ];
     this.getSelected = function(item) {

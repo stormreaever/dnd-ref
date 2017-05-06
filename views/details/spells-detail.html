@@ -7,11 +7,12 @@
 
     <p class="item-type">Level {{ selectedItem.level }} {{ selectedItem.school }}</p>
     
+    <p class="text"><span class="key">Range: </span> {{ selectedItem.range }}</p>
     <p class="text"><span class="key">Components: </span> {{ selectedItem.components }}</p>
     <p class="text" ng-repeat="text in selectedItem.text | make_array">{{ text }}</p>
   </div>
   <div class="section">
-    <p class="weight">{{ selectedItem.weight }} lbs</p>
-    <p class="cost">{{ selectedItem.cost | money }}</p>
+    <p class="time">Casting Time: {{ selectedItem.time }}</p>
+    <p class="duration">Duration: {{ selectedItem.duration }}</p>
   </div>
 </div>

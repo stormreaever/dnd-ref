@@ -51,16 +51,16 @@
       clear: both;
     }
   }
-  .cost, .weight {
+  .section {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
   }
-  .cost {
-    float: right;
-  }
-  .weight {
+  .section p:first-child {
     float: left;
+  }
+  .section p:last-child {
+    float: right;
   }
   .tag-group {
     margin-top: 24px;

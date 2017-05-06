@@ -1,0 +1,2116 @@
+[
+  {
+    "name": "Abacus",
+    "type": "G",
+    "weight": "2",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Acid (vial)",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 148"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Alchemist's Fire (flask)",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 148"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Alchemist's Supplies",
+    "type": "G",
+    "weight": "8",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Antitoxin",
+    "type": "G",
+    "text": [
+      "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Assassin's Blood (Ingested)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned."
+    ],
+    "roll": "1d12",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Backpack",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Bagpipes",
+    "type": "G",
+    "weight": "6",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Ball Bearings",
+    "type": "G",
+    "weight": "0.002",
+    "text": [
+      "As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Barrel",
+    "type": "G",
+    "weight": "70",
+    "text": [
+      "A barrel can hold 40 gallons of liquid or 4 cubic feet of solids."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Basic Poison (vial)",
+    "type": "G",
+    "text": [
+      "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Basket",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A basket holds 2 cubic feet or 40 pounds of gear."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Bedroll",
+    "type": "G",
+    "weight": "7",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Bell",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Blanket",
+    "type": "G",
+    "weight": "3",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Block and Tackle",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Book",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Brewer's Supplies",
+    "type": "G",
+    "weight": "9",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Bucket",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A bucket holds 3 gallons of liquid or 1/2 cubic foot of solids."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Bullseye Lantern",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Burglar's Pack",
+    "type": "G",
+    "weight": "44.5",
+    "text": [
+      "Includes:",
+      "• a backpack",
+      "• a bag of 1,000 ball bearings",
+      "• 10 feet of string",
+      "• a bell",
+      "• 5 candles",
+      "• a crowbar",
+      "• a hammer",
+      "• 10 pitons",
+      "• a hooded lantern",
+      "• 2 flasks of oil",
+      "• 5 days rations",
+      "• a tinderbox",
+      "• a waterskin",
+      "• 50 feet of hempen rope"
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Burnt Othur Fumes (Inhaled)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends."
+    ],
+    "roll": [
+      "3d6",
+      "1d6"
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Calligrapher's Supplies",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Caltrops",
+    "type": "G",
+    "weight": "0.1",
+    "text": [
+      "As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Candle",
+    "type": "G",
+    "text": [
+      "For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Carpenter's Tools",
+    "type": "G",
+    "weight": "6",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Carrion Crawler Mucus (Contact)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "This poison must be harvested from a dead or incapacitated carrion crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Cartographer's Tools",
+    "type": "G",
+    "weight": "6",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Chain (10 feet)",
+    "type": "G",
+    "weight": "10",
+    "text": [
+      "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Chalk (1 piece)",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Chest",
+    "type": "G",
+    "weight": "25",
+    "text": [
+      "A chest holds 12 cubic feet or 300 pounds of gear."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Climber's Kit",
+    "type": "G",
+    "weight": "12",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Cobbler's Tools",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Common Clothes",
+    "type": "G",
+    "weight": "3",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Component Pouch",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Cook's Utensils",
+    "type": "G",
+    "weight": "8",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Costume Clothes",
+    "type": "G",
+    "weight": "4",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Crossbow Bolt Case",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "This wooden case can hold up to twenty crossbow bolts."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Crowbar",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Crystal",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Dice Set",
+    "type": "G",
+    "text": [
+      "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Diplomat's Pack",
+    "type": "G",
+    "weight": "36",
+    "text": [
+      "Includes:",
+      "• a chest",
+      "• 2 cases for maps and scrolls",
+      "• a set of fine clothes",
+      "• a bottle of ink",
+      "• an ink pen",
+      "• a lamp",
+      "• 2 flasks of oil",
+      "• 5 sheets of paper",
+      "• a vial of perfume",
+      "• sealing wax",
+      "• soap."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Disguise Kit",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Dragonchess Set",
+    "type": "G",
+    "weight": "0.5",
+    "text": [
+      "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Drow Poison (Injury)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "This poison is typically made only by the draw, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Drum",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Dulcimer",
+    "type": "G",
+    "weight": "10",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Dungeoneer's Pack",
+    "type": "G",
+    "weight": "61.5",
+    "text": [
+      "Includes:",
+      "• a backpack",
+      "• a crowbar",
+      "• a hammer",
+      "• 10 pitons",
+      "• 10 torches",
+      "• a tinderbox",
+      "• 10 days of rations",
+      "• a waterskin",
+      "• 50 feet of hempen rope"
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Entertainer's Pack",
+    "type": "G",
+    "weight": "38",
+    "text": [
+      "Includes:",
+      "• a backpack",
+      "• a bedroll",
+      "• 2 costumes",
+      "• 5 candles",
+      "• 5 days of rations",
+      "• a waterskin",
+      "• a disguise kit."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Essence of Ether (Inhaled)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 8 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Explorer's Pack",
+    "type": "G",
+    "weight": "59",
+    "text": [
+      "Includes:",
+      "• a backpack",
+      "• a bedroll",
+      "• a mess kit",
+      "• a tinderbox",
+      "• 10 torches",
+      "• 10 days of rations",
+      "• a waterskin",
+      "• 50 feet of hempen rope"
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Fine Clothes",
+    "type": "G",
+    "weight": "6",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Fishing Tackle",
+    "type": "G",
+    "weight": "4",
+    "text": [
+      "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Flask",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A flask holds 1 pint of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Flute",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Forgery Kit",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Glass Bottle",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A bottle holds 1 1/2 pints of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Glassblower's Tools",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Grappling Hook",
+    "type": "G",
+    "weight": "4",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Hammer",
+    "type": "G",
+    "weight": "3",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Healer's Kit",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Hempen Rope (50 feet)",
+    "type": "G",
+    "weight": "10",
+    "text": [
+      "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Herbalism Kit",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Holy Symbol (Amulet)",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A holy symbol is a representation of a god or pantheon",
+      "A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Holy Symbol (Emblem)",
+    "type": "G",
+    "text": [
+      "A holy symbol is a representation of a god or pantheon",
+      "A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Holy Symbol (Reliquary)",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A holy symbol is a representation of a god or pantheon",
+      "A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Holy Water (flask)",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\\n\\tA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Hooded Lantern",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Horn",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Hourglass",
+    "type": "G",
+    "weight": "1",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Hunting Trap",
+    "type": "G",
+    "weight": "25",
+    "text": [
+      "When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Ink (1 ounce bottle)",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Ink Pen",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Iron Pot",
+    "type": "G",
+    "weight": "10",
+    "text": [
+      "An iron pot holds 1 gallon of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Iron Spikes",
+    "type": "G",
+    "weight": "0.5",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Jeweler's Tools",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Jug",
+    "type": "G",
+    "weight": "4",
+    "text": [
+      "A jug holds 1 gallon of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Ladder (10-foot)",
+    "type": "G",
+    "weight": "25",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Lamp",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Leatherworker's Tools",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Lock",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Lute",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Lyre",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Magnifying Glass",
+    "type": "G",
+    "text": [
+      "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Malice (Inhaled)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded."
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Manacles",
+    "type": "G",
+    "weight": "6",
+    "text": [
+      "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Map or Scroll Case",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Mason's Tools",
+    "type": "G",
+    "weight": "8",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Merchant's Scale",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Mess Kit",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Midnight Tears (Ingested)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one."
+    ],
+    "roll": "9d6",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Miner's Pick",
+    "type": "G",
+    "weight": "10",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Monster Hunter's Pack",
+    "type": "G",
+    "weight": "48.5",
+    "text": [
+      "Includes:",
+      "   • a chest",
+      "   • a crowbar",
+      "   • a hammer",
+      "   • three wooden stakes",
+      "   • a holy symbol",
+      "   • a flask of holy water",
+      "   • a set of manacles",
+      "   • a steel mirror",
+      "   • a flask of oil",
+      "   • a tinderbox",
+      "   • 3 torches",
+      "Cost: 33 gp"
+    ],
+    "source": [
+      "Source: Curse of Strahd, page 209"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Navigator's Tools",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Oil (flask)",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 152"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Oil of Taggit (Contact)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage."
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Orb",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Painter's Supplies",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Pale Tincture (Ingested)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
+    ],
+    "roll": "1d6",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Pan Flute",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Paper (one sheet)",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Parchment (one sheet)",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Perfume (vial)",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Pitcher",
+    "type": "G",
+    "weight": "4",
+    "text": [
+      "A pitcher holds 1 gallon of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Piton",
+    "type": "G",
+    "weight": "0.25",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Playing Card Set",
+    "type": "G",
+    "text": [
+      "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Poisoner's Kit",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Pole (10-foot)",
+    "type": "G",
+    "weight": "7",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Portable Ram",
+    "type": "G",
+    "weight": "35",
+    "text": [
+      "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Potter's Tools",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Pouch",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Priest's Pack",
+    "type": "G",
+    "weight": "24",
+    "text": [
+      "Includes:",
+      "• a backpack",
+      "• a blanket",
+      "• 10 candles",
+      "• a tinderbox",
+      "• an alms box",
+      "• 2 blocks of incense",
+      "• a censer",
+      "• vestments",
+      "• 2 days of rations",
+      "• a waterskin."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Purple Worm Poison (Injury)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one."
+    ],
+    "roll": "12d6",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Quiver",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A quiver can hold up to 20 arrows."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Rations (1 day)",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Robes",
+    "type": "G",
+    "weight": "4",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Rod",
+    "type": "G",
+    "weight": "2",
+    "text": [
+      "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Sack",
+    "type": "G",
+    "weight": "0.5",
+    "text": [
+      "A sack can hold up to 1 cubic foot or 30 pounds of gear."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Scholar's Pack",
+    "type": "G",
+    "weight": "10",
+    "text": [
+      "Includes:",
+      "• a backpack",
+      "• a book of lore",
+      "• a bottle of ink",
+      "• an ink pen",
+      "• 10 sheets of parchment",
+      "• a little bag of sand",
+      "• a small knife."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Sealing Wax",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Serpent Venom (Injury)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "This poison must be harvested from a dead or incapacitated giant poisonous snake. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+    ],
+    "roll": "3d6",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Shawm",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Shovel",
+    "type": "G",
+    "weight": "5",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Signal Whistle",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Signet Ring",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Silk Rope (50 feet)",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Sledge Hammer",
+    "type": "G",
+    "weight": "10",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Smith's Tools",
+    "type": "G",
+    "weight": "8",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Soap",
+    "type": "G",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Spellbook",
+    "type": "G",
+    "weight": "3",
+    "text": [
+      "Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Sprig of Mistletoe",
+    "type": "G",
+    "text": [
+      "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Spyglass",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "Objects viewed through a spyglass are magnified to twice their size."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Staff",
+    "type": "G",
+    "weight": "4",
+    "text": [
+      "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Steel Mirror",
+    "type": "G",
+    "weight": "0.5",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Tankard",
+    "type": "G",
+    "text": [
+      "A tankard holds 1 pint of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Thieves' Tools",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Three-Dragon Ante Set",
+    "type": "G",
+    "text": [
+      "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Tinderbox",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Tinker's Tools",
+    "type": "G",
+    "weight": "10",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Tome of Strahd",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "The Tome of Strahd is an ancient work penned by Strahd, a tragic tale of how he came to his fallen state. The book is bound in a thick leather cover with steel hinges and fastenings. The pages are of parchment and very brittle. Most of the book is written in the curious shorthand that only Strahd employs. Stains and age have made most of the work illegible, but several paragraphs remain intact."
+    ],
+    "source": [
+      "Source: Curse of Strahd, page 221"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Torch",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Torpor (Ingested)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated."
+    ],
+    "roll": "4d6",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Totem",
+    "type": "G",
+    "text": [
+      "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Traveler's Clothes",
+    "type": "G",
+    "weight": "4",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Trinket",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.",
+      "Player Handbook Trinkets:",
+      "01. A mummified goblin hand.",
+      "02. A piece of crystal that faintly glows in the moonlight.",
+      "03. A gold coin minted in an unknown land.",
+      "04. A diary written in a language you don't know.",
+      "05. A brass ring that never tarnishes.",
+      "06. An old chess piece made from glass.",
+      "07. A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips.",
+      "08. A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it.",
+      "09. A rope necklace from which dangles four mummified elf fingers.",
+      "10. The deed for a parcel of land in a realm unknown to you.",
+      "11. A 1-ounce block made from an unknown material.",
+      "12. A small cloth doll skewered with needles.",
+      "13. A tooth from an unknown beast.",
+      "14. An enormous scale, perhaps from a dragon.",
+      "15. A bright green feather.",
+      "16. An old divination card bearing your likeness.",
+      "17. A glass orb filled with moving smoke.",
+      "18. A 1-pound egg with a bright red shell.",
+      "19. A pipe that blows bubbles.",
+      "20. A glass jar containing a weird bit of flesh floating in pickling fluid.",
+      "21. A tiny gnome-crafted music box that plays a song you dimly remember from your childhood.",
+      "22. A small wooden statuette of a smug halfling.",
+      "23. A brass orb etched with strange runes.",
+      "24. A multicolored stone disk.",
+      "25. A tiny silver icon of a raven.",
+      "26. A bag containing forty-seven humanoid teeth, one of which is rotten.",
+      "27. A shard of obsidian that always feels warm to the touch.",
+      "28. A dragon's bony talon hanging from a plain leather necklace.",
+      "29. A pair of old socks.",
+      "30. A blank book whose pages refuse to hold ink, chalk, graphite, or any other substance or marking.",
+      "31. A silver badge in the shape of a five-pointed star.",
+      "32. A knife that belonged to a relative.",
+      "33. A glass vial filled with nail clippings.",
+      "34. A rectangular metal device with two tiny metal cups on one end that throws sparks when wet.",
+      "35. A white, sequined glove sized for a human.",
+      "36. A vest with one hundred tiny pockets.",
+      "37. A small, weightless stone block.",
+      "38. A tiny sketch portrait of a goblin.",
+      "39. An empty glass vial that smells of perfume when opened.",
+      "40. A gemstone that looks like a lump of coal when examined by anyone but you.",
+      "41. A scrap of cloth from an old banner.",
+      "42. A rank insignia from a lost legionnaire.",
+      "43. A tiny silver bell without a clapper.",
+      "44. A mechanical canary inside a gnomish lamp.",
+      "45. A tiny chest carved to look like it has numerous feet on the bottom.",
+      "46. A dead sprite inside a clear glass bottle.",
+      "47. A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice).",
+      "48. A glass orb filled with water, in which swims a clockwork goldfish.",
+      "49. A silver spoon with an 'M' engraved on the handle.",
+      "50. A whistle made from gold-colored wood.",
+      "51. A dead scarab beetle the size of your hand.",
+      "52. Two toy soldiers, one with a missing head .",
+      "53. A small box filled with different-sized buttons.",
+      "54. A candle that cant be lit.",
+      "55. A tiny cage with no door.",
+      "56. An old key.",
+      "57. An indecipherable treasure map.",
+      "58. A hilt from a broken sword.",
+      "59. A rabbit's foot.",
+      "60. A glass eye.",
+      "61. A cameo carved in the likeness of a hideous person.",
+      "62. A silver skull the size of a coin.",
+      "63. An alabaster mask.",
+      "64. A pyramid of sticky black incense that smells very bad.",
+      "65. A nightcap that, when worn, gives you pleasant dreams.",
+      "66. A single caltrop made from bone.",
+      "67. A gold monocle frame without the lens.",
+      "68. A 1-inch cube, each side painted a different color.",
+      "69. A crystal knob from a door.",
+      "70. A small packet filled with pink dust.",
+      "71. A fragment of a beautiful song, written as musical notes on two pieces of parchment.",
+      "72. A silver teardrop earring made from a real teardrop.",
+      "73. The shell of an egg painted with scenes of human misery in disturbing detail.",
+      "74. A fan that, when unfolded, shows a sleeping cat.",
+      "75. A set of bone pipes.",
+      "76. A four-leaf clover pressed inside a book discussing manners and etiquette.",
+      "77. A sheet of parchment upon which is drawn a complex mechanical contraption.",
+      "78. An ornate scabbard that fits no blade you have found so far.",
+      "79. An invitation to a party where a murder happened.",
+      "80. A bronze pentacle with an etching of a rat's head in its center.",
+      "81. A purple handkerchief embroidered with the name of a powerful archmage.",
+      "82. Half of a floorplan for a temple, castle, or some other structure.",
+      "83. A bit of folded cloth that, when unfolded, turns into a stylish cap.",
+      "84. A receipt of deposit at a bank in a far-flung city.",
+      "85. A diary with seven missing pages.",
+      "86. An empty silver snuffbox bearing an inscription on the surface that says \"dreams\".",
+      "87. An iron holy symbol devoted to an unknown god.",
+      "88. A book that tells the story of a legendary hero's rise and fall, with the last chapter missing.",
+      "89. A vial of dragon blood.",
+      "90. An ancient arrow of elven design.",
+      "91. A needle that never bends.",
+      "92. An ornate brooch of dwarven design.",
+      "93. An empty wine bottle bearing a pretty label that says, \"The Wizard of Wines Winery, Red Dragon Crush, 331422-W\".",
+      "94. A mosaic tile with a multicolored, glazed surface.",
+      "95. A petrified mouse.",
+      "96. A black pirate flag adorned with a dragon's skull and crossbones.",
+      "97. A tiny mechanical crab or spider that moves about when it's not being observed.",
+      "98. A glass jar containing lard with a label that reads, \"Griffon Grease\".",
+      "99. A wooden box with a ceramic bottom that holds a living worm with a head on each end of it's body.",
+      "100. A metal urn containing the ashes of a hero.",
+      "Elemental Evil Trinkets:",
+      "01. A compass that always points to Mulmaster.",
+      "02. A paper fan that won't produce a breeze no matter how hard it's waved.",
+      "03. A petrified potato that resembles someone important to you.",
+      "04. A glass cup that can only be filled half way no matter how much liquid is pored into it.",
+      "05. A mirror that only shows the back of your head.",
+      "06. A small glass bird that when set down near water dips its head in as if to get a drink.",
+      "07. A lady's coin purse containing two sharp fangs.",
+      "08. A small sea conch with the words \"From the beginning\" painted on the lip.",
+      "09. A frost-covered silver locket that's frozen shut.",
+      "10. A seal which imprints a mysterious, unknown coat of arms into hard rock.",
+      "11. A small wooden doll that when held brings back fond memories.",
+      "12. A small handmirror which only reflects inanimate objects.",
+      "13. A glass eyeball that looks about of its own accordance, and can roll around.",
+      "14. A glass orb that replicates yesterday's weather inside itself.",
+      "15. A drinking cup, that randomly fills with fresh or salt water. Refilling once emptied.",
+      "16. A deep blue piece of flint, that when struck with steel produces not a spark but a drop of water.",
+      "17. A conch shell which is always damp and constantly drips saltwater.",
+      "18. A charred, half-melted pewter clasp that glows as if smoldering but releases no heat.",
+      "19. A clockwork finch that flaps its wings in the presence of a breeze.",
+      "20. A unbreakable sealed jar of glowing water that hums when shaken.",
+      "21. A small, finely polished geode whose crystals slowly fade between every color of the spectrum.",
+      "22. A rough stone eye pulled from a petrified creature.",
+      "23. A stone smoking pipe that never needs lighting.",
+      "24. A small whistle, that when blown, whispers a name of a person or place unknown to you, instead of the whistle sound.",
+      "25. A fist sized rock that \"beats\" like a heart.",
+      "26. A pair of bronze scissors in the shape of a pair of leaping dolphins.",
+      "27. A bronze oil lamp which is rumored to have once held a genie.",
+      "28. A single gauntlet inscribed with a fire motif and an unfamiliar name in Primordial.",
+      "29. A one-eyed little fish inside a spherical vial, much bigger than the vial's neck. He has a cunning look.",
+      "30. The tiny skull of a rabbit that whispers scathing insults when nobody is looking.",
+      "31. A rag doll in the likeness of an owlbear.",
+      "32. The desiccated body of a small eight-legged black lizard.",
+      "33. A small toy boat made with a walnut shell, toothpick, and piece of cloth.",
+      "34. A small pocket mirror that slowly fogs over while held.",
+      "35. Wind chimes that glow when the wind blows.",
+      "36. A small, clay square with an unknown rune etched into one side.",
+      "37. A tea kettle that heats itself when filled with water.",
+      "38. An old scratched monocle which shows an underwater landscape whenever someone looks through it.",
+      "39. A rose carved from coral.",
+      "40. A set of dice with elemental symbols and primordial runes instead of pips or numbers.",
+      "41. A amulet filled with liquid that churns, freezes, or boils to match it's wearer's mood.",
+      "42. A small silver bell that makes a sound like quiet, distant thunder when it's struck.",
+      "43. A small vial of black sand that glows slightly in the moonlight.",
+      "44. A small whale tooth with etched with an image of waves crashing upon a beach.",
+      "45. An hourglass in which the sands pour upward instead of downward.",
+      "46. A glass pendant with a hole in the center that a mild breeze always blows out of.",
+      "47. A soft feather that falls like a stone when dropped.",
+      "48. A large transparent gem that, when gripped tightly, whispers in Terran.",
+      "49. A small crystal snowglobe that, when shaken, seems to form silhouettes of dancing forms.",
+      "50. Half of a palm-sized geode that pulses dimly with purple light.",
+      "51. A book filled with writing that only appears when the book is held underwater.",
+      "52. A sealed envelope made of red leather that you haven't been able to open. It smells of campfire.",
+      "53. A locket of hair that is rumored to have come from a famed fire genasi.",
+      "54. Flint and steel that, when used to start a fire, creates a random colored flame.",
+      "55. A blank piece of wet parchment that never seems to dry.",
+      "56. A small puzzle box made of brass, that is slightly warm to the touch.",
+      "57. A cloudy chunk of glass that is said to hold a spark of breath from a blue dragon.",
+      "58. A crude chalice made of coal.",
+      "59. A miniature brass horn, silent when played, but fills the air with the scent of warm and exotic spices.",
+      "60. An eye-sized blue pearl that floats in salt water.",
+      "61. A tuning fork made from a dark metal which glows with a pale, white light during thunderstorms.",
+      "62. A small vial that is always filled with the smell of autumn wind.",
+      "63. A clear marble that slowly rolls toward the nearest source of running water.",
+      "64. A small collapsible silver cup that perspires constantly when opened.",
+      "65. An hourglass that tells time with falling mist instead of sand.",
+      "66. An ornate razor, which only cuts in freezing cold temperature.",
+      "67. A shark tooth covered in tiny etched words from a lost language.",
+      "68. A large brass coin with no markings or images on it.",
+      "69. A small wooden box filled with a strange red clay.",
+      "70. A necklace with a small, rusted iron anchor.",
+      "71. A small brass flute adorned with silver wire that is always faintly sounding.",
+      "72. A red and black Aarakocra feather.",
+      "73. A palm-sized stone with a hole in it, through which can be heard a constantly whispering wind.",
+      "74. A small conch shell covered in black crystal.",
+      "75. A small music box made of brass. It features a pair of tiny automatons that resemble Azer working at a forge.",
+      "76. A glass jar containing the preserved corpse of an unfamiliar aquatic creature.",
+      "77. A piece of petrified wood carved into the shape of a seashell.",
+      "78. A wooden puzzle cube covered in elemental symbols.",
+      "79. A small stone cube that acts as a magnet when placed against another stone.",
+      "80. A ring made of a white metal. On the inside is a name etched in Auran.",
+      "81. A bracelet made of silvered fish hooks.",
+      "82. A journal filled with poetry hand-written in Primordial.",
+      "83. A yellow gemstone that glows dimly when a storm is nearby.",
+      "84. A charred chisel with an unfamiliar symbol stamped into its base.",
+      "85. A canteen filled with a foul smelling orange mud.",
+      "86. A faceless doll made of driftwood.",
+      "87. A heavy iron key bearing the name of a ship long lost to the sea.",
+      "88. A small jewelry box made from the shell of a turtle.",
+      "89. A chess piece fashioned to look like fire myrmidon.",
+      "90. A spinning top with an image of one of the four elements on each side.",
+      "91. A single hoop earring made of a porous red stone.",
+      "92. An arrowhead carved from seasalt",
+      "93. A small comb made of blue coral.",
+      "94. Seven small beads of sandstone on a string, all different colors.",
+      "95. A romance chapbook written in Undercommon titled \"Just one Layer of Grey\".",
+      "96. A tiny, broken clockwork Harpy.",
+      "97. An ivory whale statuette.",
+      "98. A fist-sized cog, covered in barnacles.",
+      "99. An eyepatch made of obsidian and a black leather cord.",
+      "100. A glass bottle with a tiny ship of unfamiliar design inside."
+    ],
+    "roll": "1d100",
+    "source": [
+      "Source: Elemental Evil PDF supplement"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Truth Serum (Ingested)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "A creature subjected to thi poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell."
+    ],
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Two-Person Tent",
+    "type": "G",
+    "weight": "20",
+    "text": [
+      "A simple and portable canvas shelter, a tent sleeps two."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Vial",
+    "type": "G",
+    "text": [
+      "A vial can hold up to 4 ounces of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Viol",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
+      "Each type of musical instrument requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Wand",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Waterskin",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "A waterskin can hold up to 4 pints of liquid."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 153"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Weaver's Tools",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Whetstone",
+    "type": "G",
+    "weight": "1",
+    "text": [],
+    "source": [
+      "Source: Player's Handbook, page 150"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Woodcarver's Tools",
+    "type": "G",
+    "weight": "5",
+    "text": [
+      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 154"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Wooden Staff",
+    "type": "G",
+    "weight": "4",
+    "text": [
+      "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Wyvern Poison (Injury)",
+    "type": "G",
+    "weight": "0",
+    "text": [
+      "This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+    ],
+    "roll": "7d6",
+    "source": [
+      "Source: Dungeon Master's Guide, page 258"
+    ],
+    "data_type": "items"
+  },
+  {
+    "name": "Yew Wand",
+    "type": "G",
+    "weight": "1",
+    "text": [
+      "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
+    ],
+    "source": [
+      "Source: Player's Handbook, page 151"
+    ],
+    "data_type": "items"
+  }
+]

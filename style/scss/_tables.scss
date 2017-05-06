@@ -1,7 +1,13 @@
 .table {
   margin: 0 32px;
   overflow-x: scroll;
-  
+    
+  // hide scrollbar
+  &::-webkit-scrollbar {
+      height: 0px;  /* remove scrollbar space */
+      background: transparent;  /* optional: just make scrollbar invisible */
+  }
+  -ms-overflow-style: none;
 }
 
 table {

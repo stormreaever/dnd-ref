@@ -39,6 +39,8 @@ a {
 $nav-height: 48px;
 
 header {
+  position: relative;
+  z-index: 10;
   height: $nav-height;
   padding: 0 16px;
   
@@ -91,6 +93,7 @@ header {
 
 .search-box {
   position: relative;
+  z-index: 2;
   display: block;
   padding-top: calc(45vh - 50px);
   padding-bottom: calc(55vh - 50px);

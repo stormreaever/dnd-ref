@@ -1,0 +1,14 @@
+<div class="table">
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')">Name</th>
+      <th ng-click="sortBy('prerequisite')">Prerequisite</th>
+      <th ng-click="sortBy('modifier.__text')">Modifier</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td><span class="item-select" ng-click="selectItem(x)">{{ x.name }}</span></td>
+      <td><span class="item-select">{{ x.prerequisite }}</span></td>
+      <td><span class="item-select">{{ x.modifier.__text }}</span></td>
+    </tr>
+  </table>
+</div>

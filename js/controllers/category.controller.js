@@ -25,7 +25,7 @@ app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
   
   $scope.selectItem = function(selectedItem) {
     //$scope.selectedItem = selectedItem;
-    $scope.searchText = selectedItem.name;
+    $scope.searchText = selectedItem;
     $scope.searchChange();
   };
   

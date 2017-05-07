@@ -1,0 +1,17 @@
+<div class="details">
+  
+  <p class="category">item</p>
+
+  <div class="body">
+    <h1>{{ selectedItem.name }}</h1>
+    
+    <p ng-repeat="txt in selectedItem.text" class="text">{{ txt }}</p>
+    
+    <p class="text"><span class="key">Source:</span> {{ selectedItem.source | concatenate }}</p>
+    
+  </div>
+  <div class="section">
+    <p class="weight">{{ selectedItem.weight }} lbs</p>
+    <p class="cost">{{ selectedItem.cost | money }}</p>
+  </div>
+</div>

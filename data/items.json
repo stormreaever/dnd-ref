@@ -1,12 +1,61 @@
 [
   {
+    "name": "Arrows (20)",
+    "category": "Ammunition",
+    "type": "G",
+    "weight": "1",
+    "text": [],
+    "source": [
+      "Player's Handbook, page 150"
+    ],
+    "cost": 1,
+    "data_type": "items"
+  },
+  {
+    "name": "Blowgun needles (50)",
+    "category": "Ammunition",
+    "type": "G",
+    "weight": "1",
+    "text": [],
+    "source": [
+      "Player's Handbook, page 150"
+    ],
+    "cost": 1,
+    "data_type": "items"
+  },
+  {
+    "name": "Crossbow bolts (20)",
+    "category": "Ammunition",
+    "type": "G",
+    "weight": "1.5",
+    "text": [],
+    "source": [
+      "Player's Handbook, page 150"
+    ],
+    "cost": 1,
+    "data_type": "items"
+  },
+  {
+    "name": "Sling bullets (20)",
+    "category": "Ammunition",
+    "type": "G",
+    "weight": "1.5",
+    "text": [],
+    "source": [
+      "Player's Handbook, page 150"
+    ],
+    "cost": 0.04,
+    "data_type": "items"
+  },
+  {
     "name": "Abacus",
     "type": "G",
     "weight": "2",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -17,8 +66,9 @@
       "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."
     ],
     "source": [
-      "Source: Player's Handbook, page 148"
+      "Player's Handbook, page 148"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
@@ -29,20 +79,23 @@
       "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
     ],
     "source": [
-      "Source: Player's Handbook, page 148"
+      "Player's Handbook, page 148"
     ],
+    "cost": 50,
     "data_type": "items"
   },
   {
     "name": "Alchemist's Supplies",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "8",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 50,
     "data_type": "items"
   },
   {
@@ -52,8 +105,9 @@
       "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 50,
     "data_type": "items"
   },
   {
@@ -65,7 +119,7 @@
     ],
     "roll": "1d12",
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
@@ -77,12 +131,14 @@
       "A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
     "name": "Bagpipes",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "6",
     "text": [
@@ -91,20 +147,22 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 30,
     "data_type": "items"
   },
   {
-    "name": "Ball Bearings",
+    "name": "Ball Bearings (bag of 1,000)",
     "type": "G",
-    "weight": "0.002",
+    "weight": "2",
     "text": [
       "As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -115,8 +173,9 @@
       "A barrel can hold 40 gallons of liquid or 4 cubic feet of solids."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -126,8 +185,9 @@
       "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 100,
     "data_type": "items"
   },
   {
@@ -138,8 +198,9 @@
       "A basket holds 2 cubic feet or 40 pounds of gear."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.4,
     "data_type": "items"
   },
   {
@@ -148,8 +209,9 @@
     "weight": "7",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -157,8 +219,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -167,8 +230,9 @@
     "weight": "3",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
@@ -179,8 +243,9 @@
       "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -191,20 +256,23 @@
       "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
     "name": "Brewer's Supplies",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "9",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 20,
     "data_type": "items"
   },
   {
@@ -215,7 +283,7 @@
       "A bucket holds 3 gallons of liquid or 1/2 cubic foot of solids."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
     "data_type": "items"
   },
@@ -227,12 +295,14 @@
       "A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
     "name": "Burglar's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "44.5",
     "text": [
@@ -253,8 +323,9 @@
       "• 50 feet of hempen rope"
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 16,
     "data_type": "items"
   },
   {
@@ -269,32 +340,35 @@
       "1d6"
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Calligrapher's Supplies",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
-    "name": "Caltrops",
+    "name": "Caltrops (bag of 20)",
     "type": "G",
-    "weight": "0.1",
+    "weight": "2",
     "text": [
       "As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -304,20 +378,23 @@
       "For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 0.01,
     "data_type": "items"
   },
   {
     "name": "Carpenter's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "6",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 8,
     "data_type": "items"
   },
   {
@@ -328,20 +405,22 @@
       "This poison must be harvested from a dead or incapacitated carrion crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Cartographer's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "6",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 15,
     "data_type": "items"
   },
   {
@@ -352,8 +431,9 @@
       "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -361,8 +441,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.01,
     "data_type": "items"
   },
   {
@@ -373,8 +454,9 @@
       "A chest holds 12 cubic feet or 300 pounds of gear."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -382,23 +464,26 @@
     "type": "G",
     "weight": "12",
     "text": [
-      "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+      "A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber’s kit as an action to anchor yourself; when you do, you can’t fall more than 25 feet from the point where you anchored yourself, and you can’t climb more than 25 feet away from that point without undoing the anchor. "
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
     "name": "Cobbler's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -407,8 +492,9 @@
     "weight": "3",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
@@ -419,20 +505,23 @@
       "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
     "name": "Cook's Utensils",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "8",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -441,8 +530,9 @@
     "weight": "4",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -453,8 +543,9 @@
       "This wooden case can hold up to twenty crossbow bolts."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -465,35 +556,41 @@
       "Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
     "name": "Crystal",
+    "category": "Arcane focus",
     "type": "G",
     "weight": "1",
     "text": [
       "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
     "name": "Dice Set",
+    "category": "Gaming set",
     "type": "G",
     "text": [
       "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 0.1,
     "data_type": "items"
   },
   {
     "name": "Diplomat's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "36",
     "text": [
@@ -511,32 +608,37 @@
       "• soap."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 39,
     "data_type": "items"
   },
   {
     "name": "Disguise Kit",
+    "category": "Tools",
     "type": "G",
     "weight": "3",
     "text": [
       "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
     "name": "Dragonchess Set",
+    "category": "Gaming set",
     "type": "G",
     "weight": "0.5",
     "text": [
       "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -547,12 +649,13 @@
       "This poison is typically made only by the draw, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Drum",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "3",
     "text": [
@@ -561,12 +664,14 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 6,
     "data_type": "items"
   },
   {
     "name": "Dulcimer",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "10",
     "text": [
@@ -575,12 +680,14 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
     "name": "Dungeoneer's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "61.5",
     "text": [
@@ -596,12 +703,14 @@
       "• 50 feet of hempen rope"
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 12,
     "data_type": "items"
   },
   {
     "name": "Entertainer's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "38",
     "text": [
@@ -615,8 +724,9 @@
       "• a disguise kit."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 40,
     "data_type": "items"
   },
   {
@@ -627,12 +737,13 @@
       "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 8 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Explorer's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "59",
     "text": [
@@ -647,8 +758,9 @@
       "• 50 feet of hempen rope"
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -657,8 +769,9 @@
     "weight": "6",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 15,
     "data_type": "items"
   },
   {
@@ -669,8 +782,9 @@
       "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -681,12 +795,13 @@
       "A flask holds 1 pint of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
     "data_type": "items"
   },
   {
     "name": "Flute",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "1",
     "text": [
@@ -695,20 +810,23 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
     "name": "Forgery Kit",
+    "category": "Tools",
     "type": "G",
     "weight": "5",
     "text": [
       "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 15,
     "data_type": "items"
   },
   {
@@ -719,20 +837,23 @@
       "A bottle holds 1 1/2 pints of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
     "name": "Glassblower's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 30,
     "data_type": "items"
   },
   {
@@ -741,8 +862,9 @@
     "weight": "4",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -751,8 +873,9 @@
     "weight": "3",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -763,8 +886,9 @@
       "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -775,24 +899,28 @@
       "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
     "name": "Herbalism Kit",
+    "category": "Tools",
     "type": "G",
     "weight": "3",
     "text": [
       "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
-    "name": "Holy Symbol (Amulet)",
+    "name": "Amulet",
+    "category": "Holy Symbol",
     "type": "G",
     "weight": "1",
     "text": [
@@ -800,24 +928,28 @@
       "A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
-    "name": "Holy Symbol (Emblem)",
+    "name": "Emblem",
+    "category": "Holy Symbol",
     "type": "G",
     "text": [
       "A holy symbol is a representation of a god or pantheon",
       "A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
-    "name": "Holy Symbol (Reliquary)",
+    "name": "Reliquary",
+    "category": "Holy Symbol",
     "type": "G",
     "weight": "2",
     "text": [
@@ -825,8 +957,9 @@
       "A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -834,11 +967,13 @@
     "type": "G",
     "weight": "1",
     "text": [
-      "As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\\n\\tA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."
+      "As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.", 
+      "A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
@@ -849,12 +984,14 @@
       "A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
     "name": "Horn",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "2",
     "text": [
@@ -863,8 +1000,9 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 3,
     "data_type": "items"
   },
   {
@@ -873,8 +1011,9 @@
     "weight": "1",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
@@ -885,8 +1024,9 @@
       "When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -894,8 +1034,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -903,8 +1044,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.02,
     "data_type": "items"
   },
   {
@@ -915,30 +1057,34 @@
       "An iron pot holds 1 gallon of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
-    "name": "Iron Spikes",
+    "name": "Iron Spikes (10)",
     "type": "G",
-    "weight": "0.5",
+    "weight": "5",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
     "name": "Jeweler's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "2",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
@@ -949,8 +1095,9 @@
       "A jug holds 1 gallon of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.02,
     "data_type": "items"
   },
   {
@@ -959,8 +1106,9 @@
     "weight": "25",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.1,
     "data_type": "items"
   },
   {
@@ -971,20 +1119,23 @@
       "A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
     "name": "Leatherworker's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -995,12 +1146,14 @@
       "A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
     "name": "Lute",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "2",
     "text": [
@@ -1009,12 +1162,14 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 35,
     "data_type": "items"
   },
   {
     "name": "Lyre",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "2",
     "text": [
@@ -1023,8 +1178,9 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 30,
     "data_type": "items"
   },
   {
@@ -1034,8 +1190,9 @@
       "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 100,
     "data_type": "items"
   },
   {
@@ -1046,7 +1203,7 @@
       "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded."
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
@@ -1058,8 +1215,9 @@
       "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -1070,20 +1228,23 @@
       "This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
     "name": "Mason's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "8",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -1094,8 +1255,9 @@
       "A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -1106,8 +1268,9 @@
       "This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 0.2,
     "data_type": "items"
   },
   {
@@ -1119,7 +1282,7 @@
     ],
     "roll": "9d6",
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
@@ -1129,44 +1292,23 @@
     "weight": "10",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
-    "data_type": "items"
-  },
-  {
-    "name": "Monster Hunter's Pack",
-    "type": "G",
-    "weight": "48.5",
-    "text": [
-      "Includes:",
-      "   • a chest",
-      "   • a crowbar",
-      "   • a hammer",
-      "   • three wooden stakes",
-      "   • a holy symbol",
-      "   • a flask of holy water",
-      "   • a set of manacles",
-      "   • a steel mirror",
-      "   • a flask of oil",
-      "   • a tinderbox",
-      "   • 3 torches",
-      "Cost: 33 gp"
-    ],
-    "source": [
-      "Source: Curse of Strahd, page 209"
-    ],
+    "cost": 2,
     "data_type": "items"
   },
   {
     "name": "Navigator's Tools",
+    "category": "Tools",
     "type": "G",
     "weight": "2",
     "text": [
       "This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
@@ -1177,8 +1319,9 @@
       "Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
     ],
     "source": [
-      "Source: Player's Handbook, page 152"
+      "Player's Handbook, page 152"
     ],
+    "cost": 0.1,
     "data_type": "items"
   },
   {
@@ -1189,32 +1332,36 @@
       "A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage."
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Orb",
+    "category": "Arcane focus",
     "type": "G",
     "weight": "3",
     "text": [
       "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 20,
     "data_type": "items"
   },
   {
     "name": "Painter's Supplies",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -1226,12 +1373,13 @@
     ],
     "roll": "1d6",
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Pan Flute",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "2",
     "text": [
@@ -1240,8 +1388,9 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 12,
     "data_type": "items"
   },
   {
@@ -1249,8 +1398,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.2,
     "data_type": "items"
   },
   {
@@ -1258,8 +1408,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.1,
     "data_type": "items"
   },
   {
@@ -1267,8 +1418,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -1279,8 +1431,9 @@
       "A pitcher holds 1 gallon of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.02,
     "data_type": "items"
   },
   {
@@ -1289,31 +1442,36 @@
     "weight": "0.25",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.05,
     "data_type": "items"
   },
   {
     "name": "Playing Card Set",
+    "category": "Gaming set",
     "type": "G",
     "text": [
       "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
     "name": "Poisoner's Kit",
+    "category": "Tools",
     "type": "G",
     "weight": "2",
     "text": [
       "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 50,
     "data_type": "items"
   },
   {
@@ -1322,8 +1480,9 @@
     "weight": "7",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.05,
     "data_type": "items"
   },
   {
@@ -1334,20 +1493,23 @@
       "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 4,
     "data_type": "items"
   },
   {
     "name": "Potter's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "3",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -1358,12 +1520,14 @@
       "A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
     "name": "Priest's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "24",
     "text": [
@@ -1380,8 +1544,9 @@
       "• a waterskin."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 19,
     "data_type": "items"
   },
   {
@@ -1393,7 +1558,7 @@
     ],
     "roll": "12d6",
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
@@ -1405,8 +1570,9 @@
       "A quiver can hold up to 20 arrows."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -1417,8 +1583,9 @@
       "Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
@@ -1427,20 +1594,23 @@
     "weight": "4",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
     "name": "Rod",
+    "category": "Arcane focus",
     "type": "G",
     "weight": "2",
     "text": [
       "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -1451,12 +1621,14 @@
       "A sack can hold up to 1 cubic foot or 30 pounds of gear."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.01,
     "data_type": "items"
   },
   {
     "name": "Scholar's Pack",
+    "category": "Equipment pack",
     "type": "G",
     "weight": "10",
     "text": [
@@ -1470,8 +1642,9 @@
       "• a small knife."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 40,
     "data_type": "items"
   },
   {
@@ -1479,8 +1652,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
@@ -1492,12 +1666,13 @@
     ],
     "roll": "3d6",
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Shawm",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "1",
     "text": [
@@ -1506,8 +1681,9 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -1516,8 +1692,9 @@
     "weight": "5",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -1525,8 +1702,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.05,
     "data_type": "items"
   },
   {
@@ -1534,8 +1712,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -1546,8 +1725,9 @@
       "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -1556,20 +1736,23 @@
     "weight": "10",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
     "name": "Smith's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "8",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 20,
     "data_type": "items"
   },
   {
@@ -1577,8 +1760,9 @@
     "type": "G",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.02,
     "data_type": "items"
   },
   {
@@ -1589,19 +1773,22 @@
       "Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 50,
     "data_type": "items"
   },
   {
     "name": "Sprig of Mistletoe",
+    "category": "Druidic focus",
     "type": "G",
     "text": [
       "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -1612,20 +1799,23 @@
       "Objects viewed through a spyglass are magnified to twice their size."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 1000,
     "data_type": "items"
   },
   {
     "name": "Staff",
+    "category": "Arcane focus",
     "type": "G",
     "weight": "4",
     "text": [
       "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -1634,8 +1824,9 @@
     "weight": "0.5",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -1645,31 +1836,35 @@
       "A tankard holds 1 pint of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
     "data_type": "items"
   },
   {
     "name": "Thieves' Tools",
+    "category": "Tools",
     "type": "G",
     "weight": "1",
     "text": [
       "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 25,
     "data_type": "items"
   },
   {
     "name": "Three-Dragon Ante Set",
+    "category": "Gaming set",
     "type": "G",
     "text": [
       "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -1680,32 +1875,23 @@
       "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.5,
     "data_type": "items"
   },
   {
     "name": "Tinker's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "10",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
-    "data_type": "items"
-  },
-  {
-    "name": "Tome of Strahd",
-    "type": "G",
-    "weight": "5",
-    "text": [
-      "The Tome of Strahd is an ancient work penned by Strahd, a tragic tale of how he came to his fallen state. The book is bound in a thick leather cover with steel hinges and fastenings. The pages are of parchment and very brittle. Most of the book is written in the curious shorthand that only Strahd employs. Stains and age have made most of the work illegible, but several paragraphs remain intact."
-    ],
-    "source": [
-      "Source: Curse of Strahd, page 221"
-    ],
+    "cost": 50,
     "data_type": "items"
   },
   {
@@ -1716,32 +1902,22 @@
       "A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
-    "data_type": "items"
-  },
-  {
-    "name": "Torpor (Ingested)",
-    "type": "G",
-    "weight": "0",
-    "text": [
-      "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated."
-    ],
-    "roll": "4d6",
-    "source": [
-      "Source: Dungeon Master's Guide, page 258"
-    ],
+    "cost": 0.01,
     "data_type": "items"
   },
   {
     "name": "Totem",
+    "category": "Druidic focus",
     "type": "G",
     "text": [
       "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -1750,8 +1926,9 @@
     "weight": "4",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -1760,6 +1937,7 @@
     "weight": "0",
     "text": [
       "When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.",
+      "",
       "Player Handbook Trinkets:",
       "01. A mummified goblin hand.",
       "02. A piece of crystal that faintly glows in the moonlight.",
@@ -1861,6 +2039,7 @@
       "98. A glass jar containing lard with a label that reads, \"Griffon Grease\".",
       "99. A wooden box with a ceramic bottom that holds a living worm with a head on each end of it's body.",
       "100. A metal urn containing the ashes of a hero.",
+      "",
       "Elemental Evil Trinkets:",
       "01. A compass that always points to Mulmaster.",
       "02. A paper fan that won't produce a breeze no matter how hard it's waved.",
@@ -1965,7 +2144,7 @@
     ],
     "roll": "1d100",
     "source": [
-      "Source: Elemental Evil PDF supplement"
+      "Elemental Evil PDF supplement"
     ],
     "data_type": "items"
   },
@@ -1977,7 +2156,7 @@
       "A creature subjected to thi poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell."
     ],
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
@@ -1989,8 +2168,9 @@
       "A simple and portable canvas shelter, a tent sleeps two."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 2,
     "data_type": "items"
   },
   {
@@ -2000,12 +2180,14 @@
       "A vial can hold up to 4 ounces of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
     "name": "Viol",
+    "category": "Musical instrument",
     "type": "G",
     "weight": "1",
     "text": [
@@ -2014,20 +2196,23 @@
       "Each type of musical instrument requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 30,
     "data_type": "items"
   },
   {
     "name": "Wand",
+    "category": "Arcane focus",
     "type": "G",
     "weight": "1",
     "text": [
       "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 10,
     "data_type": "items"
   },
   {
@@ -2038,20 +2223,23 @@
       "A waterskin can hold up to 4 pints of liquid."
     ],
     "source": [
-      "Source: Player's Handbook, page 153"
+      "Player's Handbook, page 153"
     ],
+    "cost": 0.2,
     "data_type": "items"
   },
   {
     "name": "Weaver's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
@@ -2060,32 +2248,37 @@
     "weight": "1",
     "text": [],
     "source": [
-      "Source: Player's Handbook, page 150"
+      "Player's Handbook, page 150"
     ],
+    "cost": 0.01,
     "data_type": "items"
   },
   {
     "name": "Woodcarver's Tools",
+    "category": "Artisan's tools",
     "type": "G",
     "weight": "5",
     "text": [
       "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     ],
     "source": [
-      "Source: Player's Handbook, page 154"
+      "Player's Handbook, page 154"
     ],
+    "cost": 1,
     "data_type": "items"
   },
   {
     "name": "Wooden Staff",
+    "category": "Druidic focus",
     "type": "G",
     "weight": "4",
     "text": [
       "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 5,
     "data_type": "items"
   },
   {
@@ -2097,20 +2290,22 @@
     ],
     "roll": "7d6",
     "source": [
-      "Source: Dungeon Master's Guide, page 258"
+      "Dungeon Master's Guide, page 258"
     ],
     "data_type": "items"
   },
   {
     "name": "Yew Wand",
+    "category": "Druidic focus",
     "type": "G",
     "weight": "1",
     "text": [
       "A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost."
     ],
     "source": [
-      "Source: Player's Handbook, page 151"
+      "Player's Handbook, page 151"
     ],
+    "cost": 10,
     "data_type": "items"
   }
 ]

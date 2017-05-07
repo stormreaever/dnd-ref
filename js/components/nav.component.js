@@ -26,6 +26,26 @@ app.component('nav', {
         "title": "Feats", 
         "url": "/category/feats", 
         "pageId": "feats"
+      },
+      {
+        "title": "Items", 
+        "url": "/category/items", 
+        "pageId": "items"
+      },
+      {
+        "title": "Races", 
+        "url": "/category/races", 
+        "pageId": "races"
+      },
+      {
+        "title": "Classes", 
+        "url": "/category/classes", 
+        "pageId": "classes"
+      },
+      {
+        "title": "Backgrounds", 
+        "url": "/category/backgrounds", 
+        "pageId": "backgrounds"
       }
     ];
     this.getSelected = function(item) {

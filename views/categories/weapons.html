@@ -11,14 +11,19 @@
       <th>Properties</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-      <td><span class="item-select" ng-click="selectItem(x)">{{ x.name }}</span></td>
-      <td>{{ x.type }}</td>
+      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
+      <td><span class="item-select" ng-click="selectItem(x.type)">{{ x.type }}</span></td>
       <td>{{ x.cost | money }}</td>
-      <td>{{ x.damage }}</td>
-      <td>{{ x.damage_type }}</td>
+      <td><span class="item-select" ng-click="selectItem(x.damage)">{{ x.damage }}</span>
+        {{ x.versatile_damage ? " / " : "" }}
+        <span class="item-select" ng-click="selectItem(x.versatile_damage)">{{ x.versatile_damage ?  x.versatile_damage : "" }}</span></td>
+      <td><span class="item-select" ng-click="selectItem(x.damage_type)">{{ x.damage_type }}</span></td>
       <td>{{ x.weight }} lbs</td>
       <td>{{ x.range }}</td>
-      <td>{{ x.properties | concatenate }}</td>
+      <td>
+        <span ng-repeat="property in x.properties" class="item-select" ng-click="selectItem(property)">{{ property }}<span ng-if="!$last">, </span></span>
+        
+      </td>
     </tr>
   </table>
 </div>

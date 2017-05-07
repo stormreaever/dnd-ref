@@ -1,0 +1,29 @@
+<div class="table">
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')" rowspan="2">Name</th>
+      <th ng-click="sortBy('size')" rowspan="2">Size</th>
+      <th ng-click="sortBy('speed')" style="text-align: center;" rowspan="2">Speed</th>
+      <th style="text-align:center; border-bottom: none; padding:0;" colspan="6">— Ability score increases —</th>
+    </tr>
+    <tr>
+      <th ng-click="sortBy('abilities.Str')" style="text-align: center;">Str</th>
+      <th ng-click="sortBy('abilities.Dex')" style="text-align: center;">Dex</th>
+      <th ng-click="sortBy('abilities.Con')" style="text-align: center;">Con</th>
+      <th ng-click="sortBy('abilities.Int')" style="text-align: center;">Int</th>
+      <th ng-click="sortBy('abilities.Wis')" style="text-align: center;">Wis</th>
+      <th ng-click="sortBy('abilities.Cha')" style="text-align: center;">Cha</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
+      <td><span class="item-select" ng-click="selectItem(x.size)">{{ x.size }}</span></td>
+      <td style="text-align: center;">{{ x.speed }}</td>
+      <td style="text-align: center;">{{ x.abilities.Str }}</td>
+      <td style="text-align: center;">{{ x.abilities.Dex }}</td>
+      <td style="text-align: center;">{{ x.abilities.Con }}</td>
+      <td style="text-align: center;">{{ x.abilities.Int }}</td>
+      <td style="text-align: center;">{{ x.abilities.Wis }}</td>
+      <td style="text-align: center;">{{ x.abilities.Cha }}</td>
+    </tr>
+  </table>
+</div>

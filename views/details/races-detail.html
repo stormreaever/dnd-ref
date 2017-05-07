@@ -1,0 +1,28 @@
+<div class="details">
+  
+  <p class="category">race</p>
+
+  <div class="body">
+    <h1>{{ selectedItem.name }}</h1>
+
+    <p class="item-type">{{ selectedItem.size }} humanoid</p>
+    <p class="text"><span class="key">Speed: </span> {{ selectedItem.speed }} feet</p>
+    
+    <p class="text">
+      <span class="key">Ability Score Increase:</span>
+      <span ng-repeat="(key, value) in selectedItem.abilities">
+        {{ key }} +{{ value }}<span ng-if="!$last">, </span>
+      </span>
+    </p>
+    
+  </div>
+  
+  <div class="divider">
+    <div ng-repeat="trait in selectedItem.trait">
+      <p class="text" ng-repeat="text in trait.text">
+        <span class="key" ng-if="$first">{{ trait.name }}. </span>{{ text }}
+      </p>
+    </div>
+  </div>
+  
+</div>

@@ -24,14 +24,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -65,14 +61,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Cha": "2"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Cha": "2",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -108,14 +100,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Str": "2"
-      },
-      {
-        "Cha": "1"
-      }
-    ],
+    "abilities": {
+      "Str": "2",
+      "Cha": "1"
+    },
     "data_type": "races"
   },
   {
@@ -173,14 +161,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Str": "1"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Str": "1"
+    },
     "data_type": "races"
   },
   {
@@ -232,14 +216,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -291,14 +271,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Str": "2"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Str": "2"
+    },
     "data_type": "races"
   },
   {
@@ -357,14 +333,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Cha": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Cha": "1"
+    },
     "data_type": "races"
   },
   {
@@ -417,14 +389,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Int": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Int": "1"
+    },
     "data_type": "races"
   },
   {
@@ -477,14 +445,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Int": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Int": "1"
+    },
     "data_type": "races"
   },
   {
@@ -543,14 +507,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -578,14 +538,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Dex": "1"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Dex": "1"
+    },
     "data_type": "races"
   },
   {
@@ -613,14 +569,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Str": "1"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Str": "1"
+    },
     "data_type": "races"
   },
   {
@@ -654,14 +606,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Int": "1"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Int": "1"
+    },
     "data_type": "races"
   },
   {
@@ -701,14 +649,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Con": "2"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Con": "2",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -742,14 +686,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Int": "2"
-      },
-      {
-        "Dex": "1"
-      }
-    ],
+    "abilities": {
+      "Int": "2",
+      "Dex": "1"
+    },
     "data_type": "races"
   },
   {
@@ -789,14 +729,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Int": "2"
-      },
-      {
-        "Dex": "1"
-      }
-    ],
+    "abilities": {
+      "Int": "2",
+      "Dex": "1"
+    },
     "data_type": "races"
   },
   {
@@ -840,14 +776,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Int": "2"
-      },
-      {
-        "Con": "1"
-      }
-    ],
+    "abilities": {
+      "Int": "2",
+      "Con": "1"
+    },
     "data_type": "races"
   },
   {
@@ -888,14 +820,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Str": "2"
-      },
-      {
-        "Con": "1"
-      }
-    ],
+    "abilities": {
+      "Str": "2",
+      "Con": "1"
+    },
     "data_type": "races"
   },
   {
@@ -935,58 +863,9 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Cha": "2"
-      }
-    ],
-    "data_type": "races"
-  },
-  {
-    "name": "Half-Elf (Aquatic Elf Descent)",
-    "size": "Medium",
-    "speed": "30",
-    "ability": "Cha 2",
-    "trait": [
-      {
-        "name": "Ability Score Increase",
-        "text": [
-          "Two different ability scores of your choice increase by 1."
-        ]
-      },
-      {
-        "name": "Darkvision",
-        "text": [
-          "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-        ]
-      },
-      {
-        "name": "Fey Ancestry",
-        "text": [
-          "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
-        ]
-      },
-      {
-        "name": "Variant Feature (Choose 1)",
-        "text": [
-          "Keen Senses",
-          "You have proficiency in the Perception skill",
-          "Swim",
-          "You gain a swimming speed of 30."
-        ]
-      },
-      {
-        "name": "Languages",
-        "text": [
-          "You can speak, read, and write Common, Elvish, and one extra language of your choice."
-        ]
-      }
-    ],
-    "abilities": [
-      {
-        "Cha": "2"
-      }
-    ],
+    "abilities": {
+      "Cha": "2"
+    },
     "data_type": "races"
   },
   {
@@ -1029,15 +908,13 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Cha": "2"
-      }
-    ],
+    "abilities": {
+      "Cha": "2"
+    },
     "data_type": "races"
   },
   {
-    "name": "Half-Elf (Moon Elf or Sun Elf Descent)",
+    "name": "Half-Elf (High Elf Descent)",
     "size": "Medium",
     "speed": "30",
     "ability": "Cha 2",
@@ -1078,11 +955,9 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Cha": "2"
-      }
-    ],
+    "abilities": {
+      "Cha": "2"
+    },
     "data_type": "races"
   },
   {
@@ -1129,11 +1004,9 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Cha": "2"
-      }
-    ],
+    "abilities": {
+      "Cha": "2"
+    },
     "data_type": "races"
   },
   {
@@ -1174,14 +1047,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Str": "2"
-      },
-      {
-        "Con": "1"
-      }
-    ],
+    "abilities": {
+      "Str": "2",
+      "Con": "1"
+    },
     "data_type": "races"
   },
   {
@@ -1221,14 +1090,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -1268,14 +1133,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Cha": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Cha": "1"
+    },
     "data_type": "races"
   },
   {
@@ -1315,14 +1176,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      },
-      {
-        "Con": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "2",
+      "Con": "1"
+    },
     "data_type": "races"
   },
   {
@@ -1334,26 +1191,14 @@
       "name": "Languages",
       "text": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
     },
-    "abilities": [
-      {
-        "Str": "1"
-      },
-      {
-        "Dex": "1"
-      },
-      {
-        "Con": "1"
-      },
-      {
-        "Int": "1"
-      },
-      {
-        "Wis": "1"
-      },
-      {
-        "Cha": "1"
-      }
-    ],
+    "abilities": {
+      "Str": "1",
+      "Dex": "1",
+      "Con": "1",
+      "Int": "1",
+      "Wis": "1",
+      "Cha": "1"
+    },
     "data_type": "races"
   },
   {
@@ -1389,11 +1234,9 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "2"
-      }
-    ],
+    "abilities": {
+      "Dex": "2"
+    },
     "data_type": "races"
   },
   {
@@ -1429,14 +1272,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Dex": "1"
-      },
-      {
-        "Wis": "1"
-      }
-    ],
+    "abilities": {
+      "Dex": "1",
+      "Wis": "1"
+    },
     "data_type": "races"
   },
   {
@@ -1493,14 +1332,10 @@
         ]
       }
     ],
-    "abilities": [
-      {
-        "Cha": "2"
-      },
-      {
-        "Int": "1"
-      }
-    ],
+    "abilities": {
+      "Cha": "2",
+      "Int": "1"
+    },
     "data_type": "races"
   }
 ]

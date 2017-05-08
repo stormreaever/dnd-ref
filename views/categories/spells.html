@@ -17,8 +17,18 @@
       <td>{{ x.time }}</td>
       <td>{{ x.duration }}</td>
       <td>{{ x.range }}</td>
-      <td>{{ x.components }}</td>
-      <td>{{ x.classes }}</td>
+      <td>
+        <span ng-repeat="comp in x.cmpnts">
+          <span ng-if="comp == 'M '" title="{{ x.material_components }}">{{ comp }}</span>
+          <span ng-if="comp != 'M '">{{ comp }}</span><span ng-if="!$last">, </span>
+          
+        </span>
+      </td>
+      <td>
+        <span ng-repeat="class in x.classes" class="item-select" ng-click="selectItem(class)">
+          {{ class }}<span ng-if="!$last">, </span>
+        </span>
+      </td>
     </tr>
   </table>
 </div>

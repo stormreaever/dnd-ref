@@ -1,0 +1,12 @@
+<div class="table">
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')">Name</th>
+      <th ng-click="sortBy('proficiency')">Skill proficiencies</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
+      <td><span class="item-select">{{ x.proficiency }}</span></td>
+    </tr>
+  </table>
+</div>

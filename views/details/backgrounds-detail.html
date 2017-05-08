@@ -1,0 +1,15 @@
+<div class="details">
+  
+  <p class="category">background</p>
+
+  <div class="body">
+    <h1>{{ selectedItem.name }}</h1>
+    
+    <div ng-repeat="trait in selectedItem.trait">
+      <p class="text" ng-repeat="text in trait.text">
+        <span class="key" ng-if="$first">{{ trait.name }}. </span>{{ text }}
+      </p>
+    </div>
+    
+  </div>
+</div>

@@ -30,7 +30,7 @@ app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
   };
   
   $scope.searchChange = function() {
-    let searchList = $filter('filter')($scope.items, $scope.searchText, true);
+    let searchList = $filter('filter')($scope.items, {name: $scope.searchText}, true);
     
     if (searchList.length == 1) {
       $scope.template.detailsUrl = "views/details/" + $scope.category + "-detail.html";

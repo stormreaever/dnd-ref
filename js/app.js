@@ -15,3 +15,9 @@ app.config(function($locationProvider, $routeProvider) {
   })
   .otherwise("/");
 });
+
+app.run(function ($rootScope, $location) {
+  $rootScope.$on('$routeChangeSuccess', function(){
+    ga('send', 'pageview', $location.path());
+  });
+});

@@ -9,7 +9,7 @@
     
     <p class="text"><span class="key">Range: </span> {{ selectedItem.range }}</p>
     <p class="text"><span class="key">Components: </span> {{ selectedItem.components }}</p>
-    <p class="text" ng-repeat="text in selectedItem.text | make_array">{{ text }}</p>
+    <p class="flavour text" ng-repeat="text in selectedItem.text | make_array">{{ text }}</p>
   </div>
   <div class="section">
     <p class="time">Casting Time: {{ selectedItem.time }}</p>

@@ -11,6 +11,16 @@
   
   box-shadow: 0 0 10px rgba(0, 0, 0, .085);
   
+  line-height: 1.4;
+  
+  .flavour {
+    font-family: Palatino, serif;
+    font-size: 15px;
+    .key {
+      font-size: initial;
+    }
+  }
+  
   .category {
     padding: 8px 16px;
     text-align: right;

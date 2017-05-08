@@ -6,7 +6,7 @@
     <h1>{{ selectedItem.name }}</h1>
     
     <div ng-repeat="trait in selectedItem.trait">
-      <p class="text" ng-repeat="text in trait.text">
+      <p class="flavour text" ng-repeat="text in trait.text">
         <span class="key" ng-if="$first">{{ trait.name }}. </span>{{ text }}
       </p>
     </div>

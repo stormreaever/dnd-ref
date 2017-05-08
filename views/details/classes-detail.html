@@ -1,0 +1,29 @@
+<div class="details">
+  
+  <p class="category">class</p>
+
+  <div class="body">
+    <h1>{{ selectedItem.name }}</h1>
+
+    <p class="text"><span class="key">Hit Dice: </span> 1d{{ selectedItem.hd }}</p>
+
+    <p class="text" ng-if="selectedItem.spellAbility"><span class="key">Spell Ability: </span> {{ selectedItem.spellAbility }}</p>
+    <p class="text"><span class="key">Saving Throw Proficiencies: </span> 
+      <span ng-repeat="proficiency in selectedItem.proficiencies" class="item-select">
+        {{ proficiency }}<span ng-if="!$last">, </span>
+      </span>
+    </p>
+    
+  </div>
+  
+  <div class="divider">
+    <div ng-repeat="feature in selectedItem.features">   
+      <p class="text"><span class="key">{{ feature.name }}. </span></p>
+      <p class="text" ng-repeat="text in feature.text">
+        {{ text }}
+      </p>
+      
+    </div>
+  </div>
+  
+</div>

@@ -1,0 +1,21 @@
+<div class="table">
+  <table>
+    <tr>
+      <th ng-click="sortBy('name')">Name</th>
+      <th ng-click="sortBy('hd')">Hit Dice</th>
+      <th ng-click="sortBy('spellAbility')">Spell Ability</th>
+      <th ng-click="sortBy('proficiencies')">Saving Throw Proficiencies</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
+      <td><span class="item-select" ng-click="selectItem('1d' + x.hd)">1d{{ x.hd }}</span></td>
+      <td><span class="item-select" ng-click="selectItem(x.spellAbility)">{{ x.spellAbility }}</span></td>
+      <td>
+        <span ng-repeat="proficiency in x.proficiencies" class="item-select" ng-click="selectItem(proficiency)">
+          {{ proficiency }}<span ng-if="!$last">, </span>
+        </span>
+      </td>
+      
+    </tr>
+  </table>
+</div>

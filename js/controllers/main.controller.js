@@ -33,7 +33,7 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
   };
   
   $scope.searchChange = function() {
-    let searchList = $filter('filter')($scope.items, $scope.searchText, true);
+    let searchList = $filter('filter')($scope.items, {name: $scope.searchText}, true);
     
     if ($scope.searchText.length > 0 || $scope.searchText.length == undefined ) {
       $scope.typing = true;

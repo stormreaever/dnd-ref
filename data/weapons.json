@@ -4,6 +4,7 @@
     "name": "Club",
     "cost": 0.1,
     "damage": "1d4",
+    "avg_damage": 2.5,
     "damage_type": "bludgeoning",
     "weight": 2,
     "type": "Simple Melee Weapon",
@@ -16,7 +17,8 @@
     "name": "Dagger",
     "cost": 2,
     "damage": "1d4",
-    "damage_type": "piercing",
+    "avg_damage": 2.5,
+"damage_type": "piercing",
     "weight": 1,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -33,7 +35,8 @@
     "name": "Greatclub",
     "cost": 2,
     "damage": "1d8",
-    "damage_type": "bludgeoning",
+    "avg_damage": 4.5,
+"damage_type": "bludgeoning",
     "weight": 10,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -45,7 +48,8 @@
     "name": "Handaxe",
     "cost": 0.5,
     "damage": "1d6",
-    "damage_type": "slashing",
+    "avg_damage": 3.5,
+"damage_type": "slashing",
     "weight": 2,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -61,7 +65,8 @@
     "name": "Javelin",
     "cost": 0.5,
     "damage": "1d6",
-    "damage_type": "piercing",
+    "avg_damage": 3.5,
+"damage_type": "piercing",
     "weight": 2,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -76,7 +81,8 @@
     "name": "Light Hammer",
     "cost": 2,
     "damage": "1d4",
-    "damage_type": "bludgeoning",
+    "avg_damage": 2.5,
+"damage_type": "bludgeoning",
     "weight": 2,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -92,7 +98,8 @@
     "name": "Mace",
     "cost": 5,
     "damage": "1d6",
-    "damage_type": "bludgeoning",
+    "avg_damage": 3.5,
+"damage_type": "bludgeoning",
     "weight": 4,
     "type": "Simple Melee Weapon",
     "properties": []
@@ -102,7 +109,8 @@
     "name": "Quarterstaff",
     "cost": 0.2,
     "damage": "1d6",
-    "damage_type": "bludgeoning",
+    "avg_damage": 4,
+"damage_type": "bludgeoning",
     "weight": 4,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -115,7 +123,8 @@
     "name": "Sickle",
     "cost": 1,
     "damage": "1d4",
-    "damage_type": "slashing",
+    "avg_damage": 2.5,
+"damage_type": "slashing",
     "weight": 2,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -127,7 +136,8 @@
     "name": "Spear",
     "cost": 1,
     "damage": "1d6",
-    "damage_type": "piercing",
+    "avg_damage": 4,
+"damage_type": "piercing",
     "weight": 3,
     "type": "Simple Melee Weapon",
     "properties": [
@@ -144,7 +154,8 @@
     "name": "Crossbow",
     "cost": 25,
     "damage": "1d8",
-    "damage_type": "piercing",
+    "avg_damage": 4.5,
+"damage_type": "piercing",
     "weight": 5,
     "type": "Simple Ranged Weapon",
     "properties": [
@@ -161,7 +172,8 @@
     "name": "Dart",
     "cost": 0.05,
     "damage": "1d4",
-    "damage_type": "piercing",
+    "avg_damage": 2.5,
+"damage_type": "piercing",
     "weight": 0.25,
     "type": "Simple Ranged Weapon",
     "properties": [
@@ -177,7 +189,8 @@
     "name": "Shortbow",
     "cost": 25,
     "damage": "1d6",
-    "damage_type": "piercing",
+    "avg_damage": 3.5,
+"damage_type": "piercing",
     "weight": 2,
     "type": "Simple Ranged Weapon",
     "properties": [
@@ -193,7 +206,8 @@
     "name": "Sling",
     "cost": 0.1,
     "damage": "1d4",
-    "damage_type": "bludgeoning",
+    "avg_damage": 2.5,
+"damage_type": "bludgeoning",
     "weight": 0,
     "type": "Simple Ranged Weapon",
     "properties": [
@@ -208,7 +222,8 @@
     "name": "Battleaxe",
     "cost": 10,
     "damage": "1d8",
-    "damage_type": "slashing",
+    "avg_damage": 5,
+"damage_type": "slashing",
     "weight": 4,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -221,7 +236,8 @@
     "name": "Flail",
     "cost": 10,
     "damage": "1d8",
-    "damage_type": "bludgeoning",
+    "avg_damage": 4.5,
+"damage_type": "bludgeoning",
     "weight": 2,
     "type": "Martial Melee Weapon"
   },
@@ -230,7 +246,8 @@
     "name": "Glaive",
     "cost": 20,
     "damage": "1d10",
-    "damage_type": "slashing",
+    "avg_damage": 5.5,
+"damage_type": "slashing",
     "weight": 6,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -244,7 +261,8 @@
     "name": "Greataxe",
     "cost": 30,
     "damage": "1d12",
-    "damage_type": "slashing",
+    "avg_damage": 6.5,
+"damage_type": "slashing",
     "weight": 7,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -257,7 +275,8 @@
     "name": "Greatsword",
     "cost": 50,
     "damage": "2d6",
-    "damage_type": "slashing",
+    "avg_damage": 7,
+"damage_type": "slashing",
     "weight": 6,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -270,7 +289,8 @@
     "name": "Halberd",
     "cost": 20,
     "damage": "1d10",
-    "damage_type": "slashing",
+    "avg_damage": 5.5,
+"damage_type": "slashing",
     "weight": 6,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -284,7 +304,8 @@
     "name": "Lance",
     "cost": 10,
     "damage": "1d12",
-    "damage_type": "piercing",
+    "avg_damage": 6.5,
+"damage_type": "piercing",
     "weight": 6,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -298,7 +319,8 @@
     "name": "Longsword",
     "cost": 15,
     "damage": "1d8",
-    "damage_type": "slashing",
+    "avg_damage": 5,
+"damage_type": "slashing",
     "weight": 3,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -311,7 +333,8 @@
     "name": "Maul",
     "cost": 10,
     "damage": "2d6",
-    "damage_type": "bludgeoning",
+    "avg_damage": 7,
+"damage_type": "bludgeoning",
     "weight": 10,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -324,7 +347,8 @@
     "name": "Morningstar",
     "cost": 15,
     "damage": "1d8",
-    "damage_type": "piercing",
+    "avg_damage": 4.5,
+"damage_type": "piercing",
     "weight": 4,
     "type": "Martial Melee Weapon"
   },
@@ -333,7 +357,8 @@
     "name": "Pike",
     "cost": 5,
     "damage": "1d10",
-    "damage_type": "piercing",
+    "avg_damage": 5.5,
+"damage_type": "piercing",
     "weight": 10,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -347,7 +372,8 @@
     "name": "Rapier",
     "cost": 25,
     "damage": "1d8",
-    "damage_type": "piercing",
+    "avg_damage": 4.5,
+"damage_type": "piercing",
     "weight": 2,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -359,7 +385,8 @@
     "name": "Scimitar",
     "cost": 25,
     "damage": "1d6",
-    "damage_type": "slashing",
+    "avg_damage": 3.5,
+"damage_type": "slashing",
     "weight": 3,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -372,7 +399,8 @@
     "name": "Shortsword",
     "cost": 10,
     "damage": "1d6",
-    "damage_type": "piercing",
+    "avg_damage": 3.5,
+"damage_type": "piercing",
     "weight": 2,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -385,7 +413,8 @@
     "name": "Trident",
     "cost": 5,
     "damage": "1d6",
-    "damage_type": "piercing",
+    "avg_damage": 4,
+"damage_type": "piercing",
     "weight": 4,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -402,7 +431,8 @@
     "name": "War Pick",
     "cost": 5,
     "damage": "1d8",
-    "damage_type": "piercing",
+    "avg_damage": 4.5,
+"damage_type": "piercing",
     "weight": 2,
     "type": "Martial Melee Weapon"
   },
@@ -411,7 +441,8 @@
     "name": "Warhammer",
     "cost": 15,
     "damage": "1d8",
-    "damage_type": "bludgeoning",
+    "avg_damage": 5,
+"damage_type": "bludgeoning",
     "weight": 2,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -424,7 +455,8 @@
     "name": "Whip",
     "cost": 2,
     "damage": "1d4",
-    "damage_type": "slashing",
+    "avg_damage": 2.5,
+"damage_type": "slashing",
     "weight": 3,
     "type": "Martial Melee Weapon",
     "properties": [
@@ -437,7 +469,8 @@
     "name": "Blowgun",
     "cost": 10,
     "damage": "1",
-    "damage_type": "piercing",
+    "avg_damage": 1,
+"damage_type": "piercing",
     "weight": 1,
     "type": "Martial Ranged Weapon",
     "properties": [
@@ -453,7 +486,8 @@
     "name": "Crossbow, Hand",
     "cost": 75,
     "damage": "1d6",
-    "damage_type": "piercing",
+    "avg_damage": 3.5,
+"damage_type": "piercing",
     "weight": 3,
     "type": "Martial Ranged Weapon",
     "properties": [
@@ -470,7 +504,8 @@
     "name": "Crossbow, Heavy",
     "cost": 50,
     "damage": "1d10",
-    "damage_type": "piercing",
+    "avg_damage": 5.5,
+"damage_type": "piercing",
     "weight": 18,
     "type": "Martial Ranged Weapon",
     "properties": [
@@ -488,7 +523,8 @@
     "name": "Longbow",
     "cost": 50,
     "damage": "1d8",
-    "damage_type": "piercing",
+    "avg_damage": 4.5,
+"damage_type": "piercing",
     "weight": 2,
     "type": "Martial Ranged Weapon",
     "properties": [
@@ -505,7 +541,8 @@
     "name": "Net",
     "cost": 1,
     "damage": "0",
-    "damage_type": "—",
+    "avg_damage": 0,
+"damage_type": "—",
     "weight": 3,
     "type": "Martial Ranged Weapon",
     "properties": [

@@ -89,3 +89,12 @@
     }
   }
 }
+
+@media(max-width: $responsiveWidth) {
+  .details {
+    .body, .divider {
+      padding: 16px 16px;
+    }
+    margin-bottom: 16px;
+  }
+}

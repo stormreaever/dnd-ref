@@ -46,3 +46,21 @@ table {
     }
   }
 }
+
+@media(max-width: $responsiveWidth) {
+  .table {
+    margin: 0 16px;
+  }
+  table {
+    font-size: 13px;
+    
+    th {
+      font-size: 12px;
+      padding: 2px 8px;
+    }
+    td {
+      border-bottom: 1px solid #ccc;
+      padding: 4px 8px;
+    }
+  }
+}

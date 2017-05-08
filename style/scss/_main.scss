@@ -250,3 +250,26 @@ header {
     }
   }
 }
+
+@media (max-width: $responsiveWidth) {
+  
+  $responsive-nav-height: 32px;
+  
+  header {
+    
+    ul {
+      
+      padding-top: 12px;
+      
+      li {
+        
+        a {
+          display: block;
+          height: $responsive-nav-height;
+          line-height: $responsive-nav-height;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

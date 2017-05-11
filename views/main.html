@@ -1,7 +1,7 @@
 <nav></nav>
 
 <label for="search-box" class="search-box" ng-class="{typing: typing}">
-  <input id="search-box" ng-model="searchText" placeholder="Search" list="items" ng-change="searchChange()" uib-typeahead="x.name for x in items | filter:{name: searchText} | limitTo:5" typeahead-show-hint="true" typeahead-on-select="searchChange()" />
+  <input id="search-box" ng-model="searchText" placeholder="Search" list="items" ng-change="searchChange()" uib-typeahead="x.name for x in items | filter:{name: $viewValue} | orderBy:name.length | limitTo:5" typeahead-show-hint="true" typeahead-on-select="searchChange()" />
   <label for="search-box" class="x-icon">
     <svg viewbox="0 0 16 16" ng-click="clearSearch()">
       <line x1="0" x2="16" y1="0" y2="16" stroke-width="1"/>

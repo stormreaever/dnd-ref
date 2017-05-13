@@ -15,8 +15,8 @@
       <th ng-click="sortBy('abilities.Cha')" style="text-align: center;">Cha</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
-      <td><span class="item-select" ng-click="selectItem(x.size)">{{ x.size }}</span></td>
+      <td><a ng-href="category/races/{{ x.name | url_escape }}">{{ x.name }}</a></td>
+      <td><a ng-href="category/races/{{ x.size | url_escape }}">{{ x.size }}</a></td>
       <td style="text-align: center;">{{ x.speed }}</td>
       <td style="text-align: center;">{{ x.abilities.Str }}</td>
       <td style="text-align: center;">{{ x.abilities.Dex }}</td>

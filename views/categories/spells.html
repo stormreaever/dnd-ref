@@ -11,22 +11,21 @@
       <th ng-click="sortBy('classes')">Classes</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
+      <td><a ng-href="category/spells/{{ x.name | url_escape }}">{{ x.name }}</a></td>
       <td>{{ x.level }}</td>
-      <td>{{ x.school }}</td>
-      <td>{{ x.time }}</td>
-      <td>{{ x.duration }}</td>
-      <td>{{ x.range }}</td>
+      <td><a ng-href="category/spells/{{ x.school | url_escape }}">{{ x.school }}</a></td>
+      <td><a ng-href="category/spells/{{ x.time | url_escape }}">{{ x.time }}</a></td>
+      <td><a ng-href="category/spells/{{ x.duration | url_escape }}">{{ x.duration }}</a></td>
+      <td><a ng-href="category/spells/{{ x.range | url_escape }}">{{ x.range }}</a></td>
       <td>
         <span ng-repeat="comp in x.cmpnts">
           <span ng-if="comp == 'M '" title="{{ x.material_components }}">{{ comp }}</span>
           <span ng-if="comp != 'M '">{{ comp }}</span><span ng-if="!$last">, </span>
-          
         </span>
       </td>
       <td>
-        <span ng-repeat="class in x.classes" class="item-select" ng-click="selectItem(class)">
-          {{ class }}<span ng-if="!$last">, </span>
+        <span ng-repeat="class in x.classes">
+          <a ng-href="category/spells/{{ class | url_escape }}">{{ class }}</a><span ng-if="!$last">, </span>
         </span>
       </td>
     </tr>

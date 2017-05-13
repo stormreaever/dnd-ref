@@ -11,18 +11,20 @@
       <th>Properties</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-      <!-- <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td> -->
-      <td><a class="item-select" ng-href="category/weapons/{{ x.name | url_escape }}">{{ x.name }}</a></td>
-      <td><span class="item-select" ng-click="selectItem(x.type)">{{ x.type }}</span></td>
+      <!-- <td><span ng-click="selectItem(x.name)">{{ x.name }}</span></td> -->
+      <td><a ng-href="category/weapons/{{ x.name | url_escape }}">{{ x.name }}</a></td>
+      <td><a ng-href="category/weapons/{{ x.type | url_escape }}">{{ x.type }}</a></td>
       <td>{{ x.cost | money }}</td>
-      <td><span class="item-select" ng-click="selectItem(x.damage)">{{ x.damage }}</span>
+      <td><a ng-href="category/weapons/{{ x.damage | url_escape }}">{{ x.damage }}</a>
         {{ x.versatile_damage ? " / " : "" }}
-        <span class="item-select" ng-click="selectItem(x.versatile_damage)">{{ x.versatile_damage ?  x.versatile_damage : "" }}</span></td>
-      <td><span class="item-select" ng-click="selectItem(x.damage_type)">{{ x.damage_type }}</span></td>
+        <a ng-href="category/weapons/{{ x.versatile_damage | url_escape }}">{{ x.versatile_damage ?  x.versatile_damage : "" }}</a></td>
+      <td><a ng-href="category/weapons/{{ x.damage_type | url_escape }}"><span ng-click="selectItem(x.damage_type)">{{ x.damage_type }}</span></td>
       <td>{{ x.weight }} lbs</td>
       <td>{{ x.range }}</td>
       <td>
-        <span ng-repeat="property in x.properties" class="item-select" ng-click="selectItem(property)">{{ property }}<span ng-if="!$last">, </span></span>
+        <span ng-repeat="property in x.properties">
+          <a ng-href="category/weapons/{{ property | url_escape }}">{{ property }}</a><span ng-if="!$last">, </span>
+        </span>
         
       </td>
     </tr>

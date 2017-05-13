@@ -7,8 +7,8 @@
       <th ng-click="sortBy('weight')">Weight</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText"  ng-switch on="x.str">
-      <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
-      <td><span class="item-select" ng-click="selectItem(x.category)">{{ x.category }}</span></td>
+      <td><a ng-href="category/items/{{ x.name | url_escape }}">{{ x.name }}</a></td>
+      <td><a ng-href="category/items/{{ x.category | url_escape }}">{{ x.category }}</a></td>
       <td>{{ x.cost | money }}</td>
       <td>{{ x.weight }} lbs</td>
     </tr>

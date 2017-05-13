@@ -12,7 +12,7 @@
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
       <!-- <td><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td> -->
-      <td><a class="item-select" ng-href="category/weapons/{{ x.name | url_escape }}">{{ x.name }} link</a></td>
+      <td><a class="item-select" ng-href="category/weapons/{{ x.name | url_escape }}">{{ x.name }}</a></td>
       <td><span class="item-select" ng-click="selectItem(x.type)">{{ x.type }}</span></td>
       <td>{{ x.cost | money }}</td>
       <td><span class="item-select" ng-click="selectItem(x.damage)">{{ x.damage }}</span>

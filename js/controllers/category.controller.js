@@ -1,8 +1,7 @@
-app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
+app.controller('categoryCtrl', function(saveData, $scope, $routeParams, $http, $filter) {
   
   $scope.category = $routeParams.category;
   
-  $scope.items = [];
   $scope.searchText = '';
   
   $scope.sortProperty = 'name';
@@ -15,7 +14,26 @@ app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
     "detailsUrl": ""
   }
   
-  getData('data/' + $scope.category + '.json');
+  var saved_data = saveData.get();
+  
+  if (saved_data.length > 0) {
+    if (saved_data[0].data_type != $scope.category || 
+        saved_data[saved_data.length - 1].data_type != $scope.category) {
+      getData('data/' + $scope.category + '.json');
+    } else {
+      $scope.items = saved_data;
+    }
+  } else {
+    getData('data/' + $scope.category + '.json');
+  }
+  
+  function getData(url) {
+    $http.get(url).then(function (response) {
+        data = response.data;
+        saveData.set(data);
+        $scope.items = data;
+      });
+  };
   
   
   $scope.sortBy = function(propertyName) {
@@ -43,13 +61,6 @@ app.controller('categoryCtrl', function($scope, $routeParams, $http, $filter) {
   $scope.clearSearch = function() {
     $scope.searchText = '';
     $scope.searchChange();
-  };
-  
-  function getData(url) {
-    $http.get(url).then(function (response) {
-        data = response.data;
-        $scope.items = data;
-      });
   };
   
 });

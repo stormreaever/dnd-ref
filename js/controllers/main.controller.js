@@ -1,7 +1,6 @@
-app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
+app.controller('mainCtrl', function(saveData, $scope, $routeParams, $http, $filter) {
   
   
-  $scope.items = [];
   $scope.searchText = '';
   
   $scope.selectedItem = {};
@@ -16,9 +15,23 @@ app.controller('mainCtrl', function($scope, $routeParams, $http, $filter) {
   
   var itemCategories = ['armor', 'weapons', 'spells', 'feats', 'items', 'races', 'classes', 'backgrounds'];
   
-  getData(itemCategories);
+  // getData(itemCategories);
+  
+  var saved_data = saveData.get();
+  
+  if (saved_data.length > 0) {
+    if (saved_data[0].data_type == saved_data[saved_data.length - 1].data_type) {
+      getData(itemCategories);
+    } else {
+      $scope.items = saved_data;
+    }
+  } else {
+    getData(itemCategories);
+  }
   
   function getData(itemCategories) {
+    
+    $scope.items = [];
     
     for (var i = 0; i < itemCategories.length; i ++) {
       //build data url

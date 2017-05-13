@@ -13,6 +13,10 @@ app.config(function($locationProvider, $routeProvider) {
     templateUrl : "views/category.html",
     controller : "categoryCtrl"
   })
+  .when("/category/:category/:item?", {
+    templateUrl : "views/category.html",
+    controller : "categoryCtrl"
+  })
   .otherwise("/");
 });
 
@@ -20,4 +24,21 @@ app.run(function ($rootScope, $location) {
   $rootScope.$on('$routeChangeSuccess', function(){
     ga('send', 'pageview', $location.path());
   });
+});
+
+app.factory('saveData', function() {
+  var savedData = {};
+  savedData.items = [];
+  function set(data) {
+    savedData.items = data;
+  }
+  function get() {
+    return savedData.items;
+  }
+
+  return {
+    set: set,
+    get: get
+  }
+
 });

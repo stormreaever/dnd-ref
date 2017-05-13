@@ -42,3 +42,23 @@ app.factory('saveData', function() {
   }
 
 });
+
+app.factory('saveSort', function() {
+  var savedSort = {};
+  savedSort.property = 'name';
+  savedSort.order = false;
+  
+  function set(property, order) {
+    savedSort.property = property;
+    savedSort.order = order;
+  }
+  function get() {
+    return savedSort;
+  }
+
+  return {
+    set: set,
+    get: get
+  }
+
+});

@@ -1,4 +1,4 @@
-app.controller('categoryCtrl', function(saveData, $scope, $routeParams, $http, $filter) {
+app.controller('categoryCtrl', function(saveSort, saveData, $scope, $routeParams, $http, $filter) {
   
   $scope.category = $routeParams.category;
   $scope.item = $routeParams.item;
@@ -7,8 +7,11 @@ app.controller('categoryCtrl', function(saveData, $scope, $routeParams, $http, $
   
   $scope.searchText = '';
   
-  $scope.sortProperty = 'name';
-  $scope.reverse = false;
+  
+  var saved_sort = saveSort.get();
+  
+  $scope.sortProperty = saved_sort.property;
+  $scope.reverse = saved_sort.order;
   
   $scope.selectedItem = {};
   
@@ -55,6 +58,8 @@ app.controller('categoryCtrl', function(saveData, $scope, $routeParams, $http, $
   $scope.sortBy = function(propertyName) {
     $scope.reverse = ($scope.sortProperty === propertyName) ? !$scope.reverse : false;
     $scope.sortProperty = propertyName;
+    
+    saveSort.set($scope.sortProperty, $scope.reverse);
   };
   
   

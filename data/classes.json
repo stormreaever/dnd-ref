@@ -1,7 +1,7 @@
 [
   {
     "name": "Barbarian",
-    "hd": 12,
+    "hd": "1d12",
     "proficiency": "Strength, Constitution",
     "proficiencies": [
       "Strength",
@@ -470,7 +470,7 @@
   },
   {
     "name": "Bard",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Dexterity, Charisma",
     "spellAbility": "Charisma",
     "proficiencies": [
@@ -937,7 +937,7 @@
   },
   {
     "name": "Cleric",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Wisdom, Charisma",
     "spellAbility": "Wisdom",
     "proficiencies": [
@@ -1692,7 +1692,7 @@
   },
   {
     "name": "Druid",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Intelligence, Wisdom",
     "spellAbility": "Wisdom",
     "proficiencies": [
@@ -2005,7 +2005,7 @@
   },
   {
     "name": "Fighter",
-    "hd": 10,
+    "hd": "1d10",
     "proficiency": "Strength, Constitution",
     "spellAbility": "Intelligence",
     "proficiencies": [
@@ -2927,7 +2927,7 @@
   },
   {
     "name": "Monk",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Strength, Dexterity",
     "spellAbility": "Wisdom",
     "proficiencies": [
@@ -3414,7 +3414,7 @@
   },
   {
     "name": "Mystic (UA)",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Wisdom",
     "spellAbility": "Intelligence",
     "proficiencies": [
@@ -3775,7 +3775,7 @@
   },
   {
     "name": "Paladin",
-    "hd": 10,
+    "hd": "1d10",
     "proficiency": "Wisdom, Charisma",
     "spellAbility": "Charisma",
     "proficiencies": [
@@ -4387,7 +4387,7 @@
   },
   {
     "name": "Ranger",
-    "hd": 10,
+    "hd": "1d10",
     "proficiency": "Strength, Dexterity",
     "spellAbility": "Wisdom",
     "proficiencies": [
@@ -4910,7 +4910,7 @@
   },
   {
     "name": "Ranger (Variant)",
-    "hd": 10,
+    "hd": "1d10",
     "proficiency": "Strength, Dexterity",
     "proficiencies": [
       "Strength",
@@ -5917,7 +5917,7 @@
   },
   {
     "name": "Rogue",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Dexterity, Intelligence",
     "spellAbility": "Intelligence",
     "proficiencies": [
@@ -6520,7 +6520,7 @@
   },
   {
     "name": "Sorcerer",
-    "hd": 6,
+    "hd": "1d6",
     "proficiency": "Constitution, Charisma",
     "spellAbility": "Charisma",
     "proficiencies": [
@@ -7311,7 +7311,7 @@
   },
   {
     "name": "Warlock",
-    "hd": 8,
+    "hd": "1d8",
     "proficiency": "Wisdom, Charisma",
     "spellAbility": "Charisma",
     "proficiencies": [
@@ -9180,7 +9180,7 @@
   },
   {
     "name": "Wizard",
-    "hd": 6,
+    "hd": "1d6",
     "proficiency": "Intelligence, Wisdom",
     "spellAbility": "Intelligence",
     "proficiencies": [
@@ -9905,7 +9905,7 @@
   },
   {
     "name": "Blood Hunter",
-    "hd": 10,
+    "hd": "1d10",
     "proficiency": "Strength, Wisdom",
     "spellAbility": "Wisdom",
     "proficiencies": [

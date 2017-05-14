@@ -1,11 +1,17 @@
 <div class="table">
   <table>
     <tr>
+      <th class="save-icon"></th>
       <th ng-click="sortBy('name')">Name</th>
       <th ng-click="sortBy('prerequisite')">Prerequisite</th>
       <th ng-click="sortBy('modifier.__text')">Modifier</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td class="save-icon {{ x.selected }}">
+        <svg height="16" width="16" ng-click="saveItem(x)" title="save">
+          <circle cx="7" cy="7" r="6" stroke-width="1" />
+        </svg>
+      </td>
       <td><a ng-href="category/feats/{{ x.name | url_escape }}">{{ x.name }}</a></td>
       <td><span>{{ x.prerequisite }}</span></td>
       <td><span>{{ x.modifier.__text }}</span></td>

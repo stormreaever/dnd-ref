@@ -1,14 +1,14 @@
-app.controller('categoryCtrl', function(saveSort, saveData, $scope, $routeParams, $http, $filter) {
+app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $routeParams, $http, $filter) {
   
   $scope.category = $routeParams.category;
   $scope.item = $routeParams.item;
-  
-  console.log($scope.item);
   
   $scope.searchText = '';
   
   
   var saved_sort = saveSort.get();
+  
+  $scope.savedItems = saveList.get();
   
   $scope.sortProperty = saved_sort.property;
   $scope.reverse = saved_sort.order;
@@ -37,6 +37,8 @@ app.controller('categoryCtrl', function(saveSort, saveData, $scope, $routeParams
     $scope.searchChange();
   };
   
+  
+  // use the service to get an item array; only read the file if it doesn't already exist
   var saved_data = saveData.get();
   
   if (saved_data.length > 0) {
@@ -47,6 +49,14 @@ app.controller('categoryCtrl', function(saveSort, saveData, $scope, $routeParams
       $scope.items = saved_data;
       if ($scope.item !== undefined) {
         $scope.selectItem($scope.item);
+      }
+      // assign the appropriate properties if an item had been saved
+      for (var i = 0; i < $scope.items.length; i ++) {
+        for (var j = 0; j < $scope.savedItems.length; j ++) {
+          if ($scope.items[i].name == $scope.savedItems[j].name) {
+            $scope.items[i].selected = 'selected';
+          }
+        }
       }
     }
   } else {
@@ -71,13 +81,42 @@ app.controller('categoryCtrl', function(saveSort, saveData, $scope, $routeParams
   
   function getData(url) {
     $http.get(url).then(function (response) {
-        data = response.data;
-        saveData.set(data);
-        $scope.items = data;
-        if ($scope.item !== undefined) {
-          $scope.selectItem($scope.item);
+      data = response.data;
+      saveData.set(data);
+      $scope.items = data;
+      // if there's an item in the url, select it right away
+      if ($scope.item !== undefined) {
+        $scope.selectItem($scope.item);
+      }
+      // assign the appropriate properties if an item had been saved
+      for (var i = 0; i < $scope.items.length; i ++) {
+        for (var j = 0; j < $scope.savedItems.length; j ++) {
+          if ($scope.items[i].name == $scope.savedItems[j].name) {
+            $scope.items[i].selected = 'selected';
+          }
         }
-      });
+      }
+    });
   };
+  
+  $scope.saveItem = function(item) {
+    var index = $scope.items.indexOf(item);
+    
+    var item_already_exists = false;
+    for (var i = 0; i < $scope.savedItems.length; i ++) {
+      if ($scope.savedItems[i].name == item.name) {
+        item_already_exists = true;
+        $scope.savedItems.splice(i, 1);
+        $scope.items[index].selected = '';
+      }
+    }
+    if (!item_already_exists) {
+      $scope.savedItems.push(item);
+      $scope.items[index].selected = 'selected';
+    }
+
+    saveList.set($scope.savedItems);
+    console.log($scope.savedItems);
+  }
   
 });

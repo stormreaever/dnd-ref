@@ -39,7 +39,7 @@ angular.module('core').filter('money', function() {
 angular.module('core').filter('url_escape', function() {
   return function(input) {
     if(input) {
-        return window.encodeURIComponent(input); 
+      return window.encodeURIComponent(input); 
     }
     return "";
   }

@@ -1,6 +1,7 @@
 <div class="table">
   <table>
     <tr>
+      <th class="save-icon"></th>
       <th ng-click="sortBy('name')">Name</th>
       <th ng-click="sortBy('type')">Type</th>
       <th ng-click="sortBy('cost')">Cost</th>
@@ -11,7 +12,11 @@
       <th>Properties</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-      <!-- <td><span ng-click="selectItem(x.name)">{{ x.name }}</span></td> -->
+      <td class="save-icon {{ x.selected }}">
+        <svg height="16" width="16" ng-click="saveItem(x)" title="save">
+          <circle cx="7" cy="7" r="6" stroke-width="1" />
+        </svg>
+      </td>
       <td><a ng-href="category/weapons/{{ x.name | url_escape }}">{{ x.name }}</a></td>
       <td><a ng-href="category/weapons/{{ x.type | url_escape }}">{{ x.type }}</a></td>
       <td>{{ x.cost | money }}</td>

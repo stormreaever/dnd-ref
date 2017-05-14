@@ -62,3 +62,27 @@ app.factory('saveSort', function() {
   }
 
 });
+
+app.factory('saveList', function() {
+  var savedList = {};
+  
+  if (window.localStorage.getItem('savedItems') === null) {
+    savedList.items = [];
+  } else {
+    savedList.items = angular.fromJson(window.localStorage['savedItems']);
+  }
+  
+  function set(items) {
+    savedList.items = items;
+    window.localStorage['savedItems'] = angular.toJson(items);
+  }
+  function get() {
+    return savedList.items;
+  }
+
+  return {
+    set: set,
+    get: get
+  }
+
+});

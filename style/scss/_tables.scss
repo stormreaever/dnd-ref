@@ -48,6 +48,33 @@ table {
   }
 }
 
+
+// save button icon
+.save-icon {
+  padding-right: 0;
+}
+tr:hover .save-icon svg, .save-icon.selected svg {
+  opacity: 1;
+}
+.save-icon {
+  svg {
+    display: block;
+    
+    height: 14px;
+    width: 14px;
+    
+    stroke: $linkgrey;
+    fill: none;
+    
+    opacity: 0;
+    cursor: pointer;
+    // transition: opacity 0.5s ease;
+  }
+  &.selected svg {
+    fill: $linkgrey;
+  }
+}
+
 @media(max-width: $responsiveWidth) {
   .table {
     margin: 0 16px;

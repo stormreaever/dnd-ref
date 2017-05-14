@@ -1,12 +1,18 @@
 <div class="table">
   <table>
     <tr>
+      <th class="save-icon"></th>
       <th ng-click="sortBy('name')">Name</th>
       <th ng-click="sortBy('hd')">Hit Dice</th>
       <th ng-click="sortBy('spellAbility')">Spell Ability</th>
       <th ng-click="sortBy('proficiencies')">Saving Throw Proficiencies</th>
     </tr>
     <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td class="save-icon {{ x.selected }}">
+        <svg height="16" width="16" ng-click="saveItem(x)" title="save">
+          <circle cx="7" cy="7" r="6" stroke-width="1" />
+        </svg>
+      </td>
       <td><a ng-href="category/classes/{{ x.name | url_escape }}"><span class="item-select" ng-click="selectItem(x.name)">{{ x.name }}</span></td>
       <td><a ng-href="category/classes/{{ x.hd | url_escape }}"><span class="item-select" ng-click="selectItem(x.hd)">{{ x.hd }}</span></td>
       <td><a ng-href="category/classes/{{ x.spellAbility | url_escape }}"><span class="item-select" ng-click="selectItem(x.spellAbility)">{{ x.spellAbility }}</span></td>

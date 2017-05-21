@@ -86,7 +86,6 @@ app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $r
   
   $scope.saveItem = function(item) {
     var name = item.name;
-    
     var item_index = false;
     
     for (var i = 0; i < $scope.savedItems.length; i++) {
@@ -94,32 +93,24 @@ app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $r
         item_index = i;
       }
     }
-    
     if ( item_index !== false ) {
-      // item already exists
-      // remove it
+      // item already exists. remove it
       $scope.savedItems.splice(item_index, 1);
     } else {
-      // item is new
-      // add it
+      // item is new. add it
       $scope.savedItems.push(item);
     }
-
     saveList.set($scope.savedItems);
-    console.log($scope.savedItems);
   }
   
   $scope.itemWasSaved = function(item) {
     var name = item.name;
-    
     var item_found = false;
-    
     for (var i = 0; i < $scope.savedItems.length; i++) {
       if ($scope.savedItems[i].name == name) {
         item_found = true;
       }
     }
-    
     return item_found;
   }
   

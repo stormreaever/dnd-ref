@@ -38,7 +38,9 @@
   top: 0;
   z-index: 10;
   
-  height: 100%;
+  overflow-y: auto;
+  
+  height: 100vh;
   width: 320px;
   
   padding: 16px;
@@ -53,18 +55,19 @@
       font-size: 14px;
       font-family: $palatino;
       font-style: italic;
-      color: $textgrey;
       text-align: right;
+      a {
+        color: $textgrey;
+      }
     }
     .save-icon {
-      float: left;
-      margin-top: 3px;
-      margin-right: 16px;
+      padding-right: 0;
       
       svg {
         display: block;
-        height: 12px;
-        width: 12px;
+        height: 18px;
+        width: 18px;
+        padding: 5px;
         
         stroke: $linkgrey;
         fill: none;

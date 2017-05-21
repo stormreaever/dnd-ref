@@ -5,15 +5,15 @@
       <th ng-click="sortBy('name')">Name</th>
       <th ng-click="sortBy('proficiency')">Skill proficiencies</th>
     </tr>
-    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
-      <td class="save-icon {{ x.selected }}">
+    <tr ng-repeat="x in items track by x.name | orderBy:sortProperty:reverse | filter:searchText">
+      <td class="save-icon" ng-class="{'selected':itemWasSaved(x)}">
         <svg height="16" width="16" ng-click="saveItem(x)" title="save">
           <circle cx="7" cy="7" r="6" stroke-width="1" />
         </svg>
       </td>
       <td><a ng-href="category/backgrounds/{{ x.name | url_escape }}">{{ x.name }}</a></td>
       <td>
-        <span ng-repeat="proficiency in x.proficiencies">
+        <span ng-repeat="proficiency in x.proficiencies track by $index">
           <a ng-href="category/backgrounds/{{ x.name | url_escape }}">{{ proficiency }}</a><span ng-if="!$last">, </span>
         </span>
       </td>

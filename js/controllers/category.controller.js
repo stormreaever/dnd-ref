@@ -50,14 +50,6 @@ app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $r
       if ($scope.item !== undefined) {
         $scope.selectItem($scope.item);
       }
-      // assign the appropriate properties if an item had been saved
-      for (var i = 0; i < $scope.items.length; i ++) {
-        for (var j = 0; j < $scope.savedItems.length; j ++) {
-          if ($scope.items[i].name == $scope.savedItems[j].name) {
-            $scope.items[i].selected = 'selected';
-          }
-        }
-      }
     }
   } else {
     getData('data/' + $scope.category + '.json');
@@ -88,35 +80,47 @@ app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $r
       if ($scope.item !== undefined) {
         $scope.selectItem($scope.item);
       }
-      // assign the appropriate properties if an item had been saved
-      for (var i = 0; i < $scope.items.length; i ++) {
-        for (var j = 0; j < $scope.savedItems.length; j ++) {
-          if ($scope.items[i].name == $scope.savedItems[j].name) {
-            $scope.items[i].selected = 'selected';
-          }
-        }
-      }
+      
     });
   };
   
   $scope.saveItem = function(item) {
-    var index = $scope.items.indexOf(item);
+    var name = item.name;
     
-    var item_already_exists = false;
-    for (var i = 0; i < $scope.savedItems.length; i ++) {
-      if ($scope.savedItems[i].name == item.name) {
-        item_already_exists = true;
-        $scope.savedItems.splice(i, 1);
-        $scope.items[index].selected = '';
+    var item_index = false;
+    
+    for (var i = 0; i < $scope.savedItems.length; i++) {
+      if ($scope.savedItems[i].name == name) {
+        item_index = i;
       }
     }
-    if (!item_already_exists) {
+    
+    if ( item_index !== false ) {
+      // item already exists
+      // remove it
+      $scope.savedItems.splice(item_index, 1);
+    } else {
+      // item is new
+      // add it
       $scope.savedItems.push(item);
-      $scope.items[index].selected = 'selected';
     }
 
     saveList.set($scope.savedItems);
     console.log($scope.savedItems);
+  }
+  
+  $scope.itemWasSaved = function(item) {
+    var name = item.name;
+    
+    var item_found = false;
+    
+    for (var i = 0; i < $scope.savedItems.length; i++) {
+      if ($scope.savedItems[i].name == name) {
+        item_found = true;
+      }
+    }
+    
+    return item_found;
   }
   
 });

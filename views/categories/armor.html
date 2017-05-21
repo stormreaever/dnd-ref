@@ -10,8 +10,8 @@
       <th ng-click="sortBy('stealth')">Stealth</th>
       <th ng-click="sortBy('weight')">Weight</th>
     </tr>
-    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText"  ng-switch on="x.str">
-      <td class="save-icon {{ x.selected }}">
+    <tr ng-repeat="x in items track by x.name | orderBy:sortProperty:reverse | filter:searchText"  ng-switch on="x.str">
+      <td class="save-icon" ng-class="{'selected':itemWasSaved(x)}">
         <svg height="16" width="16" ng-click="saveItem(x)" title="save">
           <circle cx="7" cy="7" r="6" stroke-width="1" />
         </svg>

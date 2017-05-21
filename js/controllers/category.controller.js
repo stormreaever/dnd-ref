@@ -1,10 +1,11 @@
-app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $routeParams, $http, $filter) {
+app.controller('categoryCtrl', function(openPanes, saveList, saveSort, saveData, $scope, $routeParams, $http, $filter) {
   
   $scope.category = $routeParams.category;
   $scope.item = $routeParams.item;
   
   $scope.searchText = '';
   
+  $scope.panes = openPanes.get();
   
   var saved_sort = saveSort.get();
   
@@ -17,7 +18,8 @@ app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $r
   
   $scope.template = {
     "categoryUrl": "views/categories/" + $scope.category + ".html",
-    "detailsUrl": ""
+    "detailsUrl": "",
+    "paneSavedUrl": "views/panes/saved.html"
   }
   
   $scope.searchChange = function() {
@@ -112,6 +114,11 @@ app.controller('categoryCtrl', function(saveList, saveSort, saveData, $scope, $r
       }
     }
     return item_found;
+  }
+  
+  $scope.togglePane = function(pane) {
+    $scope.panes[pane] = !$scope.panes[pane];
+    openPanes.set($scope.panes);
   }
   
 });

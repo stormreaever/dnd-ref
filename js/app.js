@@ -86,3 +86,29 @@ app.factory('saveList', function() {
   }
 
 });
+
+app.factory('openPanes', function() {
+  var panes = {};
+  
+  if (window.localStorage.getItem('openPanes') === null) {
+    openPanes = {
+      'saved': false
+    };
+  } else {
+    openPanes = angular.fromJson(window.localStorage['openPanes']);
+  }
+  
+  function set(panes) {
+    openPanes = panes;
+    window.localStorage['openPanes'] = angular.toJson(openPanes);
+  }
+  function get() {
+    return openPanes;
+  }
+
+  return {
+    set: set,
+    get: get
+  }
+
+});

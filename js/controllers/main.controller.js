@@ -1,4 +1,4 @@
-app.controller('mainCtrl', function(saveData, $scope, $routeParams, $http, $filter) {
+app.controller('mainCtrl', function(openPanes, saveData, $scope, $routeParams, $http, $filter) {
   
   
   $scope.searchText = '';
@@ -9,8 +9,11 @@ app.controller('mainCtrl', function(saveData, $scope, $routeParams, $http, $filt
   $scope.typing = false;
   
   
+  $scope.panes = openPanes.get();
   $scope.template = {
-    "detailsUrl": ""
+    "detailsUrl": "",
+    "paneSaveUrl": "views/panes/save.html",
+    "paneInfoUrl": "views/panes/info.html"
   }
   
   var itemCategories = ['armor', 'weapons', 'spells', 'feats', 'items', 'races', 'classes', 'backgrounds'];
@@ -68,5 +71,9 @@ app.controller('mainCtrl', function(saveData, $scope, $routeParams, $http, $filt
     $scope.searchChange();
   };
   
+  $scope.togglePane = function(pane) {
+    $scope.panes[pane] = !$scope.panes[pane];
+    openPanes.set($scope.panes);
+  }
   
 });

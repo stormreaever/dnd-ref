@@ -92,7 +92,8 @@ app.factory('openPanes', function() {
   
   if (window.localStorage.getItem('openPanes') === null) {
     openPanes = {
-      'saved': false
+      'save': false,
+      'info': false
     };
   } else {
     openPanes = angular.fromJson(window.localStorage['openPanes']);

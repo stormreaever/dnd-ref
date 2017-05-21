@@ -1,0 +1,26 @@
+<div class="pane pane-save" ng-class="{'open':panes.save}">
+  
+  <div class="x-icon">
+    <svg height="16" width="16" viewBox="0 0 16 16" ng-click="togglePane('save')">
+      <line x1="0" x2="16" y1="0" y2="16" stroke-width="1"></line>
+      <line x1="0" x2="16" y1="16" y2="0" stroke-width="1"></line>
+    </svg>
+  </div>
+  
+  <h2>Saved</h2>
+  
+  <table>
+    <tr ng-repeat="x in savedItems">
+      <td>
+        <div class="save-icon" ng-class="{'selected':itemWasSaved(x)}">
+          <svg height="12" width="12" viewBox="0 0 16 16" ng-click="saveItem(x)" title="save">
+            <line x1="0" x2="16" y1="0" y2="16" stroke-width="1"></line>
+            <line x1="0" x2="16" y1="16" y2="0" stroke-width="1"></line>
+          </svg>
+        </div>
+        <a ng-href="category/{{ x.data_type | url_escape }}/{{ x.name | url_escape }}">{{ x.name }}</a></td>
+      <td class="item-type">{{ x.data_type }}</td>
+    </tr>
+  </table>
+  
+</div>

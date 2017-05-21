@@ -19,7 +19,8 @@ app.controller('categoryCtrl', function(openPanes, saveList, saveSort, saveData,
   $scope.template = {
     "categoryUrl": "views/categories/" + $scope.category + ".html",
     "detailsUrl": "",
-    "paneSavedUrl": "views/panes/saved.html"
+    "paneSaveUrl": "views/panes/save.html",
+    "paneInfoUrl": "views/panes/info.html"
   }
   
   $scope.searchChange = function() {

@@ -17,12 +17,19 @@
 <div ng-include="template.detailsUrl"></div>
 
 <div class="footer">
-  <div class="save-pane-toggle" ng-click="togglePane('saved')">
-    <svg height="32" width="32" viewbox="0 0 32 32" ng-click="savePane('open')">
+  <div class="pane-toggle pane-toggle-save" ng-click="togglePane('save')">
+    <svg height="32" width="32" viewbox="0 0 32 32">
       <line x1="0.5" x2="31.5" y1="31.5" y2="31.5" stroke-width="1" />
       <line x1="31.5" x2="31.5" y1="0.5" y2="31.5" stroke-width="1"/>
     </svg>
   </div>
+  <div class="pane-toggle pane-toggle-info" ng-click="togglePane('info')">
+    <svg height="32" width="32" viewbox="0 0 32 32">
+      <line x1="0.5" x2="31.5" y1="31.5" y2="31.5" stroke-width="1" />
+      <line x1="0.5" x2="0.5"  y1="0.5" y2="31.5" stroke-width="1"/>
+    </svg>
+  </div>
 </div>
 
-<div ng-include="template.paneSavedUrl"></div>
+<div ng-include="template.paneSaveUrl"></div>
+<div ng-include="template.paneInfoUrl"></div>

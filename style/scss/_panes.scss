@@ -1,7 +1,6 @@
-.save-pane-toggle { 
+.pane-toggle {
   
   position: fixed;
-  right: 0;
   bottom: 0;
   z-index: 11;
   
@@ -9,6 +8,13 @@
   
   height: 48px;
   width: 48px;
+  
+  &.pane-toggle-save {
+    right: 0;
+  }
+  &.pane-toggle-info {
+    left: 0;
+  }
   
   svg {
     stroke: $linkgrey;
@@ -27,7 +33,7 @@
   }
 }
 
-.pane-saved {
+.pane {
   position: fixed;
   top: 0;
   z-index: 10;
@@ -35,16 +41,92 @@
   height: 100%;
   width: 320px;
   
+  padding: 16px;
+  
+  background: $white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .085);
+  
+  table {
+    width: 100%;
+    
+    .item-type {
+      font-size: 14px;
+      font-family: $palatino;
+      font-style: italic;
+      color: $textgrey;
+      text-align: right;
+    }
+    .save-icon {
+      float: left;
+      margin-top: 3px;
+      margin-right: 16px;
+      
+      svg {
+        display: block;
+        height: 12px;
+        width: 12px;
+        
+        stroke: $linkgrey;
+        fill: none;
+        transition: stroke 0.5s ease;
+      }
+      
+      &:hover {
+        cursor: pointer;
+        
+        svg {
+          stroke: $black;
+          
+        }
+      }
+    }
+  }
+  
+  h2 {
+    margin-bottom: 32px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .x-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    
+    svg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      
+      height: 16px; 
+      width: 16px;
+      
+      stroke: $linkgrey;
+      
+      cursor: pointer;
+      transition: stroke 0.5s ease;
+      
+      &:hover {
+        stroke: $black;
+      }
+      
+    }
+  }
+}
+.pane-save {
   right: -320px;
   transition: right 0.5s ease;
-  
-  background: yellow;
   
   &.open {
     right: 0;
   }
+}
+.pane-info {
+  left: -320px;
+  transition: left 0.5s ease;
   
-  table {
-    width: 100%;
+  &.open {
+    left: 0;
   }
 }

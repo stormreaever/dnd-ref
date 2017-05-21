@@ -1,0 +1,27 @@
+.save-panel-open { 
+  
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  padding: 8px;
+  
+  height: 48px;
+  width: 48px;
+  
+  svg {
+    stroke: $linkgrey;
+    // stroke: $black;
+    transition: stroke 0.5s ease;
+    display: block;
+  }
+  
+  &:hover {
+    cursor: pointer;
+    
+    svg {
+      stroke: $black;
+      
+    }
+  }
+}

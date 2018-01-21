@@ -1,27 +1,27 @@
 app.controller('mainCtrl', function(openPanes, saveData, $scope, $routeParams, $http, $filter) {
-  
-  
+
+
   $scope.searchText = '';
-  
+
   $scope.selectedItem = {};
   $scope.detailTemplate = "";
-  
+
   $scope.typing = false;
-  
-  
+
+
   $scope.panes = openPanes.get();
   $scope.template = {
     "detailsUrl": "",
     "paneSaveUrl": "views/panes/save.html",
     "paneInfoUrl": "views/panes/info.html"
   }
-  
-  var itemCategories = ['armor', 'weapons', 'spells', 'feats', 'items', 'races', 'classes', 'backgrounds'];
-  
+
+  var itemCategories = ['armor', 'weapons', 'spells', 'feats', 'items', 'races', 'classes', 'backgrounds', 'monsters'];
+
   // getData(itemCategories);
-  
+
   var saved_data = saveData.get();
-  
+
   if (saved_data.length > 0) {
     if (saved_data[0].data_type == saved_data[saved_data.length - 1].data_type) {
       getData(itemCategories);
@@ -31,15 +31,15 @@ app.controller('mainCtrl', function(openPanes, saveData, $scope, $routeParams, $
   } else {
     getData(itemCategories);
   }
-  
+
   function getData(itemCategories) {
-    
+
     $scope.items = [];
-    
+
     for (var i = 0; i < itemCategories.length; i ++) {
       //build data url
       url = 'data/' + itemCategories[i] + '.json';
-      
+
       // get more DATA
       $http.get(url).then(function (response) {
         var data = response.data;
@@ -47,16 +47,16 @@ app.controller('mainCtrl', function(openPanes, saveData, $scope, $routeParams, $
       });
     }
   };
-  
+
   $scope.searchChange = function() {
     let searchList = $filter('filter')($scope.items, {name: $scope.searchText}, true);
-    
+
     if ($scope.searchText.length > 0 || $scope.searchText.length == undefined ) {
       $scope.typing = true;
     } else {
       $scope.typing = false;
     }
-    
+
     if (searchList.length == 1) {
       itemCategory = searchList[0].data_type;
       $scope.template.detailsUrl = "views/details/" + itemCategory + "-detail.html";
@@ -65,15 +65,15 @@ app.controller('mainCtrl', function(openPanes, saveData, $scope, $routeParams, $
       $scope.template.detailsUrl = "";
     }
   };
-  
+
   $scope.clearSearch = function() {
     $scope.searchText = '';
     $scope.searchChange();
   };
-  
+
   $scope.togglePane = function(pane) {
     $scope.panes[pane] = !$scope.panes[pane];
     openPanes.set($scope.panes);
   }
-  
+
 });

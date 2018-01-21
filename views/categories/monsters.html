@@ -1,0 +1,39 @@
+<div class="table">
+  <table>
+    <tr>
+      <th class="save-icon" rowspan="2"></th>
+      <th ng-click="sortBy('name')" rowspan="2">Name</th>
+      <th ng-click="sortBy('hp')" rowspan="2">HP</th>
+      <th ng-click="sortBy('ac')" rowspan="2">AC</th>
+      <th ng-click="sortBy('speed')" rowspan="2">Speed</th>
+      <th ng-click="sortBy('cr')" rowspan="2">CR</th>
+      <th style="text-align:center; border-bottom: none; padding:0;" colspan="6">— Ability scores —</th>
+    </tr>
+    <tr>
+      <th ng-click="sortBy('str')" style="text-align: center;">Str</th>
+      <th ng-click="sortBy('dex')" style="text-align: center;">Dex</th>
+      <th ng-click="sortBy('con')" style="text-align: center;">Con</th>
+      <th ng-click="sortBy('int')" style="text-align: center;">Int</th>
+      <th ng-click="sortBy('wis')" style="text-align: center;">Wis</th>
+      <th ng-click="sortBy('cha')" style="text-align: center;">Cha</th>
+    </tr>
+    <tr ng-repeat="x in items | orderBy:sortProperty:reverse | filter:searchText">
+      <td class="save-icon" ng-class="{'selected':itemWasSaved(x)}">
+        <svg height="16" width="16" ng-click="saveItem(x)" title="save">
+          <circle cx="7" cy="7" r="6" stroke-width="1" />
+        </svg>
+      </td>
+      <td><a ng-href="category/monsters/{{ x.name | url_escape }}">{{ x.name }}</a></td>
+      <td>{{ x.hp }}</td>
+      <td>{{ x.ac }}</td>
+      <td>{{ x.speed }}</td>
+      <td>{{ x.cr }}</td>
+      <td style="text-align: center;">{{ x.str }}</td>
+      <td style="text-align: center;">{{ x.dex }}</td>
+      <td style="text-align: center;">{{ x.con }}</td>
+      <td style="text-align: center;">{{ x.int }}</td>
+      <td style="text-align: center;">{{ x.wis }}</td>
+      <td style="text-align: center;">{{ x.cha }}</td>
+    </tr>
+  </table>
+</div>
